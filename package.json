@@ -1,7 +1,9 @@
 {
+  "name": "Generative_Learning",
+  "version": "1.0.0",
   "private": true,
-  "main": "main/index.js",
-  "productName": "ElectronTypescriptNext",
+  "main": "main/main.js",
+  "productName": "Generative Learning",
   "scripts": {
     "clean": "rimraf dist main renderer/out renderer/.next",
     "dev": "npm run build-electron && electron .",
@@ -10,29 +12,45 @@
     "build": "npm run build-renderer && npm run build-electron",
     "pack-app": "npm run build && electron-builder --dir",
     "dist": "npm run build && electron-builder",
-    "type-check": "tsc -p ./renderer/tsconfig.json && tsc -p ./electron-src/tsconfig.json"
+    "type-check": "tsc -p ./renderer/tsconfig.json && tsc -p ./electron-src/tsconfig.json",
+    "lint": "next lint renderer"
   },
   "dependencies": {
-    "electron-is-dev": "^1.1.0",
+    "@material-tailwind/react": "^2.1.4",
+    "@svgr/webpack": "^8.1.0",
+    "electron-is-dev": "^2.0.0",
     "electron-next": "^3.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.6",
-    "@types/react": "^16.9.9",
-    "@types/react-dom": "^16.9.9",
-    "electron": "^13",
-    "electron-builder": "^23.0.3",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "electron": "^27",
+    "electron-builder": "^24.6.4",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.2",
     "next": "latest",
-    "rimraf": "^3.0.0",
-    "typescript": "^4.0.5"
+    "postcss": "^8.4.31",
+    "rimraf": "^5.0.5",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   },
   "build": {
     "asar": true,
     "files": [
       "main",
       "renderer/out"
-    ]
+    ],
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
   }
 }
