@@ -63,14 +63,12 @@ export function HomeButton () {
 
 export function NextButton () {
   let link = usePathname()
-  let work_id = -1
-  let id = -1
+  const work_id = Number(link.slice(1, 2))
+  const id = Number(link.slice(-1))
 
   if (link === links[4].href) {
     link = links[0].href
   } else {
-    work_id = Number(link.slice(1, 2))
-    id = Number(link.slice(-1))
     const href = link.slice(2, -2)
     for (let i = 0; i < links.length - 1; i++) {
       if (href === links[i].href) {
@@ -99,7 +97,10 @@ export function NextButton () {
   if (link === '/' + work_id.toString() + links[3].href + '/' + id.toString()) {
     return (
       <>
-        <button onClick={() => handleOpen("xl")} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        <button onClick={() => {
+          fetch('http://localhost:8765/recording/capture')
+          handleOpen("xl")
+        }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
           Next
           <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -158,7 +159,29 @@ export function NextButton () {
   } else if (link === links[4].href) {
     return (
       <Link href={link}>
-        <button onClick={() => dispatch({type: 'download'})} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        <button onClick={() => {
+          fetch('http://localhost:8765/recording/capture')
+          dispatch({type: 'download'})
+          fetch('http://localhost:8765/recording/stop')
+        }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+          Next
+          <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+          </svg>
+        </button>
+      </Link>
+    )
+  } else if (link === '/' + work_id.toString() + links[2].href + '/' + id.toString()) {
+    const {choice, setChoice} = useContext(ValueContext)
+    const {confidence, setConfidence} = useContext(ValueContext)
+
+    return (
+      <Link href={link}>
+        <button onClick={() => {
+          fetch('http://localhost:8765/recording/capture')
+          setChoice('1')
+          setConfidence('1')
+        }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
           Next
           <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -169,7 +192,7 @@ export function NextButton () {
   } else {
     return (
       <Link href={link}>
-        <button className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        <button onClick={() => fetch('http://localhost:8765/recording/capture')} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
           Next
           <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>

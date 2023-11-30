@@ -21,11 +21,19 @@ export default function ValueProvider({
 }: {
   children: React.ReactNode,
 }) {
-  const title = works[Number(useParams().work) - 1].title
+  const work_id = Number(useParams().work) - 1
+  const id = Number(useParams().id) - 1
+  const title = works[work_id].title
   const [start_time, setStart_time] = useState(0)
   const [end_time, setEnd_time] = useState(0)
   const [choice, setChoice] = useState('1')
   const [confidence, setConfidence] = useState('1')
+  let answer = -1
+  if (works[work_id].work[id].answer_id === choice) {
+    answer = 1
+  } else [
+    answer = 0
+  ]
 
   const initialState = [];
   function reducer(results, action) {
@@ -35,19 +43,21 @@ export default function ValueProvider({
           start_time: start_time,
           end_time: end_time,
           choice: choice,
+          answer: answer,
           confidence: confidence,
         }];
       }
       case 'download': {
         const csvText =
-          'index,start_time,end_time,choice,confidence\n' +
+          'index,start_time,end_time,choice,answer,confidence\n' +
           String(
             results.map(
-              ({ start_time, end_time, choice, confidence }, index) => [
+              ({ start_time, end_time, choice, answer, confidence }, index) => [
                 index,
                 start_time,
                 end_time,
                 choice,
+                answer,
                 confidence
               ]
             ).join('\n')
@@ -64,7 +74,7 @@ export default function ValueProvider({
         downloadLink.hidden = true
         downloadLink.click()
         downloadLink.remove()
-        return
+        break
       }
       default: {
         throw Error('Unknown action: ' + action.type);
@@ -75,7 +85,7 @@ export default function ValueProvider({
 
   return (
     <ValueDispatch.Provider value={dispatch}>
-        <ValueContext.Provider value={{ start_time, setStart_time, end_time, setEnd_time, choice, setChoice, confidence, setConfidence }}>
+      <ValueContext.Provider value={{ start_time, setStart_time, end_time, setEnd_time, choice, setChoice, confidence, setConfidence }}>
         {children}
       </ValueContext.Provider >
     </ValueDispatch.Provider>

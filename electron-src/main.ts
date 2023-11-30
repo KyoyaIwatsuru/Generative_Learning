@@ -15,9 +15,10 @@ const createWindow = async () => {
     y: 0,
     width: width,
     height: height,
+    kiosk: true,
     webPreferences: {
       nodeIntegration: false,
-      contextIsolation: false,
+      contextIsolation: true,
     },
   })
   
@@ -30,7 +31,7 @@ const createWindow = async () => {
   })
   
   await mainWindow.loadURL(url)
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 }
 
 // Prepare the renderer once the app is ready
