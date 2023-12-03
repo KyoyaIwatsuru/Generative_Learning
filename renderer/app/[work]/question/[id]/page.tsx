@@ -16,7 +16,7 @@ export default function Page ({
 
   return (
     <main className="h-body">
-      <h1 className="mt-[10%] text-xl font-bold text-center text-gray-900">{question}</h1>
+      <h1 className="mt-[8%] text-xl font-bold text-center text-gray-900">{question}</h1>
       <RadioVerticalList choices={choices}/>
     </main>
   )

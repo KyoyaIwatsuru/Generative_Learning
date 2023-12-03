@@ -16,8 +16,8 @@ export default function Page ({
   if (id === '1') {
     return (
       <main className="h-body">
-        <h1 className="mt-[2%] text-2xl font-bold text-center text-gray-900">{title}</h1>
-        <p className='mt-[2%] mx-[20%] text-justify'>{text}</p>
+        <h1 className="mt-[3%] text-2xl font-bold text-center text-gray-900">{title}</h1>
+        <p className='mt-[5%] mx-[20%] text-lg text-justify'>{text}</p>
       </main>
     )
   } else {
@@ -26,7 +26,7 @@ export default function Page ({
         <br/>
         <br/>
         <br/>
-        <p className='mt-[2%] mx-[20%] text-justify'>{text}</p>
+        <p className='mt-[5%] mx-[20%] text-lg text-justify'>{text}</p>
       </main>
     )
   }

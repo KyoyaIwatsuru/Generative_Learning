@@ -8,9 +8,9 @@ export default function Layout({
 }: {
   children: React.ReactNode,
 }) {
-  const {end_time, setEnd_time} = useContext(ValueContext)
+  const {question_time, setQuestion_time} = useContext(ValueContext)
   useEffect(() => {
-    setEnd_time(new Date().getTime())
+    setQuestion_time(new Date().getTime())
   }, [])
 
   return (

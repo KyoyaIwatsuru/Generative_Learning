@@ -17,7 +17,7 @@ export default function Choice ({
 
   return (
     <>
-      <h1 className="mt-[2%] text-xl font-bold text-center text-gray-900">あなたの回答 {Choice[Number(choice) - 1]}</h1>
+      <h1 className="mt-[1%] text-lg font-bold text-center text-gray-900">あなたの回答 {Choice[Number(choice) - 1]}</h1>
     </>
   )
 }

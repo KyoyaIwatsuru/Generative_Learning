@@ -20,25 +20,24 @@ export default function Page ({
   const explanation = Explanation.map(explanation => '\n' + explanation)
 
   return (
-    <main className="h-body">
+    <main className="h-body relative">
+      <h1 className='absolute top-5 left-20 font-bold text-2xl text-white bg-button-home rounded-xl px-8 py-3'>解説</h1>
       <Choice work={work} id={id}/>
-      <h1 className="mt-[2%] text-xl font-bold text-center text-gray-900">{answer}</h1>
+      <h1 className="mt-[1%] text-lg font-bold text-center text-gray-900">{answer}</h1>
       <div className='w-full flex justify-center text-sm'>
-        <p className='w-1/2 mt-[2%] ml-[5%] font-medium text-justify'>
+        <p className='w-1/2 mt-[1%] ml-[5%] font-medium text-justify'>
           <br />
           Paragraph:
           <br />
           {text}
           <br />
           <br />
-          Question:
-          <br />
-          <br />
+          Question:&nbsp;&nbsp;&nbsp;
           {question}
           <br />
           {choices}
         </p>
-        <p className='w-1/2 mt-[2%] mx-[5%] font-medium text-justify'>{explanation}</p>
+        <p className='w-1/2 mt-[1%] mx-[5%] font-medium text-justify'>{explanation}</p>
       </div>
     </main>
   )

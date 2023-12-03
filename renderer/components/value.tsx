@@ -5,14 +5,20 @@ import { useParams } from 'next/navigation';
 import { works } from '@/lib/data';
 
 export const ValueContext = createContext({} as {
-  start_time: number
-  setStart_time: React.Dispatch<React.SetStateAction<number>>
-  end_time: number
-  setEnd_time: React.Dispatch<React.SetStateAction<number>>
+  text_time: number
+  setText_time: React.Dispatch<React.SetStateAction<number>>
+  question_time: number
+  setQuestion_time: React.Dispatch<React.SetStateAction<number>>
+  confidence_time: number
+  setConfidence_time: React.Dispatch<React.SetStateAction<number>>
+  explanation_time: number
+  setExplanation_time: React.Dispatch<React.SetStateAction<number>>
   choice: string
   setChoice: React.Dispatch<React.SetStateAction<string>>
   confidence: string
   setConfidence: React.Dispatch<React.SetStateAction<string>>
+  flag: boolean
+  setFlag: React.Dispatch<React.SetStateAction<boolean>>
 })
 export const ValueDispatch = createContext({} as React.Dispatch<any>)
 
@@ -24,10 +30,13 @@ export default function ValueProvider({
   const work_id = Number(useParams().work) - 1
   const id = Number(useParams().id) - 1
   const title = works[work_id].title
-  const [start_time, setStart_time] = useState(0)
-  const [end_time, setEnd_time] = useState(0)
-  const [choice, setChoice] = useState('1')
+  const [text_time, setText_time] = useState(0)
+  const [question_time, setQuestion_time] = useState(0)
+  const [confidence_time, setConfidence_time] = useState(0)
+  const [explanation_time, setExplanation_time] = useState(0)
+  const [choice, setChoice] = useState('0')
   const [confidence, setConfidence] = useState('1')
+  const [flag, setFlag] = useState(true)
   let answer = -1
   if (works[work_id].work[id].answer_id === choice) {
     answer = 1
@@ -40,8 +49,10 @@ export default function ValueProvider({
     switch (action.type) {
       case 'result': {
         return [...results, {
-          start_time: start_time,
-          end_time: end_time,
+          text_time: text_time,
+          question_time: question_time,
+          confidence_time: confidence_time,
+          explanation_time: explanation_time,
           choice: choice,
           answer: answer,
           confidence: confidence,
@@ -49,13 +60,15 @@ export default function ValueProvider({
       }
       case 'download': {
         const csvText =
-          'index,start_time,end_time,choice,answer,confidence\n' +
+          'index,text_time,question_time,confidence_time,explanation_time,choice,answer,confidence\n' +
           String(
             results.map(
-              ({ start_time, end_time, choice, answer, confidence }, index) => [
+              ({ text_time, question_time, confidence_time, explanation_time, choice, answer, confidence }, index) => [
                 index,
-                start_time,
-                end_time,
+                text_time,
+                question_time,
+                confidence_time,
+                explanation_time,
                 choice,
                 answer,
                 confidence
@@ -85,7 +98,7 @@ export default function ValueProvider({
 
   return (
     <ValueDispatch.Provider value={dispatch}>
-      <ValueContext.Provider value={{ start_time, setStart_time, end_time, setEnd_time, choice, setChoice, confidence, setConfidence }}>
+      <ValueContext.Provider value={{ text_time, setText_time, question_time, setQuestion_time, confidence_time, setConfidence_time, explanation_time, setExplanation_time, choice, setChoice, confidence, setConfidence, flag, setFlag }}>
         {children}
       </ValueContext.Provider >
     </ValueDispatch.Provider>
