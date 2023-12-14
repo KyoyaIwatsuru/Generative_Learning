@@ -1,6 +1,6 @@
 import ValueProvider from '@/components/value';
-// import Header from '@/components/header';
-import Next, { Header } from '@/components/next';
+import Header from '@/components/header';
+import Next from '@/components/next';
 
 export default function Layout({
   children,

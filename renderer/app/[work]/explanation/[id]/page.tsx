@@ -21,10 +21,10 @@ export default function Page ({
 
   return (
     <main className="h-body relative">
-      <h1 className='absolute top-5 left-20 font-bold text-2xl text-white bg-button-home rounded-xl px-8 py-3'>解説</h1>
+      {/* <h1 className='absolute top-5 left-20 font-bold text-2xl text-white bg-button-home rounded-xl px-8 py-3'>解説</h1> */}
       <Choice work={work} id={id}/>
-      <h1 className="mt-[1%] text-lg font-bold text-center text-gray-900">{answer}</h1>
-      <div className='w-full flex justify-center text-sm'>
+      <h1 className="mt-[3%] text-xl font-bold text-center text-gray-900">{answer}</h1>
+      {/* <div className='w-full flex justify-center text-sm'>
         <p className='w-1/2 mt-[1%] ml-[5%] font-medium text-justify'>
           <br />
           Paragraph:
@@ -38,7 +38,7 @@ export default function Page ({
           {choices}
         </p>
         <p className='w-1/2 mt-[1%] mx-[5%] font-medium text-justify'>{explanation}</p>
-      </div>
+      </div> */}
     </main>
   )
 }

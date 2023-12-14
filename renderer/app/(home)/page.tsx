@@ -14,8 +14,9 @@ export default function Page () {
 
   return (
     <main className="h-body">
+      <div className="h-full w-1/2 grid grid-rows-5 grid-flow-col px-[10%] py-[1%] items-center">
         {works.map((work) => (
-          <p key={work.work_id} className='mt-[5%] ml-[10%]'>
+          <p key={work.work_id}>
             <Link href={`/${work.work_id}/text/${work.work[0].id}`}>
               <button type="button" onClick={() => fetch('http://localhost:8765/recording/start')} className="inline-flex items-center justify-center p-5 text-lg font-medium text-gray-600 rounded-lg bg-gray-200 hover:text-gray-900 hover:bg-gray-300">
                 <span className="w-full">{work.title}</span>
@@ -26,6 +27,7 @@ export default function Page () {
             </Link>
           </p>
         ))}
+      </div>
     </main>
   )
 }
