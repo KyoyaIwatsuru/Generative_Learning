@@ -20,17 +20,17 @@ export const page = [
   { work: '2', id: '4' },//Opening of a new library in a small town: 3
   { work: '2', id: '5' },//A story of a family with different cultures: 1
   //Pre Test3
-  { work: '3', id: '1' },
-  { work: '3', id: '2' },
-  { work: '3', id: '3' },
-  { work: '3', id: '4' },
-  { work: '3', id: '5' },
+  { work: '3', id: '1' },//Daily life at a small local food store: 1
+  { work: '3', id: '2' },//Opening of a new library in a small town: 4
+  { work: '3', id: '3' },//A story of a family with different cultures: 2
+  { work: '3', id: '4' },//A story about a fictional town: 3
+  { work: '3', id: '5' },//Life in a rural town depending on the season: 4
   //Pre Test4
-  { work: '4', id: '1' },
-  { work: '4', id: '2' },
-  { work: '4', id: '3' },
-  { work: '4', id: '4' },
-  { work: '4', id: '5' },
+  { work: '4', id: '1' },//A story of a family with different cultures: 3
+  { work: '4', id: '2' },//Opening of a new library in a small town: 1
+  { work: '4', id: '3' },//A story about a fictional town: 4
+  { work: '4', id: '4' },//Life in a rural town depending on the season: 1
+  { work: '4', id: '5' },//Daily life at a small local food store: 2
   //Pre Test5
   { work: '5', id: '1' },
   { work: '5', id: '2' },
@@ -363,35 +363,30 @@ export const works = [
         id: 1,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        Every day, as the sun rises, the small local food store on Maple Street opens its doors. The owner, Mr. Lee, begins his day by arranging the fresh produce outside the store, where the vibrant colors of fruits and vegetables attract the early birds. Inside, the shelves are stocked with canned goods, bags of rice, and spices that fill the air with inviting aromas. The bakery section always has warm bread and pastries, while the refrigerator holds dairy products and cold drinks. Mr. Lee knows most of his customers by name, asking about their families and offering cooking tips. At noon, the store becomes busy with people grabbing quick lunches like sandwiches or salads. In the afternoons, parents and their kids often stop by for snacks and sweets. Mr. Lee places a small bench outside where some elderly neighbors sit and chat, watching the day go by. The store is more than a place to buy groceries; it's a community hub where people come not only for their daily needs but also for the friendly atmosphere and personal touch that Mr. Lee provides. As dusk falls, Mr. Lee slowly packs up the remaining produce, sweeps the floor, and with a satisfied smile, locks up, knowing he has served his community well for another day.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What does the text mainly describe?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The specific types of products sold at the local food store. 
+        B) The role of the local food store as a community gathering place. 
+        C) The challenges Mr. Lee faces in maintaining the food store. 
+        D) The financial strategies Mr. Lee uses to manage the food store.
         `,
 
         answer_id: '2',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え B) The role of the local food store as a community gathering place.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        この長文は、メープルストリートにある小さな地元の食料品店とそのオーナーであるリー氏について述べています。リー氏は、新鮮な果物や野菜を店の外に並べ、店内には缶詰や米、スパイス、焼きたてのパンやペストリー、冷たい飲み物があります。彼はほとんどの顧客を名前で知っており、家族のことを尋ねたり料理のコツを教えたりしています。昼間はサンドイッチやサラダを手早く買う人で忙しく、午後には親子連れがおやつを買いに来ます。リー氏は外にベンチを置き、近所のお年寄りが座って話す憩いの場を提供しています。この店は、日用品を買う場所以上のものであり、コミュニティの中心地であり、リー氏が提供するフレンドリーな雰囲気とパーソナルな接触が人々を惹きつけています。日が暮れると、リー氏は残った野菜を片付け、床を掃き、満足げな笑顔で店を閉め、また一日コミュニティに奉仕できたことを知ります。
+        選択肢B「地元の食料品店がコミュニティの集まりの場としての役割」というのがこのテキストの主な内容です。
+        選択肢A「地元の食料品店で売られている特定の商品の種類」というのは誤りです。商品の種類については詳細には触れられていません。
+        選択肢C「リー氏が食料品店を維持する際の課題」というのも誤りです。課題についてはテキストには述べられていません。
+        選択肢D「リー氏が食料品店を管理するための財務戦略」というのも誤りです。財務戦略についてはテキストでは
         `,
       },
   
@@ -399,35 +394,26 @@ export const works = [
         id: 2,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        Amidst the verdant landscape of Elmsbury, a small town renowned for its pastoral charm, the inauguration of the new Athenaeum Library marked a significant milestone. This sanctuary of erudition, with its avant-garde design, stood in stark contrast to the rustic surroundings, yet it seemed to bridge the gap between the town's bucolic past and its aspirations for an enlightened future. The library boasted an extensive compendium of works, ranging from the classic literary canon to contemporary scientific treatises, all meticulously cataloged for the perusal of inquisitive minds. It was equipped with an array of technological amenities, such as an automated retrieval system and interactive learning environments, which enhanced the user experience. The Athenaeum also served as a forum for intellectual discourse, hosting symposiums and colloquiums that galvanized the community's engagement with global and local issues. The quiet nooks scattered throughout the building provided a haven for contemplative study, while the grand reading room, with its domed ceiling, echoed with the soft whispers of page-turning and cerebral contemplation. As the ceremonial ribbon was sheared, the townsfolk, brimming with anticipation, streamed into the library, each eager to embark on their own journey of discovery within its walls.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What role does the Athenaeum Library primarily serve in the town of Elmsbury?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) It functions as a cutting-edge technological hub. 
+        B) It acts as a communal space for educational and intellectual development. 
+        C) It preserves the town's historical and rural identity. 
+        D) It mainly provides entertainment through multimedia resources.
         `,
 
         answer_id: '2',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え B) It acts as a communal space for educational and intellectual development.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        テキストでは、エルムズベリーの新しいアテナイオム図書館が、教育と知的発展のためのコミュニティスペースとして機能していることが説明されています。選択肢A（最先端の技術ハブとして機能する）は、図書館が技術的な設備を持っているとはいえ、それが主な役割ではないため、不正解です。選択肢C（町の歴史的および田園的なアイデンティティを保存する）も、図書館が田園風景に溶け込んでいるとはいえ、その主な目的ではないため、不正解です。選択肢D（多様なマルチメディアリソースを通じて娯楽を提供する）も、図書館がエンターテインメントを提供することは触れられていますが、それが主な機能ではないため、不正解です。正解の選択肢B（教育と知的発展のためのコミュニティスペースとして機能する）は、図書館がシンポジウムやコロキウムを開催し、知的な議論の場を提供するなど、コミュニティの教育と知的発展に重点を置いていることを正確に反映しています。
         `,
       },
   
@@ -435,35 +421,30 @@ export const works = [
         id: 3,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        In the heart of a bustling city stands the home of the Garcia-Murakami family, a testament to the fusion of Mexican and Japanese cultures. Maria Garcia, a Mexican artist, and Taro Murakami, a Japanese chef, live with their three children, who navigate a world rich with diverse traditions. Their house is a mosaic of cultural artifacts, where delicate origami cranes rest on vibrant Mexican textiles. The family calendar is marked with a blend of festivals: they celebrate Dia de los Muertos as reverently as Hanami, the cherry blossom viewing. The children, fluent in both Spanish and Japanese, often help their mother prepare sushi rolls and enchiladas for neighborhood gatherings. Through their parents' professions, the family actively contributes to the cultural tapestry of their community. Maria's art studio hosts workshops for local children, introducing them to the magic of Mexican folk art, while Taro's restaurant is a hub for those seeking authentic Japanese cuisine. The Garcia-Murakami family not only merges two rich heritages within their home but also extends this cultural bridge to their community, fostering an appreciation for diversity and unity.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What does the long text primarily convey about the Garcia-Murakami family?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The way the family celebrates traditional festivals from both cultures. 
+        B) The bilingual abilities of the children and their role in the family. 
+        C) The professional impact Maria and Taro have on their local community. 
+        D) The family's role in promoting cultural diversity and unity in their community.
         `,
 
-        answer_id: '2',
+        answer_id: '4',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え D) The family's role in promoting cultural diversity and unity in their community.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        長文では、ガルシア・ムラカミ家が地域社会において文化的多様性と統合を促進する役割を果たしていることについて主に説明しています。家族はメキシコと日本の文化を融合させ、その橋渡しを地域社会に広げ、多様性と統合の価値を育んでいます。
+        Aの選択肢は「家族がどのように両方の文化の伝統的な祭りを祝うか」について述べていますが、これは家族の活動の一部として言及されていますが、主な内容ではありません。
+        Bの選択肢は「子供たちのバイリンガル能力と家族における役割」について述べていますが、これも家族の特徴の一つとして触れられていますが、長文の主な焦点ではありません。
+        Cの選択肢は「マリアとタロウが地域社会において持つ専門的な影響」について述べていますが、彼らの職業が地域社会に与える影響は含まれていますが、それが主なテーマではありません。
+        正解はDで、「ガルシア・ムラカミ家が地域社会において文化的多様性と統合を促進する役割」が長文の主な内容です。
         `,
       },
 
@@ -471,26 +452,30 @@ export const works = [
         id: 4,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        Nestled between rolling hills and crystal-clear streams, the fictional town of Rivertown boasted a charm that was both quaint and vibrant. Its streets, a mosaic of historic cottages and modern boutiques, hummed with the energy of daily commerce and neighborly exchanges. At the heart of Rivertown was the Old Mill, converted into a community center that hosted weekly farmers' markets and seasonal festivals, celebrating the town's agricultural heritage and tight-knit spirit. The townsfolk, a tapestry of young families, seasoned artisans, and wise elders, valued education and the arts, supporting a local school renowned for its innovative curriculum and a small theater that showcased homegrown talent. Rivertown's culture was steeped in tradition yet open to change, embracing newcomers with the same warmth as lifelong residents. Challenges such as economic shifts or environmental concerns were met with collective resolve, as the community worked together to find sustainable solutions. In Rivertown, life wasn't just lived; it was cherished, with each day woven into the shared story of a place where everyone had a role to play and every voice mattered.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `What is the central message of the Rivertown story?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The balance between tradition and progress in a close-knit community. 
+        B) The focus on education and the arts within a small town setting. 
+        C) The role of the Old Mill as a hub for community events and history. 
+        D) The collective approach to addressing challenges and embracing change.
         `,
 
-        answer_id: '2',
+        answer_id: '1',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え A) The balance between tradition and progress in a close-knit community.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        リバータウンの話の中心的なメッセージは、緊密なコミュニティにおける伝統と進歩のバランスです。
+        A) 正解はAです。この話は、リバータウンが伝統を重んじつつも変化を受け入れ、コミュニティ全体が互いに結びついている様子を描いています。
+        B) 「小さな町の設定における教育と芸術への焦点」は話に含まれていますが、それが中心的なメッセージではありません。不正解です。
+        C) 「オールドミルがコミュニティイベントと歴史の中心地としての役割」についても触れられていますが、それが中心的なメッセージではありません。不正解です。
+        D) 「挑戦への集団的なアプローチと変化を受け入れる態度」も重要な要素ですが、それが中心的なメッセージではありません。不正解です。
         `,
       },
 
@@ -498,26 +483,30 @@ export const works = [
         id: 5,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        In the bucolic enclave of Caledonia, the rhythm of life ebbs and flows with the capricious seasons. Spring heralds a renaissance of flora; verdant fields become awash with wildflowers, and the townsfolk engage in the time-honored tradition of planting their gardens. Summer's zenith brings languorous days, where the sun's dalliance in the sky seems interminable, and the cicadas' serenade crescendos into a symphony at dusk. As autumn's tapestry unfurls, a cornucopia of harvests ensues, and the community coalesces to celebrate the bounty with festivals that echo ancestral revelries. Winter, with its diaphanous veil of frost, casts a hush over Caledonia. Hearth fires burn bright, tales of yore are exchanged, and the indomitable spirit of the townspeople is manifested in their fortitude against the encroaching chill. Each season, while distinct in its offerings, is a testament to the town's symbiosis with nature and the time-honored customs that define its essence.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `Which of the following best summarizes the content of the long text about life in a rural town?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The text describes the challenges faced by rural townspeople throughout the seasons. 
+        B) The text illustrates the unique recreational activities available in each season in a rural town. 
+        C) The text outlines the seasonal changes and their impact on the traditions and lifestyle of a rural town. 
+        D) The text focuses on the economic activities that define each season in a rural town.
         `,
 
-        answer_id: '2',
+        answer_id: '3',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え C) The text outlines the seasonal changes and their impact on the traditions and lifestyle of a rural town.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        長文では、季節の変化が田舎町カレドニアの伝統や生活様式に与える影響について説明しています。春は新緑と花の再生を告げ、夏は長い日々とセミの声が特徴です。秋は収穫の季節であり、冬は静けさと暖炉の火が印象的です。各季節ごとに、町の人々の自然との共生と、その本質を定義する古くからの習慣が示されています。
+        Aの選択肢は、季節ごとに直面する「課題」に焦点を当てていると説明していますが、テキストでは課題よりも伝統と生活様式の変化に重点を置いています。
+        Bの選択肢は「レクリエーション活動」について述べていますが、テキストは活動よりも季節の変化とそれに伴う伝統について述べています。
+        Dの選択肢は「経済活動」に焦点を当てていますが、テキストは経済活動よりも文化的な側面と自然の循環に重点を置いています。
+        したがって、Cの選択肢が長文の内容を最もよく要約していると言えます。
         `,
       },
     ],
@@ -533,35 +522,26 @@ export const works = [
         id: 1,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        The Thompson-Tanaka household was an intricate mosaic of cultural nuances, nestled in the heart of San Francisco. Tom, an American software engineer with a penchant for world history, and Akiko, a Japanese graphic designer with a deep appreciation for modern art, had woven together a life that celebrated their diverse heritages. Their children, Sarah and Ken, navigated their bicultural identities with the agility of tightrope walkers, balancing school presentations on the American Revolution with demonstrations of the Japanese tea ceremony. The family's home resonated with the sounds of English and Japanese, punctuated by the rhythmic beats of a taiko drumming CD and the soft strumming of a guitar. Meals were an eclectic affair, where one could find okonomiyaki being served alongside a steaming pot of clam chowder. Each year, the family hosted a "Cultural Fusion Day," inviting friends to partake in a medley of activities ranging from calligraphy to baseball. Yet, it wasn't always seamless; the blending of cultures sometimes led to humorous faux pas, like the time Ken wore a yukata to a Halloween party. Despite these occasional blips, the Thompson-Tanakas reveled in the richness that their unique blend of cultures brought to their lives, viewing each day as a new chapter in their ongoing family saga.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `Which statement best captures the essence of the Thompson-Tanaka family's life?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The Thompson-Tanaka family occasionally faced challenges in merging their cultural practices. 
+        B) The Thompson-Tanaka family strictly adhered to their individual cultural traditions without blending them. 
+        C) The Thompson-Tanaka family embraced and celebrated the combination of their American and Japanese cultures. 
+        D) The Thompson-Tanaka family prioritized their professional lives over their cultural heritage.
         `,
 
-        answer_id: '2',
+        answer_id: '3',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え C) The Thompson-Tanaka family embraced and celebrated the combination of their American and Japanese cultures.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        テキストでは、トンプソン-田中家がアメリカと日本の文化を組み合わせて祝う様子が描かれています。選択肢A（トンプソン-田中家は文化的な慣習を融合させる際に時々課題に直面した）は、テキストにも挑戦があったことが示唆されていますが、それが家族の生活の本質を捉えているわけではありません。選択肢B（トンプソン-田中家は、それぞれの文化的伝統を融合させずに厳格に守った）は、テキストの内容と矛盾しています。なぜなら、彼らは文化を組み合わせていることが明確に書かれているからです。選択肢D（トンプソン-田中家は文化的遺産よりも職業生活を優先した）もテキストの内容に合っていません。テキストでは家族が文化を大切にしていることが強調されています。正解の選択肢C（トンプソン-田中家はアメリカと日本の文化の組み合わせを受け入れて祝った）は、テキストに書かれている家族の生活の本質を正確に表しています。
         `,
       },
   
@@ -569,35 +549,30 @@ export const works = [
         id: 2,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        A small town celebrated the opening of its new library last Saturday. The building is bright and has many windows that let in the sunlight. People of all ages came to see the library. They looked at the many books on the shelves. There are books for kids, for people who love stories, and for people who want to learn new things. The library also has computers that people can use to find information or to take classes online. The mayor gave a speech and said that the library is a place for everyone to enjoy and learn. After the speech, everyone clapped and the doors were opened. Kids ran to the children's section, and adults found quiet places to read. The new library is a happy place for the town. It is open every day except Sunday. People can borrow books for free and they can also join book clubs. The library is a good place for the town's people to meet and share ideas.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What is the main purpose of the new library in the small town?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) To provide a place for kids to play. 
+        B) To offer books and learning opportunities to the community. 
+        C) To allow people to shop for books. 
+        D) To serve as a museum for the town's history.
         `,
 
         answer_id: '2',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え B) To offer books and learning opportunities to the community.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        小さな町の新しい図書館の主な目的は何ですか？
+        A) 「子供たちが遊ぶ場所を提供する」という選択肢は間違っています。図書館は子供たちのセクションがありますが、遊び場としての目的はテキストには記されていません。不正解です。
+        B) 正解はBです。新しい図書館は、コミュニティに本や学習の機会を提供することを目的としています。これはスピーチでの市長の発言や、本棚の説明、コンピューターの利用可能性などから明らかです。
+        C) 「人々が本を買い物することを可能にする」という選択肢は、図書館では本を買うのではなく、借りることができるというテキストの内容と矛盾しています。不正解です。
+        D) 「町の歴史のための博物館として機能する」という選択肢も、テキストには図書館が町の歴史を展示する場所であるという情報は含まれていません。不正解です。
         `,
       },
   
@@ -605,35 +580,30 @@ export const works = [
         id: 3,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        Perched atop the windswept cliffs of the Meridian Sea, the fictional town of Eldhaven was a tapestry of arcane lore and architectural marvels. Its cobblestone streets, flanked by eldritch towers and verdant gardens, whispered tales of yore, enchanting visitors and scholars alike. The townspeople, custodians of ancient traditions, celebrated the solstices with fervor, their rituals steeped in mysticism and the celestial dance. The Eldhaven University, a beacon of knowledge, attracted minds yearning to unravel the secrets of the cosmos and the deep sea. Here, debates on philosophy and the natural sciences flourished under the tutelage of erudite professors. Despite its reverence for the past, Eldhaven was not impervious to the passage of time. Innovations in maritime technology and trade had ushered in an era of prosperity, albeit with contentious discourse on the preservation of heritage. The denizens navigated these crosscurrents with sagacity, ensuring that progress did not erode the essence of their identity. In Eldhaven, every stone, every wave, and every starry night was a chapter in an ongoing saga of resilience and adaptation—a chronicle of a community eternally poised between the echoes of antiquity and the whispers of the future.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What is the essence of the Eldhaven narrative?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The tension between the preservation of historical customs and the advent of modern advancements. 
+        B) The day-to-day life and simple pleasures of the townspeople. 
+        C) The educational pursuits and scholarly environment of the university. 
+        D) The natural beauty and geographical features of the town.
         `,
 
-        answer_id: '2',
+        answer_id: '1',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え A) The tension between the preservation of historical customs and the advent of modern advancements.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        エルドヘイブンの物語の本質は、歴史的な習慣の保存と現代の進歩との間の緊張関係です。
+        A) 正解はAです。この物語は、古代の伝統を守りつつも、海洋技術と貿易の革新がもたらす繁栄を受け入れるエルドヘイブンの町の人々の試みを描いています。
+        B) 「町の人々の日常生活と単純な喜び」については触れられていますが、それが物語の本質ではありません。不正解です。
+        C) 「大学の教育的追求と学問的環境」も物語の要素ですが、それが物語の本質ではありません。不正解です。
+        D) 「町の自然の美しさと地理的特徴」についても言及されていますが、それが物語の本質ではありません。不正解です。
         `,
       },
 
@@ -641,26 +611,29 @@ export const works = [
         id: 4,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        In a small rural town, the four seasons shape daily life in simple yet profound ways. As winter's chill fades, spring breathes new life with its fresh air and blossoms. Townspeople plant their gardens, anticipating the fruits and vegetables that will grow. Children play outside, enjoying the warmer weather. Summer heats up the town, and life revolves around tending to the crops and preparing for the town's annual Fourth of July parade. The community gathers to celebrate, sharing food and stories under the fireworks-lit sky. With the arrival of fall, the air turns crisp, and the foliage shifts to vibrant hues of orange and red. Harvest time is crucial, and everyone pitches in to collect the season's bounty, followed by a harvest festival that brings together young and old. As the days shorten, winter blankets the town in snow. The pace slows, and people find joy in the quiet, spending time with family and keeping warm by the fire. Through each season, the town's rhythm is dictated by nature, fostering a strong sense of togetherness among its residents.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `What is the central theme of the text regarding the rural town's way of life?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The town's social events and work are influenced by the seasonal changes. 
+        B) The town's residents focus solely on agricultural work all year round. 
+        C) The town's people prefer indoor activities over outdoor ones in all seasons. 
+        D) The town's community is not affected by the seasonal cycles.
         `,
 
-        answer_id: '2',
+        answer_id: '1',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え A) The town's social events and work are influenced by the seasonal changes.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        長文では、田舎町の生活が春の植え付けから夏の作物の世話、秋の収穫祭、冬の家族との時間まで、季節の変化によってどのように変わるかが描かれています。選択肢A「町の社会的イベントと仕事は季節の変化に影響される」というのがこのテキストの中心的なテーマです。
+        選択肢B「町の住民は一年中、農業の仕事だけに集中している」というのは不正解です。テキストでは農業の仕事だけでなく、社会的イベントや家族との時間なども描かれています。
+        選択肢C「町の人々は全ての季節において屋内活動を屋外活動より好む」というのも不正解です。テキストでは屋外での活動が季節ごとに描写されています。
+        選択肢D「町のコミュニティは季節のサイクルの影響を受けていない」というのは不正解です。テキスト全体を通して、季節の変化が町の生活に大きな影響を与えていることが明らかにされています。
         `,
       },
 
@@ -668,26 +641,27 @@ export const works = [
         id: 5,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        Every morning, the small local food store opens its doors at 7 AM sharp. The owner, Mr. Brown, greets each customer with a warm "Good morning!" as they come in for fresh bread, milk, and the daily newspaper. The shelves are stocked neatly with a variety of goods ranging from fruits and vegetables to canned foods and cleaning supplies. In the back, there's a deli counter where Mrs. Lee, the friendly clerk, slices meats and cheeses to order. The atmosphere is cozy, with the smell of coffee and baked goods filling the air. Regulars often stop for a chat, sharing news and stories with the staff and other customers. Throughout the day, the store remains a hub of activity, with people popping in and out, until it closes at 8 PM, when Mr. Brown turns the sign to "Closed" and bids farewell to the last shopper with a smile and a wave.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `What best summarizes the daily life at the small local food store?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The store is busy with customers and restocking activities from early morning until late evening. 
+        B) Mrs. Lee works at the deli counter in the morning, and Mr. Brown closes the store at night. 
+        C) Regular customers visit the store to buy specific items like bread, milk, and newspapers. 
+        D) The store has a variety of items, and the staff engages in friendly conversations with the customers.
         `,
 
-        answer_id: '2',
+        answer_id: '4',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え D) The store has a variety of items, and the staff engages in friendly conversations with the customers.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        長文では、食料品店が朝7時に開店し、夜8時に閉店するまでの一日の様子が描かれています。店のオーナーであるMr. Brownが「Good morning!」と挨拶し、Mrs. Leeがデリカウンターで肉やチーズを切って顧客に提供している様子が述べられています。また、店内は快適な雰囲気で、コーヒーや焼き菓子の香りが漂い、常連客が店員や他の顧客とニュースや話を共有する場所となっていることが説明されています。
+        A) の選択肢は、店が忙しく活動していることを示していますが、長文の要約としては不十分です。 B) の選択肢は、Mrs. LeeとMr. Brownの行動に焦点を当てていますが、長文全体の要約ではありません。 C) の選択肢は、特定の商品を買いに来る常連客について述べていますが、これも長文全体を要約しているわけではありません。 D) の選択肢は、店には様々な商品があり、スタッフが顧客と友好的な会話をしているという長文の主要なポイントを要約していますので、正しい答えです。
         `,
       },
     ],
