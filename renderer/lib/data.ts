@@ -32,17 +32,17 @@ export const page = [
   { work: '4', id: '4' },//Life in a rural town depending on the season: 1
   { work: '4', id: '5' },//Daily life at a small local food store: 2
   //Pre Test5
-  { work: '5', id: '1' },
-  { work: '5', id: '2' },
-  { work: '5', id: '3' },
-  { work: '5', id: '4' },
-  { work: '5', id: '5' },
+  { work: '5', id: '1' },//Volunteer activities in the local community: 3
+  { work: '5', id: '2' },//A lively day in a small suburban park: 5
+  { work: '5', id: '3' },//Farmer's daily life and seasonal changes: 4
+  { work: '5', id: '4' },//Exchange and learning between different generations: 3
+  { work: '5', id: '5' },//Friendship and mutual help between neighbors: 4
   //Pre Test6
-  { work: '6', id: '1' },
-  { work: '6', id: '2' },
-  { work: '6', id: '3' },
-  { work: '6', id: '4' },
-  { work: '6', id: '5' },
+  { work: '6', id: '1' },//Volunteer activities in the local community: 5
+  { work: '6', id: '2' },//Exchange and learning between different generations: 4
+  { work: '6', id: '3' },//Friendship and mutual help between neighbors: 3
+  { work: '6', id: '4' },//Farmer's daily life and seasonal changes: 3
+  { work: '6', id: '5' },//A lively day in a small suburban park: 4
 ]
 
 export const works = [
@@ -677,6 +677,341 @@ export const works = [
         id: 1,
   
         text: `
+        In the heart of Rivertown, a surge of community spirit has been ignited by a series of volunteer activities. Local university students and residents have banded together, dedicating their weekends to improving the lives of their neighbors. Their endeavors range from organizing food drives for the less fortunate to leading literacy classes at the community center. One of the most impactful initiatives has been the "Green Streets" project, where volunteers plant trees and beautify public spaces, fostering environmental stewardship among citizens. Additionally, a mentorship program has been established, pairing experienced professionals with youths seeking guidance in their career paths. These acts of service not only address immediate needs but also cultivate a sense of unity and collective responsibility. They have transformed Rivertown into a vibrant example of what can be achieved when individuals converge to support one another, proving that the power of volunteerism can effect meaningful change within a community.
+        `,
+  
+        question: `What is the main focus of the long text about volunteer activities in Rivertown?`,
+  
+        choices:`
+        A) The specific types of volunteer activities conducted by university students and residents. 
+        B) The environmental impact of the "Green Streets" project initiated by the volunteers. 
+        C) The creation of a mentorship program to assist youth with their careers. 
+        D) The overall enhancement of community spirit and collective effort through volunteering.
+        `,
+
+        answer_id: '4',
+
+        answer: `答え D) The overall enhancement of community spirit and collective effort through volunteering.`,
+  
+        explanation: `
+        解説:
+
+        長文は、リバータウンでのボランティア活動がコミュニティ精神と集団的な努力を全体的に高めることに焦点を当てています。ボランティア活動が個人が支援し合うために集まるときに達成できることの鮮やかな例をリバータウンが示しており、ボランティア精神がコミュニティ内で意味のある変化をもたらすことができる力であることを証明しています。
+        Aの選択肢は「大学生と住民によって行われる具体的なボランティア活動の種類」について述べていますが、これは長文に含まれる情報ですが、主な焦点ではありません。
+        Bの選択肢は「ボランティアによって開始された"グリーンストリーツ"プロジェクトの環境への影響」について述べていますが、このプロジェクトは触れられていますが、長文の中心的なテーマではありません。
+        Cの選択肢は「若者のキャリアを支援するためのメンターシッププログラムの作成」について述べていますが、これも長文の一部ですが、主なポイントではないです。
+        正解はDで、「ボランティア活動を通じてコミュニティ精神と集団的な努力を全体的に高めること」が長文の主な内容です。
+        `,
+      },
+  
+      {
+        id: 2,
+  
+        text: `
+        Nestled within the heart of suburbia, a small park bursts into life, its verdant expanse a tableau of community vitality. The park, an oasis of tranquility juxtaposed against the suburban sprawl, plays host to a tapestry of activities that mirror the rhythms of daily life. On this particular day, the air resonates with the mellifluous laughter of children cavorting in the playground, their youthful exuberance a stark contrast to the serene elders who, ensconced on nearby benches, reminisce about bygone days. Joggers, with metronomic precision, navigate the winding paths, their footfalls a percussive accompaniment to the symphony of rustling leaves and chirping birds. Meanwhile, a cohort of amateur botanists fervently catalog the diverse flora, their discussions peppered with botanical nomenclature and ecological insights. In the adjacent field, a spontaneous game of soccer unfolds, a microcosm of the world's most beloved sport, replete with friendly competition and camaraderie. The park's pavilion shelters a farmers' market, where local purveyors proffer fresh produce and artisanal wares, the exchange of goods punctuated by neighborly banter. As dusk approaches, the setting sun casts a golden hue over the park, and the day's vibrant energy gradually gives way to a peaceful twilight, leaving behind a sense of communal fulfillment and the promise of another day's adventures.
+        `,
+  
+        question: `What is the central theme of the long text describing a day in a small suburban park?`,
+  
+        choices:`
+        A) The contrast between the energetic activities of children and the calmness of the elderly. 
+        B) The park as a dynamic space reflecting the diverse activities of the community. 
+        C) The specific study of plant life by amateur botanists in the park. 
+        D) The economic transactions at the farmers' market in the park.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The park as a dynamic space reflecting the diverse activities of the community.`,
+  
+        explanation: `
+        解説:
+
+        長文は、郊外の小さな公園での一日を描写しており、公園がコミュニティの多様な活動を反映するダイナミックな空間であるという中心テーマを表しています。子供たちの遊び、ジョギングをする人々、植物を研究するアマチュア植物学者、サッカーゲーム、そして農産物市場など、様々な活動がこの公園で繰り広げられています。
+        Aの選択肢は「子供たちのエネルギッシュな活動と高齢者の落ち着きとの対比」に言及していますが、これは長文で触れられている側面ではあるものの、中心テーマではありません。
+        Bの選択肢は「公園がコミュニティの多様な活動を反映するダイナミックな空間である」という長文の中心的なテーマを捉えています。
+        Cの選択肢は「公園でのアマチュア植物学者による植物生活の具体的な研究」という特定の活動に焦点を当てていますが、これは全体のテーマではなく、公園で行われる多くの活動の一つに過ぎません。
+        Dの選択肢は「公園での農産物市場での経済取引」について述べていますが、これも長文の一部を指しており、中心的なテーマではありません。
+        正解のBは、長文で述べられているように、公園がコミュニティの活気と多様性を象徴する空間であるという点を反映しています。
+        `,
+      },
+  
+      {
+        id: 3,
+  
+        text: `
+        The daily life of a farmer is inextricably intertwined with the capricious whims of nature, each season dictating a unique rhythm and set of tasks. As spring's thaw ushers in the renewal of the earth, farmers engage in the meticulous sowing of seeds, their hopes germinating alongside the fledgling crops. The summer months demand relentless toil under the scorching sun, a period of vigilant nurturing to ensure the young plants thrive and reach maturation. Come autumn, the air is thick with the scent of harvest; it's a time of reaping the rewards of laborious efforts, the fields yielding bountiful produce that symbolizes the fruition of the year's work. Winter brings a slower pace, a time for maintenance and planning, reflecting on past seasons and preparing for the cycle to commence anew. This ceaseless dance with the elements is not merely a means of livelihood but a testament to the resilience and adaptability inherent in the agricultural way of life. Farmers become the custodians of tradition, yet they must also be innovators, constantly learning and implementing new techniques to enhance sustainability and efficiency. Their existence is not one of isolation; rather, it weaves into the broader tapestry of society, providing sustenance and contributing to the cultural and economic fabric of the community.
+        `,
+  
+        question: `What is the main theme of the long text about a farmer's daily life?`,
+  
+        choices:`
+        A) The challenges faced during different farming seasons. 
+        B) The impact of agricultural work on community culture and economy. 
+        C) The cycle of tasks and reflections experienced by farmers throughout the year. 
+        D) The importance of innovation and learning in modern farming practices.
+        `,
+
+        answer_id: '3',
+
+        answer: `答え C) The cycle of tasks and reflections experienced by farmers throughout the year.`,
+  
+        explanation: `
+        解説:
+
+        長文は、一年を通じて農家が経験するタスクと反省のサイクルについての主題を扱っています。春の種まきから夏の植物の世話、秋の収穫、そして冬のメンテナンスと計画に至るまで、季節ごとの異なるリズムと作業が述べられています。
+        Aの選択肢は「異なる農業シーズンにおける課題」について言及していますが、これは長文の一部であり、主要な焦点ではありません。
+        Bの選択肢は「農業労働がコミュニティの文化と経済に与える影響」について言及していますが、これも長文の中で触れられている要素ですが、中心的なテーマではないです。
+        Cの選択肢は「一年を通じて農家が経験するタスクと反省のサイクル」という長文の主題を捉えています。
+        Dの選択肢は「現代農業慣行における革新と学習の重要性」について言及していますが、これは長文で述べられている農家の特性の一部ですが、主題ではありません。
+        正解のCは、農家が季節に応じて異なる作業を行い、それぞれの時期に反省と計画をするという長文の内容を反映しています。
+        `,
+      },
+
+      {
+        id: 4,
+
+        text: `
+        In a society where the generational divide is often emphasized, the exchange of knowledge and experiences between the young and the old is a refreshing departure from the norm. Community centers and educational institutions have become the nexus for this intergenerational dialogue, where storytelling sessions led by seniors are met with eager ears of the youth. These narratives are not merely tales of yesteryear but are imbued with wisdom that transcends time, providing the younger generation with insights into resilience and adaptability. Conversely, the youth introduce their elders to the digital world, guiding them through the intricacies of modern technology, thus bridging the gap between tradition and innovation. Workshops that encourage collaboration on projects, such as community gardens or technology classes, have proven to be fertile grounds for mutual learning. Here, stereotypes are dismantled, and preconceived notions about age are challenged, as both groups contribute unique perspectives and skills. This synergy not only fosters understanding and respect but also cultivates a shared sense of purpose and community belonging. The benefits of such interactions are manifold; they invigorate the elderly with a sense of relevance and combat the isolation that often accompanies aging. Simultaneously, the younger participants gain a deeper appreciation for the wealth of history and experience that their older counterparts hold. It is in these moments of exchange that the tapestry of human experience becomes richer, and the artificial barriers erected by age begin to crumble.
+        `,
+
+        question: `What is the main focus of the long text regarding the interaction between different generations?`,
+
+        choices:`
+        A) The role of community centers in facilitating intergenerational exchange. 
+        B) The benefits and outcomes of intergenerational learning and collaboration. 
+        C) The challenges faced by seniors when learning about modern technology. 
+        D) The impact of storytelling sessions on the youth.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The benefits and outcomes of intergenerational learning and collaboration.`,
+
+        explanation: `
+        解説:
+
+        長文は、異世代間の学びとコラボレーションの利点と成果について主に焦点を当てています。若者と高齢者が知識と経験を共有することで、両者にとって有益な結果がもたらされ、理解と尊重が育まれることが述べられています。
+        Aの選択肢は「コミュニティセンターが異世代間の交流を容易にする役割」について言及していますが、これは長文の一部であり、主要な焦点ではありません。
+        Bの選択肢は「異世代間の学習と協力の利点と成果」という長文の中心的なテーマを捉えています。
+        Cの選択肢は「高齢者が現代技術について学ぶ際に直面する課題」について述べていますが、これは長文の主題ではなく、異世代間の交流の一側面を指しています。
+        Dの選択肢は「ストーリーテリングセッションが若者に与える影響」について述べていますが、これも長文の一部分であり、主な焦点ではないです。
+        正解のBは、異世代間の交流が世代間の人工的な障壁を取り除き、豊かな人間経験のタペストリーを形成する方法を包括しています。
+        `,
+      },
+
+      {
+        id: 5,
+
+        text: `
+        In the intricate web of community life, the bonds of neighborly friendship stand as a testament to the enduring spirit of mutual assistance. Within the confines of a neighborhood, individuals from disparate backgrounds converge, weaving a fabric of camaraderie that transcends societal divisions. This tapestry of human connection is most vividly illustrated when adversity strikes; it is then that the altruistic fibers of the community are drawn taut. Neighbors, who may have once been mere nodding acquaintances, rally to support one another, embodying the adage that a friend in need is a friend indeed. They share not only tools and resources but also wisdom and solace, fortifying each other against the vicissitudes of life. The elderly, often isolated, find their days brightened by the considerate gestures of younger neighbors, while the latter gain invaluable insights from the experiences of their elders. Children, in the bloom of their innocence, partake in this exchange, learning early the virtues of generosity and cooperation. Such interdependence fosters a sense of belonging and community resilience, creating a bulwark against the encroaching forces of alienation and divisiveness. Through seasons of joy and periods of challenge, the neighborhood remains a microcosm of society at its best, where the simple acts of kindness and understanding sow the seeds of an ever-thriving human garden.
+        `,
+
+        question: `What is the primary focus of the long text regarding the relationships between neighbors?`,
+
+        choices:`
+        A) The transformation of neighbors from strangers to supportive friends. 
+        B) The exchange of wisdom and insights between the elderly and the young within a neighborhood. 
+        C) The development of children's values through observing neighborly interactions. 
+        D) The importance of neighborly friendship and mutual help in fostering community resilience.
+        `,
+
+        answer_id: '4',
+
+        answer: `答え D) The importance of neighborly friendship and mutual help in fostering community resilience.`,
+
+        explanation: `
+        解説:
+
+        長文は、隣人同士の友情と相互援助がコミュニティの回復力を育む上での重要性についての主要な焦点を当てています。異なる背景を持つ個人が集まり、社会的な分裂を超えた連帯感のある絆を形成している様子が描かれています。特に逆境に見舞われた時には、コミュニティの利他的な側面が顕著になると述べています。
+        Aの選択肢は「隣人が見知らぬ人から支え合う友人へと変わる過程」について言及していますが、これは長文で触れられている一部分であり、主要な焦点ではありません。
+        Bの選択肢は「隣人の間での高齢者と若者の知恵と洞察の交換」について述べていますが、これも長文の一部の側面であり、中心的なテーマではないです。
+        Cの選択肢は「子供たちが隣人同士の交流を見て価値観を育む発展」について言及していますが、これは長文での一部分を表しているものの、主要な焦点ではないです。
+        Dの選択肢は「隣人同士の友情と相互援助がコミュニティの回復力を育む上での重要性」という長文の中心的なテーマを正確に捉えています。
+        正解のDは、長文で述べられているように、隣人同士の友情と相互援助がコミュニティの団結と回復力を高めるために不可欠であるという点を反映しています。
+        `,
+      },
+    ],
+  },
+
+  {
+    work_id: 6,
+  
+    title: 'Pre Test6',
+  
+    work: [
+      {
+        id: 1,
+  
+        text: `
+        Within the local community, a vibrant tapestry of volunteerism unfurls, its threads spun from the altruistic endeavors of those seeking to ameliorate the lives of their fellow citizens. These selfless acts manifest in myriad forms: from the restoration of dilapidated public spaces to the orchestration of educational programs aimed at bridging the socioeconomic divide. Volunteers, armed with an array of skills and a shared conviction in the transformative power of collective action, converge to address the multifaceted challenges that beset their community. They serve not only as a bulwark against the encroachments of societal neglect but also as catalysts for civic engagement and social cohesion. The community garden, once a desolate plot, now burgeons with verdant life, tended by hands both young and old, symbolizing the regenerative potential of cooperative labor. Food drives coordinated by local organizations alleviate the gnawing pangs of hunger that afflict the underprivileged, while after-school tutoring initiatives empower the youth through education. In these and countless other endeavors, volunteers act as the linchpins of community vitality, demonstrating that individual commitment can coalesce into a formidable force for communal betterment. The impact of their contributions resonates beyond the immediate tangible outcomes, engendering a spirit of solidarity and a legacy of compassion that will indelibly mark the ethos of the community for generations to come.
+        `,
+  
+        question: `What is the main idea conveyed in the long text about volunteer activities in the local community?`,
+  
+        choices:`
+        A) The restoration of public spaces as the sole focus of volunteer activities. 
+        B) The critical role of volunteers in fostering community development and solidarity. 
+        C) The importance of after-school tutoring as the most effective form of volunteerism. 
+        D) The impact of food drives on the community's socioeconomic status.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The critical role of volunteers in fostering community development and solidarity.`,
+  
+        explanation: `
+        解説:
+
+        長文は、地域社会におけるボランティア活動について、それがコミュニティの発展と団結を促進する上で果たす重要な役割に焦点を当てています。ボランティアは、公共空間の修復、教育プログラムの実施、コミュニティガーデンの手入れ、食糧ドライブの調整、放課後のチュータリングなど、多様な形で自己犠牲的な行動を展開していると述べています。
+        Aの選択肢は「公共空間の修復がボランティア活動の唯一の焦点である」と述べていますが、これは長文の一部を表しているものの、主要なテーマではありません。
+        Bの選択肢は「ボランティアがコミュニティの発展と団結を促進する上で果たす重要な役割」という長文の主要なアイデアを正確に捉えています。
+        Cの選択肢は「放課後のチュータリングが最も効果的なボランティア活動であるという重要性」について述べていますが、これは長文の一部分を指しており、主要なテーマではないです。
+        Dの選択肢は「食糧ドライブがコミュニティの社会経済的地位に与える影響」という点を指摘していますが、これも長文で触れられている一側面であり、中心的なテーマではありません。
+        正解のBは、ボランティア活動がコミュニティの活力の要であり、個々のコミットメントがコミュニティの改善のための強力な力に結集することを示しているという長文の内容を反映しています。
+        `,
+      },
+  
+      {
+        id: 2,
+  
+        text: `
+        In the tapestry of society, the exchange of wisdom between generations is a vital thread that weaves through the fabric of time, creating a rich mosaic of shared knowledge and experience. The elderly, with their reservoirs of lived history, impart lessons from a bygone era, offering a window into a world that once was. Their narratives, replete with trials and triumphs, serve as beacons for the younger generation, who, in turn, bring fresh perspectives and innovative ideas to the table. This symbiotic relationship fosters a learning environment that transcends the boundaries of age, where the sagacity of the old and the curiosity of the young coalesce to form a continuum of growth and understanding. In settings such as community centers or family gatherings, dialogues between the old and the young can unravel stereotypes and build bridges across the generational divide. The youth, often adept with technology, can guide their elders through the labyrinth of the digital world, while the wisdom of the elders can anchor the youth in the principles of ethics and integrity. This intergenerational exchange is not without its challenges, as differing worldviews and communication styles can create friction. However, when navigated with respect and an open mind, it can yield profound insights and mutual enrichment. It is through this interplay of past and present, experience and innovation, that society evolves, ensuring that the lessons of yesterday inform the possibilities of tomorrow.
+        `,
+  
+        question: `What is the central theme of the long text regarding the interaction between different generations?`,
+  
+        choices:`
+        A) The challenges that arise from the differing worldviews of the old and the young. 
+        B) The role of the elderly in providing historical perspectives to the younger generation. 
+        C) The mutual benefits of knowledge and experience sharing across generations. 
+        D) The importance of technology in bridging the gap between generations.
+        `,
+
+        answer_id: '3',
+
+        answer: `答え C) The mutual benefits of knowledge and experience sharing across generations.`,
+  
+        explanation: `
+        解説:
+
+        長文は、異なる世代間の知識と経験の共有がお互いに利益をもたらすという中心テーマについて述べています。高齢者が過去の教訓を若者に伝え、若者が新しい視点と革新的なアイデアを提供することで、年齢の境界を超えた学習環境が促進されるとしています。
+        Aの選択肢は「異なる世界観を持つ老若の間で生じる課題」について言及していますが、これは長文で触れられている側面ではあるものの、中心テーマではありません。
+        Bの選択肢は「高齢者が若い世代に歴史的な視点を提供する役割」について述べていますが、これも長文の要素の一つであり、全体のテーマを表しているわけではありません。
+        Cの選択肢は「異なる世代間の知識と経験の共有による相互の利益」という長文の中心的なテーマを捉えています。
+        Dの選択肢は「世代間のギャップを埋めるための技術の重要性」について言及していますが、これは長文で若者が高齢者をデジタル世界を通じて導く側面を指しているものの、中心テーマではないです。
+        正解のCは、異なる世代間での知識と経験の共有が、成長と理解の連続体を形成し、社会の進化に貢献するという長文の内容を反映しています。
+        `,
+      },
+  
+      {
+        id: 3,
+  
+        text: `
+        In the close-knit fabric of a neighborhood, the threads of friendship and mutual assistance weave a tapestry of communal life that is both enduring and endearing. Neighbors, often more than mere acquaintances, become an extended family, sharing not only fences but also joys and sorrows. When one household faces the unexpected, such as a sudden illness or a broken appliance, others step in with offers of hot meals, carpools, or handyman skills. This spontaneous camaraderie is not bounded by the constraints of time; it is as likely to manifest in the shared toil of snow-shoveling driveways in the winter chill as it is in the collective vigilance during summer block parties. The exchange of knowledge and resources, from gardening tips to power tools, creates an ecosystem of support that enriches each individual's life. Such interdependence fosters a sense of security and belonging, knowing that help is but a doorstep away. It is this unspoken pact of solidarity that fortifies the community against the vagaries of life and cements relationships built on a foundation of trust and goodwill. The reciprocity seen in these microcosms of society not only alleviates the burdens of daily living but also nurtures the growth of empathy and understanding across the spectrum of ages and backgrounds.
+        `,
+  
+        question: `What is the central theme of the long text regarding neighborhood relationships?`,
+  
+        choices:`
+        A) The challenges neighbors face when dealing with unexpected situations. 
+        B) The importance of trust and goodwill in building strong community bonds. 
+        C) The variety of ways neighbors assist and support each other in daily life. 
+        D) The role of community events in fostering neighborhood friendships.
+        `,
+
+        answer_id: '3',
+
+        answer: `答え C) The variety of ways neighbors assist and support each other in daily life.`,
+  
+        explanation: `
+        解説:
+
+        長文は、日常生活において隣人がお互いに支援し合う様々な方法について中心的なテーマを扱っています。予期せぬ事態に直面したときの手助けや、知識とリソースの交換、共通の安全と所属感を育む相互依存が述べられています。
+        Aの選択肢は「予期せぬ状況に直面した際に隣人が直面する課題」について言及していますが、これは長文の一部であり、中心的なテーマではありません。
+        Bの選択肢は「強いコミュニティ絆を築く上での信頼と善意の重要性」について言及していますが、これも長文の主題の一部であり、中心ではないです。
+        Cの選択肢は「日常生活において隣人が支援し合う様々な方法」という長文の中心的な内容を捉えています。
+        Dの選択肢は「コミュニティイベントが近隣の友情を育む役割」について言及していますが、これは長文で触れられている要素の一部ですが、主題ではありません。
+        正解のCは、長文が隣人間の相互支援と友情の多様性に焦点を当てていることを反映しています。
+        `,
+      },
+
+      {
+        id: 4,
+
+        text: `
+        A farmer's daily life is a testament to the symbiotic relationship between human labor and the rhythms of nature. As the sun peeks over the horizon, the farmer begins his day, tending to crops that are sensitive to the subtle shifts of the seasons. Spring's arrival is heralded by the planting of seeds, which will blossom under the watchful eye of the summer sun. The farmer navigates the complexities of weather patterns, knowing that a bountiful harvest hinges on the delicate balance of rain and sunshine. As autumn approaches, the fields are ablaze with the colors of ripened produce, ready for the harvest. This season is a time of reaping the rewards of months of diligent toil, but it is also a race against time to prepare the soil for the coming winter. The farmer's life is a continuous cycle of preparation, sowing, nurturing, and harvesting, each step as crucial as the last. Even in the quiet of winter, when the land lies fallow, the farmer strategizes for the next cycle, reflecting on the past and planning for future yields. This unending loop of seasons shapes not only the farmer's activities but also his character, instilling a resilience that is born of a deep understanding of the land's perennial promise.
+        `,
+
+        question: `What does the long text primarily describe about a farmer's life?`,
+
+        choices:`
+        A) The daily routines of a farmer throughout the different seasons. 
+        B) The techniques used by farmers to ensure a successful harvest. 
+        C) The challenges farmers face with changing weather patterns. 
+        D) The importance of winter in planning for the next farming cycle.
+        `,
+
+        answer_id: '1',
+
+        answer: `答え A) The daily routines of a farmer throughout the different seasons.`,
+
+        explanation: `
+        解説:
+
+        長文は、異なる季節を通じて農夫の日常のルーチンについて主に説明しています。春の種まきから夏の監視、秋の収穫、そして冬の計画まで、季節の変化に合わせた農作業が述べられています。
+        Aの選択肢は「異なる季節を通じて農夫の日常のルーチン」という長文の中心的な内容を捉えています。
+        Bの選択肢は「成功した収穫を確実にするために農夫が使用する技術」について述べていますが、これは長文の主題ではありません。
+        Cの選択肢は「変化する天候パターンに直面する農夫の課題」について述べていますが、これは触れられている側面の一つであり、長文の主要なテーマではないです。
+        Dの選択肢は「次の農業サイクルの計画における冬の重要性」について述べていますが、これも長文の一部分であり、主な焦点ではありません。
+        正解のAは、農夫が季節の変化に応じて行う日々の作業の連続を包括しています。
+        `,
+      },
+
+      {
+        id: 5,
+
+        text: `
+        A small suburban park, nestled amidst a bustling community, comes alive with the laughter and chatter of its visitors. On this particular day, the park is a tableau of vibrant activity: children clamber up jungle gyms with boundless energy, while parents watch on with a mixture of pride and anxiety. The aroma of sizzling hot dogs from a nearby vendor wafts through the air, mingling with the scent of freshly cut grass. Joggers navigate the winding paths, their steady pace a testament to their dedication, as elderly couples amble along, hands clasped, sharing whispered memories. A group of teenagers commands a basketball court, their game a blend of friendly competition and showmanship. In the background, the gentle strumming of a guitar from an impromptu musician provides a soothing soundtrack to the scene. This park serves not only as a green oasis but also as a microcosm of the community, reflecting a tapestry of life in its myriad forms. It is a place where daily stresses are momentarily forgotten, and the simple joys of nature and human connection are embraced. As the sun begins to dip below the horizon, casting a golden hue over the landscape, the park slowly empties, leaving behind only echoes of the day's merriment and the promise of tomorrow's return.
+        `,
+
+        question: `What is the essence of the long text about the small suburban park?`,
+
+        choices:`
+        A) The variety of activities and visitors that contribute to the park's lively atmosphere. 
+        B) The role of the park as a place for children's play and parental supervision. 
+        C) The natural beauty and tranquility of the park environment. 
+        D) The interaction between different generations of visitors in the park.
+        `,
+
+        answer_id: '1',
+
+        answer: `答え A) The variety of activities and visitors that contribute to the park's lively atmosphere.`,
+
+        explanation: `
+        解説:
+
+        長文は、小さな郊外の公園がさまざまな活動と訪問者によって活気に満ちた雰囲気を持っていることについての本質を述べています。子供たちの遊び、親の監視、ジョギングをする人々、散歩する高齢者のカップル、バスケットボールをする若者たち、そして音楽を奏でる人がいる様子が描かれています。
+        Aの選択肢は「公園の活気ある雰囲気に貢献するさまざまな活動と訪問者」という長文の要点を捉えています。
+        Bの選択肢は「公園が子供の遊び場と親の監督の場としての役割」について言及していますが、これは長文の一部の側面であり、全体の本質ではありません。
+        Cの選択肢は「公園の自然の美しさと静けさ」という点を指摘していますが、これは長文で触れられているが、公園の本質的な役割ではないです。
+        Dの選択肢は「公園内での異なる世代の訪問者間の交流」について言及していますが、これも長文の一部分を表しているが、中心的なテーマではないです。
+        正解のAは、公園がコミュニティの微細な反映であり、日々のストレスからの逃避と自然や人とのつながりを楽しむ場所であることを反映しています。
+        `,
+      },
+    ],
+  },
+
+  {
+    work_id: 7,
+  
+    title: 'Pre Test7',
+  
+    work: [
+      {
+        id: 1,
+  
+        text: `
         Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
         `,
   
@@ -836,346 +1171,6 @@ export const works = [
       },
     ],
   },
-
-  // {
-  //   work_id: 6,
-  
-  //   title: 'Pre Test6',
-  
-  //   work: [
-  //     {
-  //       id: 1,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 2,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 3,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 4,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 5,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   work_id: 7,
-  
-  //   title: 'Pre Test7',
-  
-  //   work: [
-  //     {
-  //       id: 1,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 2,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 3,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 4,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 5,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-  //   ],
-  // },
 
   // {
   //   work_id: 8,
