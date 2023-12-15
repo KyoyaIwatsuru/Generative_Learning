@@ -226,12 +226,12 @@ export function RadioVerticalList({ choices }: { choices: string }) {
   const {flag, setFlag} = useContext(ValueContext)
 
   return (
-    <List className="mt-[5%] mx-[20%]">
+    <List className="mt-[2%] mx-[20%]">
       {Choice.map((choice) => (
-        <ListItem key={Choice.indexOf(choice)} className="p-3">
+        <ListItem key={Choice.indexOf(choice)} className="p-0">
           <label
             htmlFor={`vertical-list-${Choice.indexOf(choice)}`}
-            className="flex w-full cursor-pointer items-center px-3 py-2"
+            className="flex w-full cursor-pointer items-center px-6 py-5"
           >
             <ListItemPrefix className="mr-5">
               <Radio
