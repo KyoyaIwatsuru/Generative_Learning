@@ -43,6 +43,18 @@ export const page = [
   { work: '6', id: '3' },//Friendship and mutual help between neighbors: 3
   { work: '6', id: '4' },//Farmer's daily life and seasonal changes: 3
   { work: '6', id: '5' },//A lively day in a small suburban park: 4
+  //Pre Test7
+  { work: '7', id: '1' },//The discovery and utilization of innovative energy resources from new planets and dimensions.:3
+  { work: '7', id: '2' },//The scientific principles of traveling through time and the accompanying ethical issues.:3
+  { work: '7', id: '3' },//The society and its cultural and social structures entirely constructed in virtual reality.:2
+  { work: '7', id: '4' },//Everyday life in a city where magic is integrated into daily routines.:3
+  { work: '7', id: '5' },//A tale unraveling the secrets of a legendary ghost ship.:3
+  //Pre Test8
+  { work: '8', id: '1' },//
+  { work: '8', id: '2' },//
+  { work: '8', id: '3' },//
+  { work: '8', id: '4' },//
+  { work: '8', id: '5' },//
 ]
 
 export const works = [
@@ -1012,6 +1024,173 @@ export const works = [
         id: 1,
   
         text: `
+        As humanity's insatiable quest for energy sources extends beyond the confines of Earth, the discovery and utilization of innovative energy resources from new planets and dimensions have become the new frontier. The interstellar mining of crystals that release immense power when harnessed correctly has revolutionized our energy infrastructure. Similarly, the tapping into alternate dimensions has unveiled exotic forms of energy, such as dark matter reactors and quantum energy fields, which were once the realm of science fiction. These advancements have not only provided an abundant supply of clean energy but also propelled technological growth and interplanetary exploration. The impact on everyday life is profound; energy scarcity has become a relic of the past, and the environmental degradation associated with traditional fossil fuels is being remedied. The challenge now lies in managing these potent resources responsibly to avoid the pitfalls of past energy crises. As we stand at the cusp of this new age, the ethical and practical considerations of such energy exploitation are subjects of intense debate, highlighting the need for international cooperation and sustainable practices.
+        `,
+  
+        question: `What is the main point of the long text regarding the discovery and utilization of energy resources from new planets and dimensions?`,
+  
+        choices:`
+        A) The focus on the environmental impact of traditional fossil fuels. 
+        B) The challenges of managing new potent energy resources responsibly. 
+        C) The interstellar mining of crystals as the sole new energy source. 
+        D) The role of international cooperation in energy exploitation.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The challenges of managing new potent energy resources responsibly.`,
+  
+        explanation: `
+        解説:
+
+        長文は、新しい惑星や次元からの革新的なエネルギー資源の発見と利用に関する主要なポイントとして、これらの強力な資源を責任を持って管理することの課題を挙げています。文中では、結晶の星間採掘や代替次元からのエネルギー形態の利用が、エネルギーインフラを革命的に変え、クリーンエネルギーの豊富な供給をもたらし、技術成長と惑星間探査を推進していることが述べられていますが、これらの資源をどのように責任を持って管理するかが今後の課題であると強調されています。
+        Aの選択肢は「伝統的な化石燃料の環境への影響に焦点を当てている」と述べていますが、これは長文の一部分を指しており、主要なテーマではありません。
+        Bの選択肢は「新しい強力なエネルギー資源を責任を持って管理する課題」という長文の中心的なテーマを捉えています。
+        Cの選択肢は「星間採掘される結晶が唯一の新エネルギー源である」と述べていますが、これは長文で触れられている新エネルギー源の一つに過ぎず、全体のテーマではありません。
+        Dの選択肢は「エネルギーの開発における国際協力の役割」という点を指摘していますが、これは長文での議論の対象とされているものの、主要なテーマではないです。
+        正解のBは、長文で述べられているように、新しいエネルギー資源をどのように責任を持って管理するかという課題が現在のエネルギー危機の教訓を避けるために重要であるという点を反映しています。
+        `,
+      },
+  
+      {
+        id: 2,
+  
+        text: `
+        The concept of time travel, once relegated to the realm of fiction, has piqued the interest of contemporary scientists who delve into the realms of quantum mechanics and general relativity. The theoretical underpinnings of traveling through time rest on the manipulation of spacetime, a four-dimensional construct that melds the three dimensions of space with the fourth dimension of time. According to Einstein's theory, if one could warp spacetime with immense gravitational forces or achieve near-light speed, it might be possible to traverse temporal boundaries. However, this scientific fascination is not without its ethical quandaries. The potential to alter historical events raises profound questions about causality and the moral responsibility of the time traveler. Could intervening in the past have unforeseen and disastrous consequences? Additionally, the prospect of accessing future knowledge poses risks of its own, potentially disrupting the natural progression of society. These ethical considerations compel us to ponder the ramifications of tampering with time and the stewardship required in managing such a profound power.
+        `,
+  
+        question: `What is the main focus of the text regarding the concept of time travel?`,
+  
+        choices:`
+        A) The role of quantum mechanics and general relativity in enabling time travel. 
+        B) The ethical implications of altering past events and accessing future knowledge. 
+        C) The scientific achievements that have made time travel a current reality. 
+        D) The gravitational forces required for warping spacetime.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The ethical implications of altering past events and accessing future knowledge.`,
+  
+        explanation: `
+        解説:
+
+        このテキストは、時間旅行の概念に関連する倫理的な意味合いに焦点を当てています。時間を通じて旅行することの理論的な基盤として、量子力学や一般相対性理論が取り上げられているものの、それらの科学的な魅力が倫理的な問題を伴っていることが述べられています。過去の出来事を変更する可能性や未来の知識へのアクセスがもたらすリスクについての深い問いが提起されており、それがテキストの主要なテーマです。
+        Aの選択肢は「量子力学と一般相対性理論が時間旅行を可能にする役割」と言及していますが、これは時間旅行の理論的な基盤としての役割についてのみ言及しており、テキストの主な焦点ではありません。
+        Bの選択肢は「過去の出来事を変更することと未来の知識へのアクセスの倫理的な意味合い」というテキストの中心的なテーマを正確に捉えています。
+        Cの選択肢は「時間旅行を現実のものにした科学的な成果」と述べていますが、テキストでは時間旅行が現実になったとは述べられていません。
+        Dの選択肢は「時空を歪めるために必要な重力」という具体的な科学的内容を指摘していますが、これは時間旅行の理論的な側面の一部であり、テキストの主な焦点ではないです。
+        正解のBは、テキストで強調されているように、時間をいじることの倫理的な考慮事項、特に過去を変えたり未来の知識にアクセスしたりすることの影響を考えることが主な焦点であるという点を反映しています。
+        `,
+      },
+  
+      {
+        id: 3,
+  
+        text: `
+        Imagine a world where everything we know about society and culture is built inside a computer. In this virtual world, people use characters called avatars to talk and do activities together. They can visit places, learn, and even buy things with special computer money. Schools are not buildings anymore; they are online rooms where students from anywhere can join. People can also talk about laws and make decisions for their community in this virtual space. But living in a computer world can be tricky. It is hard to tell what is real and who is who. Some people might not have enough money or the right equipment to be a part of this world. This makes us think about how technology changes our lives and what it means to be together as a society.
+        `,
+  
+        question: `What is the main idea of the text about a virtual society?`,
+  
+        choices:`
+        A) How technology is used to create characters and activities in a virtual world. 
+        B) The difference between real and virtual worlds. 
+        C) The changes in education and governance in a society built in virtual reality. 
+        D) The challenges and thoughts about a society that exists in a computer.
+        `,
+
+        answer_id: '4',
+
+        answer: `答え D) The challenges and thoughts about a society that exists in a computer.`,
+  
+        explanation: `
+        解説:
+
+        このテキストは、コンピューター内に構築された社会についての課題と考察に焦点を当てています。仮想世界での生活がどのように現実と異なるのか、そしてそれが私たちの生活や社会としての一体感に対する意味をどのように変えるかについて述べています。
+        Aの選択肢は「テクノロジーが仮想世界のキャラクターや活動を作る方法」とありますが、これはテキストの一部を表しているだけで、主なアイデアではありません。
+        Bの選択肢は「現実の世界と仮想の世界の違い」とありますが、これもテキストの一部の側面を指しており、メインのアイデアではないです。
+        Cの選択肢は「仮想現実に構築された社会における教育と治理の変化」とありますが、これもテキストの一部分を指しており、主なアイデアではないです。
+        Dの選択肢は「コンピューター内に存在する社会についての課題と考察」というテキストの中心的なテーマを正確に捉えています。選択肢は排除法では解決できないように設定されており、テキストの内容を正確に理解する必要があります。正解のDは、テキストで強調されているように、コンピューターの世界での生活が現実の問題や社会的なつながりにどのような影響を及ぼすかという点を反映しています。
+        `,
+      },
+
+      {
+        id: 4,
+
+        text: `
+        In a city where the mundane is intertwined with the mystical, the daily life of its citizens is anything but ordinary. From the moment they rise, residents are greeted by the subtle enchantments that streamline their morning routines. A simple incantation clears the skies for the commuter who prefers to navigate by enchanted carpet, while another spell might conjure a nourishing meal to start the day. The local economy thrives on a blend of traditional commerce and magical wares, with shopkeepers enchanting objects to suit the needs of their clientele. Education is a wondrous affair, where young minds are not only taught the essentials of math and language but also the delicate art of spellcraft. Healthcare professionals employ healing runes alongside modern medicine, offering holistic care. Infrastructure within the city is maintained not solely by physical labor but also through the diligent work of elemental spirits, summoned and directed by skilled practitioners. As dusk falls, entertainment venues come alive with illusionists and bards, their performances a captivating dance of reality and illusion. This seamless integration of magic into every facet of life challenges the very notion of what is considered normal, redefining the boundaries between the possible and the impossible.
+        `,
+
+        question: `What does the text primarily describe?`,
+
+        choices:`
+        A) The specific enchantments used in daily activities by the city's residents. 
+        B) How traditional aspects of life are enhanced by magic in an urban setting. 
+        C) The role of magic in the city's education and healthcare systems. 
+        D) The impact of magical integration on the city's definition of normalcy.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) How traditional aspects of life are enhanced by magic in an urban setting.`,
+
+        explanation: `
+        解説:
+
+        このテキストは、都市環境における日常生活が魔法によってどのように強化されているかを主に説明しています。朝のルーティンから通勤、商業、教育、医療、インフラストラクチャー、エンターテイメントに至るまで、魔法が人々の生活を豊かにしている様子が描かれています。
+        Aの選択肢は「市民が日常活動で使う特定の魔法について」とありますが、テキストは特定の魔法に焦点を当てているわけではなく、魔法が生活にどのように統合されているかを説明しています。
+        Bの選択肢は「都市環境において、伝統的な生活の側面が魔法によってどのように強化されているか」とあり、テキストの中心的なテーマを正確に捉えています。
+        Cの選択肢は「都市の教育と医療システムにおける魔法の役割について」とありますが、これはテキストの一部分を指しており、主なアイデアではないです。
+        Dの選択肢は「魔法の統合が都市の「普通」の定義に与える影響について」とありますが、これはテキストの最後の部分で触れられている概念であり、全体の主な内容ではありません。
+        正解のBは、テキストで描かれているように、魔法が都市環境における伝統的な生活の側面をどのように強化しているかという点を反映しています。
+        `,
+      },
+
+      {
+        id: 5,
+
+        text: `
+        Whispers of the ghost ship, the "Spectral Mariner," have circulated for centuries, shrouded in enigma and fear. This legendary vessel, said to be cursed, is rumored to appear from the mist, its timeworn sails billowing silently, and then vanish as though it were never there. Tales of its origin are as varied as they are chilling, with some claiming it was a pirate ship that plundered too greedily, while others insist it was a merchant vessel lost in a tempest and condemned to sail the oceans forever. The ship is an omen, they say, and to lay eyes upon it is to invite calamity. However, a recent discovery by maritime historians suggests a less supernatural explanation: the "Spectral Mariner" may have been an experimental ship coated with early reflective materials, which caused it to gleam eerily in the moonlight. This revelation doesn't dispel the ship's mystique but adds a layer of historical intrigue to the legend. The ghost ship's tale is a tapestry of human fear, the unknown, and the allure of the sea, a story that continues to captivate the imagination of sailors and landlubbers alike.
+        `,
+
+        question: `What is the central theme of the text about the "Spectral Mariner"?`,
+
+        choices:`
+        A) The various origins stories of the ghost ship and its curse. 
+        B) The fear and superstitions surrounding the appearance of the ghost ship. 
+        C) The historical investigation that demystifies the ghost ship's eerie sightings. 
+        D) The ongoing fascination with the ghost ship's legend despite its probable non-supernatural origins.
+        `,
+
+        answer_id: '4',
+
+        answer: `答え D) The ongoing fascination with the ghost ship's legend despite its probable non-supernatural origins.`,
+
+        explanation: `
+        解説:
+
+        このテキストは、「スペクトラル・マリナー」と呼ばれる幽霊船の伝説と、その伝説が今なお人々の想像力を捉えて離さないことを中心テーマとしています。幽霊船が超自然的なものではなく、実際は早期の反射材料でコーティングされた実験船だった可能性があるという歴史的な発見が、伝説に新たな歴史的興味を加えています。
+        Aの選択肢は「幽霊船とその呪いのさまざまな起源の話について」とありますが、これはテキストの一部を表しているに過ぎず、中心テーマではありません。
+        Bの選択肢は「幽霊船の出現にまつわる恐怖と迷信について」とありますが、これもテキストの一部の側面を指しており、主なテーマではないです。
+        Cの選択肢は「歴史的な調査が幽霊船の不気味な目撃を神秘的ではないものとして明らかにすることについて」とありますが、これはテキストの一部分の説明に過ぎず、中心テーマではありません。
+        Dの選択肢は「幽霊船の伝説に対する持続する魅力について、そのおそらく超自然的ではない起源にもかかわらず」とあり、テキスト全体を通じて強調されているテーマ、つまり幽霊船の伝説が非超自然的な起源である可能性にも関わらず、人々がなおもこの話に惹かれ続けていることを正確に捉えています。
+        正解のDは、テキストで描かれているように、幽霊船の伝説が超自然的なものではない可能性が示されてもなお、その伝説に対する人々の魅了が続いていることを反映しています
+        `,
+      },
+    ],
+  },
+
+  {
+    work_id: 8,
+  
+    title: 'Explanation',
+  
+    work: [
+      {
+        id: 1,
+  
+        text: `
         Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
         `,
   
@@ -1029,13 +1208,9 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1065,13 +1240,9 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1101,13 +1272,9 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1171,176 +1338,6 @@ export const works = [
       },
     ],
   },
-
-  // {
-  //   work_id: 8,
-  
-  //   title: 'Pre Test8',
-  
-  //   work: [
-  //     {
-  //       id: 1,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 2,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 3,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 4,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 5,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-  //   ],
-  // },
 
   // {
   //   work_id: 9,
