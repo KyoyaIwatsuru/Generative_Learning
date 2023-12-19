@@ -1371,35 +1371,31 @@ export const works = [
         id: 1,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        Within the vast expanse of the cosmos, the intricate web of diplomatic relationships and political systems among various cosmic civilizations is a subject of profound complexity. These interstellar entities, each with their unique forms of government, engage in diplomacy that is as diverse as the life forms they represent. Some may operate through collective hive minds, making decisions at a pace and with a consensus that is unfathomable to human political structures. Others might be governed by advanced artificial intelligences, with policies and treaties drafted in the language of algorithms and probabilities. Trade agreements could involve the exchange of exotic matter, while military alliances might be formed to counter threats from aggressive spacefaring species or cosmic phenomena. Cultural exchanges offer a rich tapestry of artistic and scientific collaboration, but they also raise questions about the preservation of individual civilization identities. The balance of power is constantly shifting, often hinging on the ability to navigate faster-than-light communication and travel. As we speculate on these cosmic interactions, we must consider the sheer scale of space and time involved, which adds layers of complexity to any alliance or conflict. The political machinations of these civilizations, if ever encountered, would challenge our understanding of governance, ethics, and our place in the universe.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What is the main subject of the text regarding the cosmic civilizations?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The speed and consensus of decision-making processes in collective hive mind civilizations. 
+        B) The role of advanced artificial intelligences in governing some cosmic civilizations. 
+        C) The dynamic nature of trade, alliances, and cultural exchanges among cosmic civilizations. 
+        D) The challenges in understanding the diplomatic and political intricacies of cosmic civilizations.
         `,
 
-        answer_id: '2',
+        answer_id: '4',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え D) The challenges in understanding the diplomatic and political intricacies of cosmic civilizations.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        このテキストは、宇宙文明間の外交関係と政治システムの複雑さと、それを理解することの困難さについて主に焦点を当てています。異なる政府形態、外交の多様性、貿易協定、軍事同盟、文化交流などのトピックが触れられていますが、これらすべては宇宙文明の外交と政治の複雑さを理解する課題につながっています。
+        Aの選択肢は「集合的ハイブマインド文明における意思決定プロセスの速度と合意について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「いくつかの宇宙文明を統治する上での高度な人工知能の役割について」とありますが、これもテキストの特定の部分に関する内容であり、主な焦点ではないです。
+        Cの選択肢は「宇宙文明間の貿易、同盟、文化交流の動的な性質について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        Dの選択肢は「宇宙文明の外交と政治の複雑さを理解することの課題について」とあり、テキストの中心的なテーマを正確に捉えています。
+        正解のDは、テキストで述べられているように、宇宙文明の外交と政治の複雑さを理解することの困難さを反映しています。
         `,
       },
   
@@ -1407,35 +1403,31 @@ export const works = [
         id: 2,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        The advent of artificial intelligence (AI) has sparked a revolutionary discourse on the governance of an ideal society. In this envisioned paradigm, AI systems, with their capacity for handling vast amounts of data and their ability to learn and adapt, are posited as the central managing entities of societal operations. The premise is that AI, unburdened by human biases and inefficiencies, could optimize resource allocation, streamline bureaucratic processes, and enact fair and equitable policies. By analyzing patterns and predicting outcomes, AI could foresee societal needs and respond with precision, whether in urban planning, healthcare, education, or environmental protection. The governance model suggests a system where decision-making is driven by objective analysis rather than partisan politics, potentially leading to a more harmonious and productive society. However, this utopian vision is not without its challenges and ethical considerations. Questions arise about the transparency of AI algorithms, the accountability in cases of failure, and the preservation of human autonomy and dignity. The balance between AI-assisted governance and human oversight remains a delicate and critical factor in ensuring that the pursuit of an ideal society does not inadvertently create a dystopian reality.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What is the primary theme of the text concerning the governance of an ideal society by artificial intelligence?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The efficiency of AI in optimizing resource allocation and bureaucratic processes. 
+        B) The potential for AI to lead to a more harmonious and productive society. 
+        C) The ethical considerations and challenges in implementing AI governance. 
+        D) The role of AI in urban planning, healthcare, education, and environmental protection.
         `,
 
-        answer_id: '2',
+        answer_id: '3',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え C) The ethical considerations and challenges in implementing AI governance.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        このテキストは、理想的な社会を人工知能（AI）によって統治することの倫理的な考慮事項と実装における課題について主に焦点を当てています。AIによるリソース配分の最適化や官僚的プロセスの合理化、公平で公正な政策の実施の可能性が触れられている一方で、AIアルゴリズムの透明性、失敗時の責任追及、人間の自律性と尊厳の保持などの問題点が提示されています。
+        Aの選択肢は「AIによるリソース配分の最適化と官僚的プロセスの効率化について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「AIがもたらす可能性のあるより調和のとれた生産的な社会について」とありますが、これもテキストの特定の部分に関する内容であり、主な焦点ではないです。
+        Cの選択肢は「AI統治の実装における倫理的な考慮事項と課題について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Dの選択肢は「AIの都市計画、医療、教育、環境保護における役割について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        正解のCは、テキストで述べられているように、AIによる理想的な社会の統治における倫理的な考慮事項と課題についての概念を反映しています。
         `,
       },
   
@@ -1443,35 +1435,31 @@ export const works = [
         id: 3,
   
         text: `
-        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        In a world where the lines of communication between species blur, a unique group of children emerges with the extraordinary ability to converse with animals. These young individuals possess a rare gift that allows them to understand and be understood by creatures of different species, from the tiniest insects to the largest mammals. This phenomenon isn't merely about speaking a universal language; it involves a deep empathetic connection that enables these children to sense the emotions and thoughts of animals, facilitating a level of interaction that transcends the limitations of human-animal relationships. The implications of such an ability are profound, ranging from advancements in wildlife conservation and animal welfare to breakthroughs in biological and behavioral research. These children could serve as bridges between humanity and the animal kingdom, fostering mutual respect and understanding. However, their gift also places them in a position of great responsibility, as they navigate the complexities of advocating for creatures that cannot speak for themselves in human societies. The existence of these special communicators challenges our traditional views of interspecies boundaries and has the potential to redefine our role as stewards of the Earth.
         `,
   
-        question: 'What did Sarah enjoy doing in her village?',
+        question: `What is the central topic of the text regarding children with the ability to communicate with animals?`,
   
         choices:`
-        A) Disliking people around her.
-        B) Reading books and dreaming about exploring the world.
-        C) Ignoring her studies and friends.
-        D) Feeling sad about living in a village.
+        A) The emotional bonds these children form with animals. 
+        B) The potential applications of this ability in various fields. 
+        C) The responsibility that comes with advocating for animals. 
+        D) The challenge to traditional views of interspecies boundaries.
         `,
 
-        answer_id: '2',
+        answer_id: '4',
 
-        answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: `答え D) The challenge to traditional views of interspecies boundaries.`,
   
         explanation: `
-        Paragraph 解説:
+        解説:
 
-        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-        Question 解説:
-
-        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        このテキストは、動物とコミュニケーションを取る特別な能力を持つ子供たちが、種間の境界に対する従来の見解に挑戦するという中心的なトピックに焦点を当てています。テキストでは、これらの子供たちがどのようにして動物と深い共感的なつながりを築き、人間と動物の関係の制約を超えたレベルの相互作用を可能にするかについて説明しています。また、その能力が地球の管理者としての私たちの役割を再定義する可能性があるとも述べています。
+        Aの選択肢は「これらの子供たちが動物と形成する感情的な絆について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「この能力のさまざまな分野での応用の可能性について」とありますが、これもテキストの特定の部分に関する内容であり、主な焦点ではないです。
+        Cの選択肢は「動物のために代弁するという責任について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        Dの選択肢は「種間の境界に対する従来の見解に挑戦するという課題について」とあり、テキストの中心的なテーマを正確に捉えています。
+        正解のDは、テキストで述べられているように、動物とコミュニケーションを取る子供たちの存在が種間の境界に対する従来の見解にどのように挑戦するかという概念を反映しています。
         `,
       },
 
@@ -1479,26 +1467,31 @@ export const works = [
         id: 4,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        In the realm of slumber, where reality intertwines with the surreal, dreamscape narratives often unfold with mysterious events that defy logical explanation. One such tale involves a dreamer who, night after night, visits an enigmatic city shrouded in twilight, where the streets whisper secrets and the buildings change form with the dreamer's thoughts. The inhabitants of this city are elusive, appearing as silhouettes that flicker in and out of existence, their voices a mere echo of a language long forgotten. Here, time loses its linearity, flowing backward and forward, allowing the dreamer to witness events from the past and future simultaneously. Objects possess a curious sentience, engaging the dreamer in riddles that seem to hold the key to deeper understanding. Each visit to this dream city peels back another layer of the subconscious, revealing symbols and motifs that resonate with the dreamer's waking life. The dreamer's journey through this phantasmagorical landscape is a quest for meaning, a search for the hidden messages that the mind weaves into the fabric of dreams. Yet, upon awakening, the clarity of the nocturnal adventure dissipates like mist, leaving the dreamer to ponder the significance of these ephemeral encounters and the enigmatic wisdom they might impart.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `What is the central theme of the text regarding the events that occur in dreams?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The interaction with sentient objects in dreams. 
+        B) The quest for understanding the subconscious through dream symbols. 
+        C) The experience of non-linear time in dreams. 
+        D) The communication with elusive inhabitants of dream cities.
         `,
 
         answer_id: '2',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え B) The quest for understanding the subconscious through dream symbols.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        このテキストは、夢の中で起こる神秘的な出来事に関する中心的なテーマとして、夢のシンボルを通じて潜在意識を理解するための探求に焦点を当てています。夢の中の風景や出来事は、夢見る人の潜在意識の層を剥がし、目覚めた生活と響き合う象徴やモチーフを明らかにしていくことが語られています。
+        Aの選択肢は「夢の中での知性を持つ物体との交流について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「夢のシンボルを通じて潜在意識を理解するための探求について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Cの選択肢は「夢の中での非線形な時間の経験について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        Dの選択肢は「夢の中の都市に住む捉えどころのない住民とのコミュニケーションについて」とありますが、これもテキストの特定の部分に関する内容であり、主な焦点ではないです。
+        正解のBは、テキストで述べられているように、夢の中での出来事が持つ意味や、夢見る人の潜在意識との関連性を探る旅についての概念を反映しています。
         `,
       },
 
@@ -1506,26 +1499,31 @@ export const works = [
         id: 5,
 
         text: `
-        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        In the future, schools have become bastions of advanced technology, revolutionizing the educational landscape. As students enter the campus, they are greeted by interactive holograms that assist them in navigating the sprawling complex. Classrooms have transformed into dynamic learning environments where augmented reality overlays provide immersive experiences that bring historical events to life or visualize complex scientific concepts. Personalized learning is at the forefront, with AI-powered tutors adapting to each student's learning pace and style, offering tailored guidance and support. Gone are the days of heavy textbooks; now, knowledge is accessed through sleek, lightweight tablets loaded with interactive e-books and educational apps. Collaborative projects are conducted in virtual spaces, allowing students from around the world to work together in real-time, despite geographical distances. The school's infrastructure is designed for sustainability, powered by renewable energy sources and equipped with systems that recycle waste and manage resources efficiently. Even physical education has been transformed, with motion-capture technology that analyzes students' movements to enhance their athletic performance. This high-tech approach aims to prepare students not only academically but also for the increasingly digital and interconnected world they will inhabit.
         `,
 
-        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        question: `What is the main focus of the text about everyday life in a future school advanced in technology?`,
 
         choices:`
-        A) To provide entertainment with music and dance.
-        B) To display the year's agricultural achievements and support community projects.
-        C) To promote local tourism and enhance the town's economy.
-        D) To honor the oldest residents for their lifelong contributions.
+        A) The use of interactive holograms for campus navigation. 
+        B) The implementation of personalized learning with AI tutors. 
+        C) The transformation of traditional educational methods through technology. 
+        D) The emphasis on sustainability in school infrastructure.
         `,
 
-        answer_id: '2',
+        answer_id: '3',
 
-        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
+        answer: `答え C) The transformation of traditional educational methods through technology.`,
 
         explanation: `
         解説:
 
-        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        このテキストは、技術が進んだ未来の学校の日常生活における、伝統的な教育方法の変革に主に焦点を当てています。学生たちはインタラクティブなホログラムによって迎えられ、拡張現実が教室をダイナミックな学習環境に変え、AIによる個別指導が行われ、重い教科書はなくなり、代わりにインタラクティブな電子書籍や教育アプリが搭載されたタブレットが使用されるなど、多くの技術的進歩が紹介されています。
+        Aの選択肢は「キャンパス内のナビゲーションのためのインタラクティブなホログラムの使用について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「AIチューターを用いた個別化学習の実装について」とありますが、これもテキストの特定の部分に関する内容であり、主な焦点ではないです。
+        Cの選択肢は「技術を通じた伝統的な教育方法の変革について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Dの選択肢は「学校のインフラストラクチャーにおける持続可能性への重点について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        正解のCは、テキストで述べられているように、技術の進歩によって伝統的な教育方法がどのように変革されているかという概念を反映しています。
         `,
       },
     ],
