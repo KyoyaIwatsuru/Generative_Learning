@@ -50,11 +50,23 @@ export const page = [
   { work: '7', id: '4' },//Everyday life in a city where magic is integrated into daily routines.:3
   { work: '7', id: '5' },//A tale unraveling the secrets of a legendary ghost ship.:3
   //Pre Test8
-  { work: '8', id: '1' },//
-  { work: '8', id: '2' },//
-  { work: '8', id: '3' },//
-  { work: '8', id: '4' },//
-  { work: '8', id: '5' },//
+  { work: '8', id: '1' },//Eternal life achieved through advanced medical technology and its implications.:3
+  { work: '8', id: '2' },//Methods of communication between different dimensions or universes and their impacts.:3
+  { work: '8', id: '3' },//The changes in society and civilization brought about by technological innovations at the nanoscale.:3
+  { work: '8', id: '4' },//Interactions with mythical creatures like unicorns and dragons.:3
+  { work: '8', id: '5' },//The discovery of portals that allow instant travel to different worlds.:3
+  //Pre Test9
+  { work: '9', id: '1' },//
+  { work: '9', id: '2' },//
+  { work: '9', id: '3' },//
+  { work: '9', id: '4' },//
+  { work: '9', id: '5' },//
+  //Pre Test10
+  { work: '10', id: '1' },//
+  { work: '10', id: '2' },//
+  { work: '10', id: '3' },//
+  { work: '10', id: '4' },//
+  { work: '10', id: '5' },//
 ]
 
 export const works = [
@@ -1184,7 +1196,175 @@ export const works = [
   {
     work_id: 8,
   
-    title: 'Explanation',
+    title: 'Pre Test8',
+  
+    work: [
+      {
+        id: 1,
+  
+        text: `
+        The quest for eternal life has transitioned from myth to reality with the advent of advanced medical technology. Scientists have developed treatments that can not only delay aging but potentially stop it entirely, propelling humanity into an era where the concept of mortality is radically altered. This breakthrough has profound implications: overpopulation could become an even more pressing issue as the natural cycle of life and death is disrupted, potentially leading to severe resource depletion. Furthermore, the socioeconomic divide might widen as access to life-extending treatments could be limited to the affluent, exacerbating inequality. Ethical questions also emerge regarding the natural order and the value we place on the finiteness of life. While some may see eternal life as the pinnacle of human achievement, others warn of the psychological ramifications of an endless existence, such as a loss of purpose or diminished appreciation for life's ephemeral nature. The potential for generational stagnation, where the old do not make way for the new, could impede cultural and technological progress. As society grapples with these issues, the pursuit of immortality through medical technology continues to spark debate, challenging our understanding of life's meaning and the structure of human civilization.
+        `,
+  
+        question: `What is the main focus of the text regarding the achievement of eternal life through medical technology?`,
+  
+        choices:`
+        A) The scientific advancements that have made eternal life possible. 
+        B) The potential societal and ethical consequences of achieving eternal life. 
+        C) The psychological effects on individuals living an endless existence. 
+        D) The disruption of the natural cycle of life and its impact on resources.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The potential societal and ethical consequences of achieving eternal life.`,
+  
+        explanation: `
+        解説:
+
+        このテキストは、医療技術を通じて永遠の命を達成することの潜在的な社会的および倫理的な影響に主に焦点を当てています。テキストでは、過密化、資源の枯渇、社会経済的な不平等の拡大、倫理的な問題、文化的および技術的進歩への影響など、さまざまな懸念が提示されています。
+        Aの選択肢は「永遠の命を可能にした科学的進歩について」とありますが、これはテキストの一部分を指しており、主な焦点ではありません。
+        Bの選択肢は「永遠の命を達成することの潜在的な社会的および倫理的な影響について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Cの選択肢は「終わりのない存在を生きる個人に対する心理的影響について」とありますが、これはテキストで触れられている側面の一つであり、主な焦点ではないです。
+        Dの選択肢は「生命の自然なサイクルの中断とそれが資源に与える影響について」とありますが、これもテキストで取り上げられている懸念の一つであり、主要なテーマではありません。
+        正解のBは、テキストで述べられているように、永遠の命を達成することがもたらすであろう社会的および倫理的な問題についての概念を反映しています。
+        `,
+      },
+  
+      {
+        id: 2,
+  
+        text: `
+        The concept of communication across different dimensions or universes has been a subject of fascination and speculation. With advances in theoretical physics and quantum mechanics, the idea of connecting with alternate realities is no longer relegated to science fiction. Methods such as utilizing quantum entanglement, where particles remain connected across vast distances, and harnessing wormholes, hypothetical passages through spacetime, are being explored as potential means of interdimensional contact. These groundbreaking approaches could revolutionize our understanding of the cosmos and lead to unprecedented technological advancements. However, the impacts of such communication are profound and multifaceted. Ethical considerations arise over the potential for cultural contamination or the unintended consequences of sharing technology. The discovery of parallel universes could challenge our notions of individuality and existence, leading to philosophical debates about the nature of self and reality. Moreover, the possibility of encountering advanced civilizations may shift the balance of power on Earth, prompting a reevaluation of our place in the universe. While the practicality of interdimensional communication remains uncertain, its implications stretch the boundaries of human thought and present a paradigm shift in how we perceive our world and the endless possibilities beyond.
+        `,
+  
+        question: `What is the primary focus of the text concerning communication between different dimensions or universes?`,
+  
+        choices:`
+        A) The scientific theories and methods that make interdimensional communication conceivable. 
+        B) The ethical and cultural implications of contacting alternate realities. 
+        C) The potential shifts in power dynamics on Earth due to interactions with other universes. 
+        D) The philosophical impact on our understanding of self and existence after discovering parallel universes.
+        `,
+
+        answer_id: '1',
+
+        answer: `答え A) The scientific theories and methods that make interdimensional communication conceivable.`,
+  
+        explanation: `
+        解説:
+
+        このテキストは、異なる次元または宇宙間のコミュニケーションを可能にする科学理論と方法に主に焦点を当てています。量子もつれやワームホールを利用するなどの方法が潜在的な次元間コンタクトの手段として探求されていることが説明されています。
+        Aの選択肢は「次元間コミュニケーションを想像できるようにする科学理論と方法について」とあり、テキストの主要な内容を正確に表しています。
+        Bの選択肢は「代替現実との接触の倫理的および文化的な意味合いについて」とありますが、これはテキストで触れられている側面の一つであり、主な焦点ではないです。
+        Cの選択肢は「他の宇宙との相互作用による地球上の力のダイナミクスの潜在的なシフトについて」とありますが、これもテキストで取り上げられている懸念の一つであり、主要なテーマではありません。
+        Dの選択肢は「平行宇宙の発見後の自己と存在の理解に対する哲学的影響について」とありますが、これはテキストで提起されている哲学的な問題であり、主な焦点ではありません。
+        正解のAは、テキストで述べられているように、異なる次元または宇宙間のコミュニケーションを可能にする科学理論と方法についての概念を反映しています。
+        `,
+      },
+  
+      {
+        id: 3,
+  
+        text: `
+        The advent of nanotechnology has ushered in a transformative epoch for society and civilization. At the nanoscale, materials exhibit properties that can be vastly different from their macroscopic counterparts, enabling the development of innovative applications across a multitude of sectors. In medicine, nanotechnology promises to revolutionize diagnostics and treatment, with the potential to target diseases at a cellular level and deliver drugs more effectively. The environmental sector stands to benefit from nanomaterials that can purify water, generate cleaner energy, and monitor ecological changes with unprecedented precision. In the realm of computing, nanoscale transistors have paved the way for more powerful, energy-efficient processors, shrinking devices while expanding their capabilities. The implications of these advances are profound, extending beyond practical applications to raise questions about the ethical use of technology, the management of nanomaterial waste, and the potential for socioeconomic disparities as access to these innovations may not be equitable. Nanotechnology's capacity to alter the very fabric of reality necessitates a reexamination of our values and policies to ensure that such profound changes are guided by a commitment to the betterment of all humanity.
+        `,
+  
+        question: `What is the main subject of the text regarding the impact of technological innovations at the nanoscale?`,
+  
+        choices:`
+        A) The specific properties of nanomaterials that differ from larger-scale materials. 
+        B) The diverse applications of nanotechnology in various sectors and their societal implications. 
+        C) The ethical considerations and waste management issues related to nanotechnology. 
+        D) The potential for increased socioeconomic disparities due to uneven access to nanotechnology.
+        `,
+
+        answer_id: '2',
+
+        answer: `答え B) The diverse applications of nanotechnology in various sectors and their societal implications.`,
+  
+        explanation: `
+        解説:
+
+        このテキストは、ナノスケールでの技術革新が様々な分野での応用とそれに伴う社会的影響について主に焦点を当てています。医療、環境、コンピューティングなどのセクターでのナノテクノロジーの革新的な応用が挙げられており、それらが社会に与える影響が議論されています。
+        Aの選択肢は「ナノ素材が大規模な素材と異なる特定の特性について」とありますが、これはテキストの一部分を指しており、主な焦点ではありません。
+        Bの選択肢は「ナノテクノロジーの様々なセクターでの応用とそれらの社会的影響について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Cの選択肢は「ナノテクノロジーに関連する倫理的考慮事項と廃棄物管理の問題について」とありますが、これはテキストで触れられている側面の一つであり、主な焦点ではないです。
+        Dの選択肢は「ナノテクノロジーへのアクセスが不均等であるために増加する可能性のある社会経済的格差について」とありますが、これもテキストで取り上げられている懸念の一つであり、主要なテーマではありません。
+        正解のBは、テキストで述べられているように、ナノテクノロジーが多岐にわたるセクターでの応用とそれに伴う社会的影響についての概念を反映しています。
+        `,
+      },
+
+      {
+        id: 4,
+
+        text: `
+        In the tapestry of folklore, interactions with mythical creatures such as unicorns and dragons have been depicted as both awe-inspiring and cautionary tales. Unicorns, with their singular spiraled horn, are often portrayed as symbols of purity and grace, embodying magical healing abilities that could cure maladies and neutralize poisons. These ethereal beings are said to be approachable only by the pure of heart, suggesting an intrinsic connection between innocence and the supernatural. Dragons, in contrast, are frequently cast as formidable beasts, their scales impervious to ordinary weapons and their breath capable of spewing fire or ice. Despite their fearsome reputation, dragons are also revered in many cultures as guardians of vast treasures and keepers of ancient wisdom. The enduring fascination with these creatures speaks to a deeper human yearning for wonder and the exploration of the unknown. Such myths also serve as allegories, reflecting societal values and the perennial struggle between good and evil. The narratives surrounding unicorns and dragons have evolved over centuries, yet they continue to captivate the imagination, offering a window into the collective psyche and the timeless allure of the mythical.
+        `,
+
+        question: `What is the central theme of the text regarding interactions with mythical creatures like unicorns and dragons?`,
+
+        choices:`
+        A) The contrast between the healing powers of unicorns and the destructive force of dragons. 
+        B) The representation of unicorns and dragons as embodiments of good and evil in folklore. 
+        C) The human fascination with mythical creatures and their symbolic significance in culture. 
+        D) The evolution of the narratives of unicorns and dragons throughout history.
+        `,
+
+        answer_id: '3',
+
+        answer: `答え C) The human fascination with mythical creatures and their symbolic significance in culture.`,
+
+        explanation: `
+        解説:
+
+        このテキストは、ユニコーンやドラゴンのような神話上の生き物に対する人間の魅了と、文化におけるそれらの象徴的な意味について主に焦点を当てています。これらの生き物への長い間の興味と、それらが持つ神秘性や善と悪の永遠の戦いを反映した寓話としての役割が説明されています。
+        Aの選択肢は「ユニコーンの癒しの力とドラゴンの破壊的な力の対比について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「ユニコーンとドラゴンが民間伝承において善と悪の具現として表されていることについて」とありますが、これはテキストで触れられている側面の一つであり、主な焦点ではないです。
+        Cの選択肢は「神話上の生き物に対する人間の魅了と、文化におけるそれらの象徴的な意味について」とあり、テキストの中心的なテーマを正確に捉えています。
+        Dの選択肢は「歴史を通じてユニコーンとドラゴンの物語の進化について」とありますが、これはテキストで述べられているテーマの一部であり、主な焦点ではありません。
+        正解のCは、テキストで述べられているように、神話上の生き物に対する人間の魅了と、それらが文化における象徴的な意味合いについての概念を反映しています。
+        `,
+      },
+
+      {
+        id: 5,
+
+        text: `
+        The concept of portals facilitating instantaneous travel to disparate worlds has long captivated the human imagination, and its hypothetical discovery presents a monumental leap in our understanding of physics and cosmology. Envision a scenario where these gateways, perhaps based on advanced understanding of wormholes or quantum mechanics, become a reality. The implications would be as vast as the universes they connect. Such portals could offer unparalleled opportunities for exploration, commerce, and cultural exchange, effectively shrinking the vastness of space into traversable distances. Imagine scientists and adventurers stepping through a portal to conduct research on alien ecosystems or to establish inter-world trade routes. However, the discovery of these portals would also pose significant challenges, including the governance of such travel, the protection of indigenous species and environments, and the ethical considerations of potentially exploiting newfound worlds. Moreover, the societal impact could be profound, reshaping our geopolitical landscape and altering our perception of place and time. The discovery of portals to different worlds would fundamentally transform our experience as a species, propelling us into an era of interstellar connectivity and infinite possibility.
+        `,
+
+        question: `What is the primary focus of the text concerning the discovery of portals to different worlds?`,
+
+        choices:`
+        A) The scientific principles underlying the creation of portals for instant travel. 
+        B) The potential for exploration and commerce that such portals would enable. 
+        C) The challenges and ethical considerations arising from the use of these portals. 
+        D) The transformative impact on society and human perception of space and time.
+        `,
+
+        answer_id: '4',
+
+        answer: `答え D) The transformative impact on society and human perception of space and time.`,
+
+        explanation: `
+        解説:
+
+        このテキストは、異なる世界へのポータルの発見が社会や人間の空間と時間に対する認識に与える変革的な影響について主に焦点を当てています。これらのポータルが現実になった場合の潜在的な探検の機会や、文化交流、そしてそれに伴う課題や倫理的な考慮事項も触れられていますが、テキストの中心は人類の経験がどのように根本的に変わるかについてです。
+        Aの選択肢は「瞬時に旅をするためのポータルの作成に関する科学的原理について」とありますが、これはテキストの一部分を指しており、中心テーマではありません。
+        Bの選択肢は「そのようなポータルが可能にする潜在的な探検と商業活動について」とありますが、これもテキストで触れられている側面の一つであり、主な焦点ではないです。
+        Cの選択肢は「これらのポータルの使用から生じる課題と倫理的な考慮事項について」とありますが、これはテキストで触れられている側面の一つであり、中心テーマではありません。
+        Dの選択肢は「社会と人間の空間と時間に対する認識に対する変革的な影響について」とあり、テキストの中心的なテーマを正確に捉えています。
+        正解のDは、テキストで述べられているように、異なる世界へのポータルの発見が社会や人間の空間と時間に対する認識に与える変革的な影響についての概念を反映しています。
+        `,
+      },
+    ],
+  },
+
+  {
+    work_id: 9,
+  
+    title: 'Pre Test9',
   
     work: [
       {
@@ -1208,9 +1388,13 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        解説:
+        Paragraph 解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+
+
+        Question 解説:
+
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1240,9 +1424,13 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        解説:
+        Paragraph 解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+
+
+        Question 解説:
+
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1272,9 +1460,13 @@ export const works = [
         answer: '答え B) Reading books and dreaming about exploring the world.',
   
         explanation: `
-        解説:
+        Paragraph 解説:
 
         「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+
+
+        Question 解説:
+
         「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
         この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
         選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
@@ -1339,345 +1531,175 @@ export const works = [
     ],
   },
 
-  // {
-  //   work_id: 9,
+  {
+    work_id: 10,
   
-  //   title: 'Pre Test9',
+    title: 'Explanation',
   
-  //   work: [
-  //     {
-  //       id: 1,
+    work: [
+      {
+        id: 1,
   
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
+        text: `
+        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        `,
   
-  //       question: 'What did Sarah enjoy doing in her village?',
+        question: 'What did Sarah enjoy doing in her village?',
   
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
+        choices:`
+        A) Disliking people around her.
+        B) Reading books and dreaming about exploring the world.
+        C) Ignoring her studies and friends.
+        D) Feeling sad about living in a village.
+        `,
 
-  //       answer_id: '2',
+        answer_id: '2',
 
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: '答え B) Reading books and dreaming about exploring the world.',
   
-  //       explanation: `
-  //       Paragraph 解説:
+        explanation: `
+        Paragraph 解説:
 
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
 
 
-  //       Question 解説:
+        Question 解説:
 
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
+        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
+        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
+        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
+        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
+        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        `,
+      },
   
-  //     {
-  //       id: 2,
+      {
+        id: 2,
   
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
+        text: `
+        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        `,
   
-  //       question: 'What did Sarah enjoy doing in her village?',
+        question: 'What did Sarah enjoy doing in her village?',
   
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
+        choices:`
+        A) Disliking people around her.
+        B) Reading books and dreaming about exploring the world.
+        C) Ignoring her studies and friends.
+        D) Feeling sad about living in a village.
+        `,
 
-  //       answer_id: '2',
+        answer_id: '2',
 
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: '答え B) Reading books and dreaming about exploring the world.',
   
-  //       explanation: `
-  //       Paragraph 解説:
+        explanation: `
+        Paragraph 解説:
 
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
 
 
-  //       Question 解説:
+        Question 解説:
 
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
+        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
+        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
+        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
+        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
+        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        `,
+      },
   
-  //     {
-  //       id: 3,
+      {
+        id: 3,
   
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
+        text: `
+        Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
+        `,
   
-  //       question: 'What did Sarah enjoy doing in her village?',
+        question: 'What did Sarah enjoy doing in her village?',
   
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
+        choices:`
+        A) Disliking people around her.
+        B) Reading books and dreaming about exploring the world.
+        C) Ignoring her studies and friends.
+        D) Feeling sad about living in a village.
+        `,
 
-  //       answer_id: '2',
+        answer_id: '2',
 
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
+        answer: '答え B) Reading books and dreaming about exploring the world.',
   
-  //       explanation: `
-  //       Paragraph 解説:
+        explanation: `
+        Paragraph 解説:
 
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
-
-
-  //       Question 解説:
-
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 4,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 5,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   work_id: 10,
-  
-  //   title: 'Pre Test10',
-  
-  //   work: [
-  //     {
-  //       id: 1,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
-
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+        「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
 
 
-  //       Question 解説:
+        Question 解説:
 
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 2,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
+        「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
+        この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
+        選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
+        選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
+        選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
+        `,
+      },
 
-  //       answer_id: '2',
+      {
+        id: 4,
 
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
+        text: `
+        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        `,
 
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
 
+        choices:`
+        A) To provide entertainment with music and dance.
+        B) To display the year's agricultural achievements and support community projects.
+        C) To promote local tourism and enhance the town's economy.
+        D) To honor the oldest residents for their lifelong contributions.
+        `,
 
-  //       Question 解説:
+        answer_id: '2',
 
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
-  
-  //     {
-  //       id: 3,
-  
-  //       text: `
-  //       Sarah Johnson lived in a quiet village where she loved to read books and dream about exploring the world. She had many friends and enjoyed school, where she was a very good student. Sarah was kind and always helped people in the village, which made everyone like her. She had a big dream: she wanted to travel and learn about different countries and cultures.Embarking on a transformative journey through realms of diverse cultures and multifarious geographies, Sarah meticulously amalgamated academic perspicacity with experiential learning. Her odyssey, punctuated by stints in places redolent of historical sagas and contemporary dynamisms, was a symphony of enriched insights and nuanced understandings. She cultivated a repository of knowledge, characterized by an in-depth comprehension of societal intricacies and global phenomena, reflecting a harmonization of traditional lore and modern perspectives, which bestowed upon her a panoramic vista of the world's vibrant tapestry.
-  //       `,
-  
-  //       question: 'What did Sarah enjoy doing in her village?',
-  
-  //       choices:`
-  //       A) Disliking people around her.
-  //       B) Reading books and dreaming about exploring the world.
-  //       C) Ignoring her studies and friends.
-  //       D) Feeling sad about living in a village.
-  //       `,
+        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
 
-  //       answer_id: '2',
+        explanation: `
+        解説:
 
-  //       answer: '答え B) Reading books and dreaming about exploring the world.',
-  
-  //       explanation: `
-  //       Paragraph 解説:
+        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        `,
+      },
 
-  //       「多様な文化とさまざまな地理における変革的な旅に乗り出し、サラは学問の洞察と体験的な学びを綿密に融合させました。彼女のオデッセイは、歴史的な物語と現代のダイナミズムに満ちた場所での滞在によって特徴付けられ、豊かな洞察と繊細な理解の交響曲でした。彼女は知識の貯蔵庫を育て、社会の複雑さと全球的な現象に対する深い理解を特徴とし、伝統的な知識と現代的な視点の調和を反映して、世界の鮮やかなタペストリーの全体的な眺めを彼女に授けました。」
+      {
+        id: 5,
 
+        text: `
+        Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
+        `,
 
-  //       Question 解説:
+        question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
 
-  //       「サラの多様な文化と場所を通じた旅は何に貢献しましたか？」
-  //       この質問は、サラの旅が彼女の知識や理解にどのように影響したかを尋ねています。
-  //       選択肢C「社会の複雑さと全球的な現象に対する詳細な理解」は正解です。これは段落2で説明されている内容と一致しています。サラは、様々な文化や場所から学び、社会の複雑さと全球的な現象に対する詳細な理解を持つようになりました。
-  //       選択肢AとBは、段落2の内容とは逆であり、サラの旅が彼女の理解や学びを制限または嫌いにさせたわけではありません。
-  //       選択肢D「さまざまな文化についての混乱を生み出す」も不正解です。段落2は、サラが混乱ではなく、さまざまな文化についての豊かな洞察と理解を得たことを示しています。
-  //       `,
-  //     },
+        choices:`
+        A) To provide entertainment with music and dance.
+        B) To display the year's agricultural achievements and support community projects.
+        C) To promote local tourism and enhance the town's economy.
+        D) To honor the oldest residents for their lifelong contributions.
+        `,
 
-  //     {
-  //       id: 4,
+        answer_id: '2',
 
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
+        answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
 
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
+        explanation: `
+        解説:
 
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-
-  //     {
-  //       id: 5,
-
-  //       text: `
-  //       Amidst the rolling hills and sweeping meadows of the Harrowsmith Valley, lies the quaint town of Eldenbridge. Renowned for its annual Harvest Moon Gala, Eldenbridge has long been a bastion of agrarian tradition and innovation. The Gala, a sophisticated soiree under the autumn moonlight, celebrates the culmination of the year's agricultural endeavors with an exhibition of locally sourced produce and a silent auction of exquisite crafts. The event not only serves as a showcase for regional farmers but also as a crucible for fostering community cohesion and philanthropy, with proceeds going towards local education and conservation efforts. Eldenbridge's inhabitants, a blend of seasoned agriculturists and young entrepreneurs, unite in their respect for the land and their commitment to sustainable practices, ensuring the town's legacy thrives in an era of rapid change.
-  //       `,
-
-  //       question: 'What is the central focus of the Harvest Moon Gala in Eldenbridge?',
-
-  //       choices:`
-  //       A) To provide entertainment with music and dance.
-  //       B) To display the year's agricultural achievements and support community projects.
-  //       C) To promote local tourism and enhance the town's economy.
-  //       D) To honor the oldest residents for their lifelong contributions.
-  //       `,
-
-  //       answer_id: '2',
-
-  //       answer: '答え B) To display the year\'s agricultural achievements and support community projects.',
-
-  //       explanation: `
-  //       解説:
-
-  //       この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
-  //       `,
-  //     },
-  //   ],
-  // },
+        この文章は、エルデンブリッジのハーベストムーンガラが、その年の農業の成果を展示し、コミュニティプロジェクトを支援することに焦点を当てていることを述べています。選択肢A「音楽とダンスでエンターテイメントを提供する」は、ガラが洗練された夜会であることを示唆していますが、中心的な焦点ではありません。選択肢B「その年の農業の成果を展示し、コミュニティプロジェクトを支援する」は、地元の農産物の展示とサイレントオークションが行われ、収益が地元の教育と保全活動に向けられることを述べており、ガラの主要な目的です。選択肢C「地元の観光を促進し、町の経済を向上させる」は、ガラが地域の農家をショーケースとしていることから間接的な影響があるかもしれませんが、中心的な焦点ではありません。選択肢D「最も古い住民を生涯の貢献で称える」は、文章中には言及されていません。したがって、正しい答えはBです。
+        `,
+      },
+    ],
+  },
 
   // {
   //   work_id: 11,
