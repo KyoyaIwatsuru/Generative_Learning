@@ -69,27 +69,57 @@ export function HomeButton () {
 
 export function NextButton () {
   let link = usePathname()
-  const work_id = Number(link.slice(1, 2))
-  const id = Number(link.slice(-1))
-
-  if (link === links[4].href) {
-    link = links[0].href
-  } else {
-    const href = link.slice(2, -2)
-    for (let i = 0; i < links.length - 1; i++) {
-      if (href === links[i].href) {
-        if (i === links.length - 2) {
-          const last = works[work_id - 1].work.length - 1
-          if (id === works[work_id - 1].work[last].id) {
-            link = links[4].href
-            break
+  let work_id = 0
+  let id = 0
+  if (link.slice(2, 3) === '/') {
+    work_id = Number(link.slice(1, 2))
+    id = Number(link.slice(-1))
+  
+    if (link === links[4].href) {
+      link = links[0].href
+    } else {
+      const href = link.slice(2, -2)
+      for (let i = 0; i < links.length - 1; i++) {
+        if (href === links[i].href) {
+          if (i === links.length - 2) {
+            const last = works[work_id - 1].work.length - 1
+            if (id === works[work_id - 1].work[last].id) {
+              link = links[4].href
+              break
+            } else {
+              link = '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()
+              break
+            }
           } else {
-            link = '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()
+            link = '/' + work_id.toString() + links[i + 1].href + '/' + id.toString()
             break
           }
-        } else {
-          link = '/' + work_id.toString() + links[i + 1].href + '/' + id.toString()
-          break
+        }
+      }
+    }
+  } else {
+    work_id = Number(link.slice(1, 3))
+    id = Number(link.slice(-1))
+  
+    if (link === links[4].href) {
+      link = links[0].href
+    } else {
+      const href = link.slice(3, -2)
+      for (let i = 0; i < links.length - 1; i++) {
+        if (href === links[i].href) {
+          if (i === links.length - 2) {
+            const last = works[work_id - 1].work.length - 1
+            if (id === works[work_id - 1].work[last].id) {
+              link = links[4].href
+              break
+            } else {
+              link = '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()
+              break
+            }
+          } else {
+            link = '/' + work_id.toString() + links[i + 1].href + '/' + id.toString()
+            break
+          }
         }
       }
     }
