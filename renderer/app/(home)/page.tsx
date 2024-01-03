@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { works } from '@/lib/data';
+import { works } from '@/lib/main_data';
 
 export default function Page () {
   const connect = fetch('http://localhost:8765/tobii_pro/connect')

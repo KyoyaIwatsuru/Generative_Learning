@@ -18,7 +18,7 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
-import { links, works } from '@/lib/data';
+import { links, works } from '@/lib/main_data';
 import { ValueContext, ValueDispatch } from '@/components/value'
 
 export function HomeButton () {

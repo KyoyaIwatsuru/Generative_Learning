@@ -1,4 +1,4 @@
-import { works, page } from '@/lib/data';
+import { works, page } from '@/lib/main_data';
 import Choice from '@/components/choice'
 
 export async function generateStaticParams() {
@@ -11,13 +11,13 @@ export default function Page ({
   params: { work: string; id: string }
 }) {
   const { work, id } = params
-  const text = works[Number(work) - 1].work[Number(id) - 1].text
-  const question = works[Number(work) - 1].work[Number(id) - 1].question
-  const choices = works[Number(work) - 1].work[Number(id) - 1].choices
-  const answer = works[Number(work) - 1].work[Number(id) - 1].answer
-  const explanation_tmp = works[Number(work) - 1].work[Number(id) - 1].explanation
-  const Explanation = explanation_tmp.trim().split(/\r\n|\r|\n/).map(choice => choice.trim())
-  const explanation = Explanation.map(explanation => '\n' + explanation)
+  // const text = works[Number(work) - 1].work[Number(id) - 1].text
+  // const question = works[Number(work) - 1].work[Number(id) - 1].question
+  // const choices = works[Number(work) - 1].work[Number(id) - 1].choices
+  // const answer = works[Number(work) - 1].work[Number(id) - 1].answer
+  // const explanation_tmp = works[Number(work) - 1].work[Number(id) - 1].explanation
+  // const Explanation = explanation_tmp.trim().split(/\r\n|\r|\n/).map(choice => choice.trim())
+  // const explanation = Explanation.map(explanation => '\n' + explanation)
   const last = works[Number(work) - 1].work.length - 1
 
   if (Number(id) === works[Number(work) - 1].work[last].id) {

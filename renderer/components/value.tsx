@@ -2,7 +2,7 @@
 
 import { useState, createContext, useReducer } from "react"
 import { useParams } from 'next/navigation';
-import { works } from '@/lib/data';
+import { works } from '@/lib/main_data';
 
 export const ValueContext = createContext({} as {
   text_time: number
@@ -38,7 +38,7 @@ export default function ValueProvider({
   const [choice, setChoice] = useState('0')
   const [flag, setFlag] = useState(true)
   let answer = -1
-  if (works[work_id].work[id].answer_id === choice) {
+  if (works[work_id].work[id].answer_id_1 === choice) {
     answer = 1
   } else {
     answer = 0
