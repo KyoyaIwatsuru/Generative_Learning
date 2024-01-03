@@ -19,6 +19,8 @@ export const ValueContext = createContext({} as {
   setChoice: React.Dispatch<React.SetStateAction<string>>
   flag: boolean
   setFlag: React.Dispatch<React.SetStateAction<boolean>>
+  paragraph: number
+  setParagraph: React.Dispatch<React.SetStateAction<number>>
 })
 export const ValueDispatch = createContext({} as React.Dispatch<any>)
 
@@ -37,8 +39,9 @@ export default function ValueProvider({
   const [understand, setUnderstand] = useState('1')
   const [choice, setChoice] = useState('0')
   const [flag, setFlag] = useState(true)
+  const [paragraph, setParagraph] = useState(0)
   let answer = -1
-  if (works[work_id].work[id].answer_id_1 === choice) {
+  if (works[work_id].work[id].paragraph[paragraph].answer_id === choice) {
     answer = 1
   } else {
     answer = 0
@@ -98,7 +101,7 @@ export default function ValueProvider({
 
   return (
     <ValueDispatch.Provider value={dispatch}>
-      <ValueContext.Provider value={{ text_time, setText_time, understand_time, setUnderstand_time, question_time, setQuestion_time, explanation_time, setExplanation_time, understand, setUnderstand, choice, setChoice, flag, setFlag }}>
+      <ValueContext.Provider value={{ text_time, setText_time, understand_time, setUnderstand_time, question_time, setQuestion_time, explanation_time, setExplanation_time, understand, setUnderstand, choice, setChoice, flag, setFlag, paragraph, setParagraph }}>
         {children}
       </ValueContext.Provider >
     </ValueDispatch.Provider>

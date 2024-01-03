@@ -250,45 +250,57 @@ export function NextButton () {
   }
 }
 
-export function RadioVerticalList({ choices }: { choices: string }) {
+export function RadioVerticalList({
+  work,
+  id,
+}: {
+  work: string
+  id: string 
+}) {
+  const {paragraph, setParagraph} = useContext(ValueContext)
+  const question = works[Number(work) - 1].work[Number(id) - 1].paragraph[paragraph].question
+  const choices = works[Number(work) - 1].work[Number(id) - 1].paragraph[paragraph].choices
   const Choice = choices.trim().split(/\r\n|\r|\n/).map(choice => choice.trim())
   const {choice, setChoice} = useContext(ValueContext)
   const {flag, setFlag} = useContext(ValueContext)
 
   return (
-    <List className="mt-[2%] mx-[20%]">
-      {Choice.map((choice) => (
-        <ListItem key={Choice.indexOf(choice)} className="p-0">
-          <label
-            htmlFor={`vertical-list-${Choice.indexOf(choice)}`}
-            className="flex w-full cursor-pointer items-center px-6 py-5"
-          >
-            <ListItemPrefix className="mr-5">
-              <Radio
-                name="vertical-list"
-                id={`vertical-list-${Choice.indexOf(choice)}`}
-                ripple={false}
-                className="hover:before:opacity-0"
-                containerProps={{
-                  className: "p-0",
-                }}
-                crossOrigin=""
-                value={Choice.indexOf(choice) + 1}
-                onChange={(e) => {
-                  setFlag(false)
-                  setChoice(e.currentTarget.value)
-                }}
-              />
-            </ListItemPrefix>
-            <Typography
-              color="black"
-              className="font-medium text-gray-900 text-lg"
+    <>
+      <h1 className="mt-[8%] text-xl font-bold text-center text-gray-900">問題： {question}</h1>
+      <List className="mt-[2%] mx-[20%]">
+        {Choice.map((choice) => (
+          <ListItem key={Choice.indexOf(choice)} className="p-0">
+            <label
+              htmlFor={`vertical-list-${Choice.indexOf(choice)}`}
+              className="flex w-full cursor-pointer items-center px-6 py-5"
             >
-              {choice}
-            </Typography>
-          </label>
-        </ListItem>
-      ))}
-    </List>
+              <ListItemPrefix className="mr-5">
+                <Radio
+                  name="vertical-list"
+                  id={`vertical-list-${Choice.indexOf(choice)}`}
+                  ripple={false}
+                  className="hover:before:opacity-0"
+                  containerProps={{
+                    className: "p-0",
+                  }}
+                  crossOrigin=""
+                  value={Choice.indexOf(choice) + 1}
+                  onChange={(e) => {
+                    setFlag(false)
+                    setChoice(e.currentTarget.value)
+                  }}
+                />
+              </ListItemPrefix>
+              <Typography
+                color="black"
+                className="font-medium text-gray-900 text-lg"
+              >
+                {choice}
+              </Typography>
+            </label>
+          </ListItem>
+        ))}
+      </List>
+    </>
   );
 }
