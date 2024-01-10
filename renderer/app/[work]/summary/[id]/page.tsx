@@ -1,5 +1,5 @@
 import { page } from '@/lib/main_data';
-import { RadioVerticalList } from '@/components/button'
+import { SelectValidations } from '@/components/select'
 
 export async function generateStaticParams() {
   return await page
@@ -12,7 +12,7 @@ export default function Page ({
 }) {
   return (
     <main className="h-body">
-      <RadioVerticalList params={params}/>
+      <SelectValidations params={params}/>
     </main>
   )
 }

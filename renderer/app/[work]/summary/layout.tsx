@@ -1,9 +1,7 @@
 import { Metadata } from 'next'
-import Header from '@/components/header';
-import Next from '@/components/next';
 
 export const metadata: Metadata = {
-  title: 'Finish',
+  title: 'Summary',
 };
 
 export default function Layout({
@@ -13,9 +11,7 @@ export default function Layout({
 }) {
   return (
     <>
-      <Header />
       {children}
-      <Next />
     </>
   )
 }

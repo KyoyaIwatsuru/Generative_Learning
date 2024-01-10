@@ -69,93 +69,76 @@ export function HomeButton () {
 
 export function NextButton () {
   let link = usePathname()
-  let work_id = 0
+  let work = 0
   let id = 0
   if (link.slice(2, 3) === '/') {
-    work_id = Number(link.slice(1, 2))
+    work = Number(link.slice(1, 2))
     id = Number(link.slice(-1))
-  
-    if (link === links[4].href) {
-      link = links[0].href
-    } else {
-      const href = link.slice(2, -2)
-      for (let i = 0; i < links.length - 1; i++) {
-        if (href === links[i].href) {
-          if (i === links.length - 2) {
-            const last = works[work_id - 1].work.length - 1
-            if (id === works[work_id - 1].work[last].id) {
-              link = links[4].href
-              break
-            } else {
-              link = '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()
-              break
-            }
+    const href = link.slice(2, -2)
+
+    for (let i = 0; i < links.length; i++) {
+      if (href === links[i].href) {
+        if (i === links.length - 1) {
+          const last = works[work - 1].work.length - 1
+          if (id === works[work - 1].work[last].id) {
+            link = links[0].href
+            break
           } else {
-            link = '/' + work_id.toString() + links[i + 1].href + '/' + id.toString()
+            link = '/' + work.toString() + links[1].href + '/' + (id + 1).toString()
             break
           }
+        } else {
+          link = '/' + work.toString() + links[i + 1].href + '/' + id.toString()
+          break
         }
       }
     }
   } else {
-    work_id = Number(link.slice(1, 3))
+    work = Number(link.slice(1, 3))
     id = Number(link.slice(-1))
-  
-    if (link === links[4].href) {
-      link = links[0].href
-    } else {
-      const href = link.slice(3, -2)
-      for (let i = 0; i < links.length - 1; i++) {
-        if (href === links[i].href) {
-          if (i === links.length - 2) {
-            const last = works[work_id - 1].work.length - 1
-            if (id === works[work_id - 1].work[last].id) {
-              link = links[4].href
-              break
-            } else {
-              link = '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()
-              break
-            }
+    const href = link.slice(3, -2)
+
+    for (let i = 0; i < links.length - 1; i++) {
+      if (href === links[i].href) {
+        if (i === links.length - 1) {
+          const last = works[work - 1].work.length - 1
+          if (id === works[work - 1].work[last].id) {
+            link = links[0].href
+            break
           } else {
-            link = '/' + work_id.toString() + links[i + 1].href + '/' + id.toString()
+            link = '/' + work.toString() + links[1].href + '/' + (id + 1).toString()
             break
           }
+        } else {
+          link = '/' + work.toString() + links[i + 1].href + '/' + id.toString()
+          break
         }
       }
     }
   }
 
+  const router = useRouter()
   const [size, setSize] = useState(null);
   const handleOpen = (value) => setSize(value);
   const {understand_time, setUnderstand_time} = useContext(ValueContext)
-  const {explanation_time, setExplanation_time} = useContext(ValueContext)
+  const {finish_time, setFinish_time} = useContext(ValueContext)
+  const {websocket, setWebSocket} = useContext(ValueContext)
+  const {paragraph, setParagraph} = useContext(ValueContext)
   const {understand, setUnderstand} = useContext(ValueContext)
   const {choice, setChoice} = useContext(ValueContext)
   const {flag, setFlag} = useContext(ValueContext)
+  const {selects, setSelects} = useContext(ValueContext)
+  const {flags, setFlags} = useContext(ValueContext)
+  const Flag = !flags.every(value => value === false)
   const dispatch = useContext(ValueDispatch);
-  const router = useRouter()
 
-  if (link === '/' + work_id.toString() + links[1].href + '/' + (id + 1).toString()) {
-    return (
-      <button onClick={() => {
-        fetch('http://localhost:8765/recording/capture')
-        setTimeout(() => {
-          router.push(link)
-        }, 500);
-      }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
-        Next
-        <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-      </button>
-    )
-  } else if (link === '/' + work_id.toString() + links[2].href + '/' + id.toString()) {
+  if (link === '/' + work.toString() + links[2].href + '/' + id.toString()) {
     return (
       <>
         <button onClick={() => {
           fetch('http://localhost:8765/recording/capture')
+          setWebSocket(false)
           handleOpen("xxl")
-          setUnderstand('1')
           setUnderstand_time(new Date().getTime())
         }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
           Next
@@ -194,8 +177,6 @@ export function NextButton () {
                 onClick={() => {
                   fetch('http://localhost:8765/recording/capture')
                   handleOpen(null)
-                  setChoice('0')
-                  setFlag(true)
                 }}
               >
                 <span className='text-base'>Next</span>
@@ -205,14 +186,42 @@ export function NextButton () {
         </Dialog>
       </>
     )
-  } else if (link === '/' + work_id.toString() + links[3].href + '/' + id.toString()) {
+  } else if (link === '/' + work.toString() + links[3].href + '/' + id.toString()) {
     return (
       <button disabled={flag} onClick={() => {
         fetch('http://localhost:8765/recording/capture')
         setTimeout(() => {
           router.push(link)
         }, 500);
-        setExplanation_time(new Date().getTime())
+      }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        Next
+        <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </button>
+    )
+  } else if (link === '/' + work.toString() + links[4].href + '/' + id.toString()) {
+    return (
+      <button onClick={() => {
+        fetch('http://localhost:8765/recording/capture')
+        setTimeout(() => {
+          router.push(link)
+        }, 500);
+      }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        Next
+        <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </button>
+    )
+  } else if (link === '/' + work.toString() + links[5].href + '/' + id.toString()) {
+    return (
+      <button disabled={Flag} onClick={() => {
+        fetch('http://localhost:8765/recording/capture')
+        setTimeout(() => {
+          router.push(link)
+        }, 500);
+        setFinish_time(new Date().getTime())
         dispatch({type: 'result'})
       }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
         Next
@@ -221,10 +230,32 @@ export function NextButton () {
         </svg>
       </button>
     )
-  } else if (link === links[4].href) {
+  } else if (link === '/' + work.toString() + links[1].href + '/' + (id + 1).toString()) {
+    return (
+      <button onClick={() => {
+        fetch('http://localhost:8765/recording/capture')
+        setParagraph(0)
+        setUnderstand('1')
+        setChoice('0')
+        setFlag(true)
+        setSelects(['0', '0', '0', '0'])
+        setFlags([true, true, true, true])
+        setTimeout(() => {
+          router.push(link)
+          setWebSocket(true)
+        }, 500);
+        fetch('http://localhost:8765/recording/stop')
+      }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
+        Next
+        <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </button>
+    )
+  } else if (link === links[0].href) {
     return (
       <Link href={link}>
-        <button disabled={flag} onClick={() => {
+        <button onClick={() => {
           fetch('http://localhost:8765/recording/capture')
           dispatch({type: 'download'})
           fetch('http://localhost:8765/recording/stop')
@@ -251,40 +282,42 @@ export function NextButton () {
 }
 
 export function RadioVerticalList({
-  work,
-  id,
+  params,
 }: {
-  work: string
-  id: string 
+  params: { work: number; id: number }
 }) {
+  const { work, id } = params
   const {paragraph, setParagraph} = useContext(ValueContext)
-  const question = works[Number(work) - 1].work[Number(id) - 1].paragraph[paragraph].question
-  const choices = works[Number(work) - 1].work[Number(id) - 1].paragraph[paragraph].choices
+  const text = works[work - 1].work[id - 1].paragraph[paragraph].text
+  const question = works[work - 1].work[id - 1].paragraph[paragraph].question
+  const choices = works[work - 1].work[id - 1].paragraph[paragraph].choices
   const Choice = choices.trim().split(/\r\n|\r|\n/).map(choice => choice.trim())
   const {choice, setChoice} = useContext(ValueContext)
   const {flag, setFlag} = useContext(ValueContext)
 
   return (
     <>
+      {/* <h1 className="mt-[1%] text-xl font-bold text-center text-gray-900">第{paragraph + 1}段落</h1>
+      <p className="mt-0 mx-[10%] text-lg text-justify">{text}</p> */}
       <h1 className="mt-[8%] text-xl font-bold text-center text-gray-900">問題： {question}</h1>
       <List className="mt-[2%] mx-[20%]">
-        {Choice.map((choice) => (
-          <ListItem key={Choice.indexOf(choice)} className="p-0">
+        {Choice.map((choice, index) => (
+          <ListItem key={index} className="p-0">
             <label
-              htmlFor={`vertical-list-${Choice.indexOf(choice)}`}
+              htmlFor={`vertical-list-${index}`}
               className="flex w-full cursor-pointer items-center px-6 py-5"
             >
               <ListItemPrefix className="mr-5">
                 <Radio
                   name="vertical-list"
-                  id={`vertical-list-${Choice.indexOf(choice)}`}
+                  id={`vertical-list-${index}`}
                   ripple={false}
                   className="hover:before:opacity-0"
                   containerProps={{
                     className: "p-0",
                   }}
                   crossOrigin=""
-                  value={Choice.indexOf(choice) + 1}
+                  value={index + 1}
                   onChange={(e) => {
                     setFlag(false)
                     setChoice(e.currentTarget.value)
