@@ -33,7 +33,7 @@ export const works = [
       {
         id: 1,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
@@ -181,7 +181,7 @@ export const works = [
       {
         id: 2,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
@@ -337,7 +337,7 @@ export const works = [
       {
         id: 1,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 435.0, 610.0, 750.0, 890.0],
 
         paragraph: [
           {
@@ -485,7 +485,7 @@ export const works = [
       {
         id: 2,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 400.0, 540.0, 715.0, 855.0],
 
         paragraph: [
           {
@@ -633,7 +633,7 @@ export const works = [
       {
         id: 3,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
 
         paragraph: [
           {
@@ -781,7 +781,7 @@ export const works = [
       {
         id: 4,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 435.0, 610.0, 750.0, 890.0],
 
         paragraph: [
           {
@@ -937,7 +937,7 @@ export const works = [
       {
         id: 1,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
@@ -1055,7 +1055,7 @@ export const works = [
           L. have interactive displays
           `,
 
-          answer_ids: ['11', '5', '6', '10', '7', '8'],
+          answer_ids: ['11', '5', '6', '9', '7', '8'],
 
           answers: `
           1. K
@@ -1085,7 +1085,7 @@ export const works = [
       {
         id: 2,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
 
         paragraph: [
           {
@@ -1233,7 +1233,7 @@ export const works = [
       {
         id: 3,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
 
         paragraph: [
           {
@@ -1381,7 +1381,7 @@ export const works = [
       {
         id: 4,
 
-        y_position: [260.0, 450.0, 590.0, 730.0, 870.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
