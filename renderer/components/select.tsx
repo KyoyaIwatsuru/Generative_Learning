@@ -15,7 +15,7 @@ export function SelectValidations({
   const choices = works[work - 1].work[id - 1].summary.choices
   const {selects, setSelects} = useContext(ValueContext)
   const {flags, setFlags} = useContext(ValueContext)
-  const alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+  const alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
 
   function handleSelect(value, index) {
     const nextSelects = selects.map((v, i) => {
@@ -39,9 +39,9 @@ export function SelectValidations({
   return (
     <>
       <h1 className="mt-[2%] text-xl font-bold text-center text-gray-900">要約問題</h1>
-      <p className="mt-[1%] mx-[25%] text-lg text-justify">{question}</p>
+      <p className="mt-[1%] mx-[10%] text-lg text-justify">{question}</p>
       <p className="mx-[25%] text-lg">{choices}</p>
-      <div className="mt-[1%] mx-[20%] flex justify-between gap-5">
+      <div className="mx-[5%] flex justify-between gap-3">
         {selects.map((select, index) => (
           <Select
             key={index}

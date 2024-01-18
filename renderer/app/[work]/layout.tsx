@@ -1,5 +1,5 @@
 import ValueProvider from '@/components/value';
-import Header from '@/components/header';
+import Header from '@/components/home';
 import Next from '@/components/next';
 
 export default function Layout({

@@ -53,23 +53,23 @@ export default function ValueProvider({
   const [understand, setUnderstand] = useState('1')
   const [choice, setChoice] = useState('0')
   const [flag, setFlag] = useState(true)
-  const [selects, setSelects] = useState(['0', '0', '0', '0'])
-  const [flags, setFlags] = useState([true, true, true, true])
+  const [selects, setSelects] = useState(['0', '0', '0', '0', '0', '0'])
+  const [flags, setFlags] = useState([true, true, true, true, true, true])
   let answer = -1
   if (works[work].work[id].paragraph[paragraph].answer_id === choice) {
     answer = 1
   } else {
     answer = 0
   }
-  let answers = [-1, -1, -1, -1]
-  for (let i = 0; i < 4; i++) {
+  let answers = [-1, -1, -1, -1, -1, -1]
+  for (let i = 0; i < 6; i++) {
     if (works[work].work[id].summary.answer_ids[i] === selects[i]) {
       answers[i] = 1
     } else {
       answers[i] = 0
     }
   }
-  const percentage = answers.reduce((a, b) => a + b, 0) / 4
+  const sum = answers.reduce((a, b) => a + b, 0)
 
   const initialState = [];
   function reducer(results, action) {
@@ -90,19 +90,23 @@ export default function ValueProvider({
           selects_2: selects[1],
           selects_3: selects[2],
           selects_4: selects[3],
+          selects_5: selects[4],
+          selects_6: selects[5],
           answers_1: answers[0],
           answers_2: answers[1],
           answers_3: answers[2],
           answers_4: answers[3],
-          percentage: percentage,
+          answers_5: answers[4],
+          answers_6: answers[5],
+          sum: sum,
         }];
       }
       case 'download': {
         const csvText =
-          'index,text_time,understand_time,question_time,explanation_time,summary_time,finish_time,paragraph,understand,choice,answer,selects_1,selects_2,selects_3,selects_4,answers_1,answers_2,answers_3,answers_4,percentage\n' +
+          'index,text_time,understand_time,question_time,explanation_time,summary_time,finish_time,paragraph,understand,choice,answer,selects_1,selects_2,selects_3,selects_4,answers_1,answers_2,answers_3,answers_4,answers_5,answers_6,sum\n' +
           String(
             results.map(
-              ({ text_time, understand_time, question_time, explanation_time, summary_time, finish_time, paragraph, understand, choice, answer, selects_1, selects_2, selects_3, selects_4, answers_1, answers_2, answers_3, answers_4, percentage }, index) => [
+              ({ text_time, understand_time, question_time, explanation_time, summary_time, finish_time, paragraph, understand, choice, answer, selects_1, selects_2, selects_3, selects_4, answers_1, answers_2, answers_3, answers_4, answers_5, answers_6, sum }, index) => [
                 index,
                 text_time,
                 understand_time,
@@ -122,7 +126,9 @@ export default function ValueProvider({
                 answers_2,
                 answers_3,
                 answers_4,
-                percentage
+                answers_5,
+                answers_6,
+                sum
               ]
             ).join('\n')
           )
@@ -130,7 +136,7 @@ export default function ValueProvider({
         const blob = new Blob([csvText], { type: 'text/csv' })
         const downloadLink = document.createElement('a')
         downloadLink.href = URL.createObjectURL(blob)
-        downloadLink.download = `${title}__${now
+        downloadLink.download = `${title}_${now
           .toISOString()
           .split('.')[0]
           .replace(/:/g, '-')}.csv`

@@ -14,7 +14,7 @@ export default function Page ({
 
   return (
     <main className="h-body">
-      {id == works[work - 1].work[last].id
+      {id === works[work - 1].work[last].id
         ? (
           <>
             <h1 className="mt-[5%] text-2xl font-bold text-center text-gray-900">お疲れ様でした！<br/><br/>ファイルの保存を忘れずに！</h1>

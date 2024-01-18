@@ -238,8 +238,8 @@ export function NextButton () {
         setUnderstand('1')
         setChoice('0')
         setFlag(true)
-        setSelects(['0', '0', '0', '0'])
-        setFlags([true, true, true, true])
+        setSelects(['0', '0', '0', '0', '0', '0'])
+        setFlags([true, true, true, true, true, true])
         setTimeout(() => {
           router.push(link)
           setWebSocket(true)
