@@ -21,6 +21,16 @@ export const page = [
   { work: '3', id: '2' },//Methods of communication between different dimensions or universes and their impacts.:3,4(Advance: 4)
   { work: '3', id: '3' },//Children with the special ability to communicate with animals:)3,4(Advance: 3)
   { work: '3', id: '4' },//The discovery and utilization of innovative energy resources from new planets and dimensions.:3,4(Advance: 4)
+  //Main Test3
+  { work: '4', id: '1' },//Eternal life achieved through advanced medical technology and its implications.:3,5(Advance: 3)
+  { work: '4', id: '2' },//An adventure in a mysterious kingdom existing in dreams.:3,5(Advance: 4)
+  { work: '4', id: '3' },//The story of a child with the special ability to freely stop time.:3,5(Advance: 2)
+  { work: '4', id: '4' },//The story of a wizard who can manipulate the weather at will.:3,5(Advance: 1)
+  //Main Test4
+  { work: '5', id: '1' },//Interactions with mythical creatures like unicorns and dragons.:3,5(Advance: 1)
+  { work: '5', id: '2' },//The complex diplomatic relationships and political systems among different cosmic civilizations.:3,5(Advance: 3)
+  { work: '5', id: '3' },//The lifestyle of people who have built a civilization on the moon.:3,5(Advance: 4)
+  { work: '5', id: '4' },//A fictional world where plants have emotions and can communicate with humans.:3,5(Advance: 2)
 ]
 
 export const works = [
@@ -128,7 +138,7 @@ export const works = [
             answer: `答え C) The introspection facilitated by fictional journeys`,
 
             explanation: `
-            選択肢C「フィクションによる旅がもたらす内省」が正解です。第4段落（高度な難易度）では、架空の国々を通じた旅が読者に内省を促し、自己と世界に対するより深い理解をもたらす方法について説明されています。A「フィクションが個人成長に果たす役割」、B「読者の先入観に対する挑戦」、D「文学が提供する人間性に対する洞察」も重要なポイントですが、この段落のキーポイントはフィクションによる旅がもたらす内省です。
+            選択肢C「フィクションによる旅がもたらす内省」が正解です。第4段落では、架空の国々を通じた旅が読者に内省を促し、自己と世界に対するより深い理解をもたらす方法について説明されています。A「フィクションが個人成長に果たす役割」、B「読者の先入観に対する挑戦」、D「文学が提供する人間性に対する洞察」も重要なポイントですが、この段落のキーポイントはフィクションによる旅がもたらす内省です。
             `,
           },
         ],
@@ -276,7 +286,7 @@ export const works = [
             answer: `答え C) The introspection facilitated by fictional journeys`,
 
             explanation: `
-            選択肢C「フィクションによる旅がもたらす内省」が正解です。第4段落（高度な難易度）では、架空の国々を通じた旅が読者に内省を促し、自己と世界に対するより深い理解をもたらす方法について説明されています。A「フィクションが個人成長に果たす役割」、B「読者の先入観に対する挑戦」、D「文学が提供する人間性に対する洞察」も重要なポイントですが、この段落のキーポイントはフィクションによる旅がもたらす内省です。
+            選択肢C「フィクションによる旅がもたらす内省」が正解です。第4段落では、架空の国々を通じた旅が読者に内省を促し、自己と世界に対するより深い理解をもたらす方法について説明されています。A「フィクションが個人成長に果たす役割」、B「読者の先入観に対する挑戦」、D「文学が提供する人間性に対する洞察」も重要なポイントですが、この段落のキーポイントはフィクションによる旅がもたらす内省です。
             `,
           },
         ],
@@ -556,7 +566,7 @@ export const works = [
             answer: `答え B) The historical research and theories about the ghost ship`,
 
             explanation: `
-            選択肢B「歴史的研究と幽霊船に関する理論」が正解です。第3段落（高度な難易度）では、歴史的記録に基づく調査や、幽霊船の伝説が実際の出来事に根ざしている可能性についての理論が取り上げられています。A「現代の海洋技術への幽霊船の影響」、C「海洋の迷信の産物としての幽霊船」、D「大衆メディアにおける幽霊船の役割」は、この段落の主要なテーマではありません。
+            選択肢B「歴史的研究と幽霊船に関する理論」が正解です。第3段落では、歴史的記録に基づく調査や、幽霊船の伝説が実際の出来事に根ざしている可能性についての理論が取り上げられています。A「現代の海洋技術への幽霊船の影響」、C「海洋の迷信の産物としての幽霊船」、D「大衆メディアにおける幽霊船の役割」は、この段落の主要なテーマではありません。
             `,
           },
 
@@ -882,7 +892,7 @@ export const works = [
         ],
 
         summary: {
-          question: `The emergence of gene editing has (1)______, propelling advancements in various fields, yet it has also incited (2)______. Utilizing technologies like CRISPR-Cas9 (3)______, but this innovation is accompanied by (4)______. The public’s opinion on these scientific developments is (5)______, necessitating a (6)______ approach to address both the potential benefits and ethical concerns.`,
+          question: `The emergence of gene editing has (1)______, propelling advancements in various fields, yet it has also incited (2)______. Utilizing technologies like CRISPR-Cas9 (3)______, but this innovation is accompanied by (4)______. The public's opinion on these scientific developments is (5)______, necessitating a (6)______ approach to address both the potential benefits and ethical concerns.`,
 
           choices:`
           A. varied and often polarized
@@ -1180,7 +1190,7 @@ export const works = [
             answer: `答え A) The ethical and philosophical questions raised by communication`,
 
             explanation: `
-            選択肢A「通信によって引き起こされる倫理的および哲学的な疑問」が正解です。第4段落（高度な難易度）では、異次元通信の見通しが、現実の認識と宇宙における我々の位置への影響、そして宇宙の構造に不測の影響を及ぼすリスクや、有害な情報の意図しない交換などの潜在的なリスクについて、慎重な検討が必要であることが議論されています。B「現実認識への影響」、C「時空に対する意図しない影響のリスク」、D「次元間での有害情報の交換」も関連するテーマですが、この段落のキーポイントは通信によって引き起こされる倫理的および哲学的な疑問です。
+            選択肢A「通信によって引き起こされる倫理的および哲学的な疑問」が正解です。第4段落では、異次元通信の見通しが、現実の認識と宇宙における我々の位置への影響、そして宇宙の構造に不測の影響を及ぼすリスクや、有害な情報の意図しない交換などの潜在的なリスクについて、慎重な検討が必要であることが議論されています。B「現実認識への影響」、C「時空に対する意図しない影響のリスク」、D「次元間での有害情報の交換」も関連するテーマですが、この段落のキーポイントは通信によって引き起こされる倫理的および哲学的な疑問です。
             `,
           },
         ],
@@ -1304,7 +1314,7 @@ export const works = [
             answer: `答え A) The scientific investigation into the origin of this ability`,
 
             explanation: `
-            選択肢A「この能力の起源に対する科学的調査」が正解です。第3段落（高度な難易度）では、この能力がどのようにして発達するかについての科学的研究が行われていることが説明されています。B「共感の発達における役割」、C「動物の非言語的手がかりの理解」、D「動物との直感的なつながりの形成」は関連するテーマですが、この段落の主要なテーマは能力の起源の科学的調査です。
+            選択肢A「この能力の起源に対する科学的調査」が正解です。第3段落では、この能力がどのようにして発達するかについての科学的研究が行われていることが説明されています。B「共感の発達における役割」、C「動物の非言語的手がかりの理解」、D「動物との直感的なつながりの形成」は関連するテーマですが、この段落の主要なテーマは能力の起源の科学的調査です。
             `,
           },
 
@@ -1476,7 +1486,7 @@ export const works = [
             answer: `答え A) The ethical considerations in harnessing new energy resources`,
 
             explanation: `
-            選択肢A「新エネルギー資源の活用における倫理的配慮」が正解です。第4段落（高度な難易度）では、新しいエネルギー資源の活用が持続可能性と環境責任の従来の概念に挑戦していること、またそれに伴う倫理的および環境的な考慮事項が議論されています。B「外惑星環境への鉱業の影響」、C「新エネルギー源の使用における環境責任」、D「外惑星および次元エネルギーの持続可能性に関する疑問」は、この段落の主要なテーマではありません。
+            選択肢A「新エネルギー資源の活用における倫理的配慮」が正解です。第4段落では、新しいエネルギー資源の活用が持続可能性と環境責任の従来の概念に挑戦していること、またそれに伴う倫理的および環境的な考慮事項が議論されています。B「外惑星環境への鉱業の影響」、C「新エネルギー源の使用における環境責任」、D「外惑星および次元エネルギーの持続可能性に関する疑問」は、この段落の主要なテーマではありません。
             `,
           },
         ],
@@ -1522,6 +1532,1206 @@ export const works = [
           5. 選択肢F「環境と倫理的な配慮」が正解です。新しいエネルギー資源の利用に伴う環境的および倫理的な問題が最終段落で議論されています。K「環境バランスの維持」やI「汚染レベルの増加」はこの段落の主要なテーマではありません。
 
           6. 選択肢G「遠い惑星での鉱業」が正解です。新しいエネルギー資源の採掘に関連する環境的な問題がテキストで述べられています。L「グローバルな協力の改善」やJ「次元的に収穫されたエネルギー」はこの文脈では不適切です。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 4,
+
+    title: 'Main Test3',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            The advent of advanced medical technology has brought the once-mythical concept of eternal life within reach. This breakthrough, achieved through genetic engineering and cellular regeneration, offers the possibility of drastically extending human lifespan. The implications of such longevity are vast, ranging from individual health benefits to profound societal changes.`,
+
+            question: `What is the main focus of the first paragraph?`,
+
+            choices:`
+            A) The health benefits of eternal life
+            B) The societal changes due to extended lifespans
+            C) The technological advancements in achieving eternal life
+            D) The impact on individual lifestyles
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The technological advancements in achieving eternal life`,
+
+            explanation: `
+            選択肢C「永遠の命を実現するための技術的進歩」が正解です。第1段落では、遺伝子工学と細胞再生を通じて達成された永遠の命の可能性と、それによる個人の健康上の利点と社会的変化について説明されています。A「永遠の命の健康上の利点」、B「寿命の延長による社会的変化」、D「個人のライフスタイルへの影響」は関連するテーマですが、この段落の主要な焦点は技術的進歩です。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Eternal life through medical advancement raises ethical questions about the natural order and the value of life. While the prospect of living indefinitely is enticing, it challenges traditional beliefs about aging and death. This development prompts a reevaluation of ethical norms and the moral implications of extending human life beyond natural limits.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) The ethical considerations of eternal life
+            B) The challenges to traditional beliefs about aging
+            C) The moral implications of extending human life
+            D) The reevaluation of ethical norms
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The ethical considerations of eternal life`,
+
+            explanation: `
+            選択肢A「永遠の命の倫理的考慮事項」が正解です。第2段落では、永遠に生きるという見通しが、老化や死に対する伝統的な信念に挑戦し、倫理的規範や人間の命を自然な限界を超えて延ばすことの道徳的意味合いの再評価を促していることが議論されています。B「老化に対する伝統的信念への挑戦」、C「人間の命を延ばすことの道徳的意味合い」、D「倫理的規範の再評価」も重要なポイントですが、この段落の中心テーマは倫理的考慮事項です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            The economic and resource implications of eternal life are complex. Prolonged lifespans could lead to overpopulation, straining resources and exacerbating environmental issues. Additionally, the socioeconomic divide may widen, as access to life-extending treatments could be limited to the affluent. This scenario necessitates a reconfiguration of economic models and social welfare systems to accommodate an ever-growing, aging population.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The environmental issues caused by overpopulation
+            B) The economic impact of prolonged lifespans
+            C) The widening socioeconomic divide due to treatment access
+            D) The need for reconfigured economic models
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The economic impact of prolonged lifespans`,
+
+            explanation: `
+            選択肢B「寿命の延長の経済的影響」が正解です。第3段落では、寿命が延びることによって生じる過剰人口、資源への圧力、環境問題の悪化、そして治療へのアクセスが富裕層に限られることによる社会経済的格差の拡大について説明されています。A「過剰人口による環境問題」、C「治療アクセスによる社会経済的格差の拡大」、D「経済モデルの再構築の必要性」も関連するテーマですが、この段落の主要なテーマは経済的影響です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Eternal life also has profound psychological impacts. The human psyche, traditionally attuned to a finite existence, may struggle with the concept of endless life. Issues such as mental fatigue, loss of purpose, and the emotional burden of outliving loved ones become paramount. These factors necessitate a rethinking of mental health support and societal structures to support an immortal population.`,
+
+            question: `What is the key idea in the fourth paragraph?`,
+
+            choices:`
+            A) The mental health support for an immortal population
+            B) The psychological impacts of endless life
+            C) The human psyche's struggle with immortality
+            D) The emotional burden of outliving loved ones
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The psychological impacts of endless life`,
+
+            explanation: `
+            選択肢B「無限の命の心理的影響」が正解です。第4段落では、永遠の命が人間の精神に与える影響、特に精神的疲労、目的の喪失、愛する人を超えて生きることの感情的負担について説明されています。A「不死の人口に対する精神保健支援」、C「不死に対する人間の精神の苦闘」、D「愛する人を超えて生きることの感情的負担」も重要なポイントですが、この段落のキーポイントは無限の命の心理的影響です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `The concept of eternal life, achieved through (1)______, presents significant (2)______ in various aspects of human existence. This advancement, while offering (3)______, also raises profound (4)______. It necessitates reconsideration of (5)______ and adaptation of (6)______ to accommodate the new reality of extended human lifespans.`,
+
+          choices:`
+          A. a reevaluation of moral values
+          B. advanced medical technology
+          C. challenges in mental health support
+          D. economic systems
+          E. endless human longevity
+          F. genetic engineering
+          G. healthcare policies
+          H. overpopulation concerns
+          I. psychological and cultural impacts
+          J. resource allocation strategies
+          K. societal and ethical dilemmas
+          L. altering natural life cycles
+          `,
+
+          answer_ids: ['2', '11', '5', '9', '1', '4'],
+
+          answers: `
+          1. B
+          2. K
+          3. E
+          4. I
+          5. A
+          6. D
+          `,
+
+          explanation: `
+          1. 選択肢B「先進的な医療技術」が正解です。永遠の命を実現する手段として、先進的な医療技術が利用されるとされています。F「遺伝子工学」やL「自然な生命サイクルの変更」も関連するが、この文脈では「先進的な医療技術」が最も適切です。
+
+          2. 選択肢K「社会的および倫理的なジレンマ」が正解です。永遠の命は、人間の存在の様々な側面において重要な社会的および倫理的な問題を提起します。H「過剰人口の懸念」やG「医療政策の再考」は関連するが、この文脈での主題は「社会的および倫理的なジレンマ」です。
+
+          3. 選択肢E「無限の人間の寿命」が正解です。この進歩は、無限の人間の寿命を提供するが、J「資源配分戦略」やL「自然な生命サイクルの変更」とは異なります。
+
+          4. 選択肢I「心理的および文化的な影響」が正解です。永遠の命は、心理的および文化的な影響をもたらし、C「メンタルヘルスサポートの課題」やA「道徳的価値の再評価」とは異なります。
+
+          5. 選択肢A「道徳的価値の再評価」が正解です。この新しい現実に対応するため、道徳的価値の再評価が必要です。D「経済システムの調整」やG「医療政策の再考」とは異なります。
+
+          6. 選択肢D「経済システム」が正解です。人間の寿命が延長された新しい現実に適応するために、経済システムの調整が必要です。J「資源配分戦略」やC「メンタルヘルスサポートの課題」は関連するが、この文脈での主題は「経済システム」です。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In a world woven from the fabric of dreams, there exists a hidden kingdom named Zephyria. This realm, accessible only to those deep in slumber, boasts landscapes that defy logic, teeming with fantastic creatures and endless possibilities. Here, dreamers engage in adventures that surpass the mundane confines of their waking lives, exploring a realm where the impossible becomes possible.`,
+
+            question: `What is the main focus of the first paragraph?`,
+
+            choices:`
+            A) The mundane confines of waking life
+            B) The fantastic creatures in Zephyria
+            C) The adventures surpassing the mundane in Zephyria
+            D) The realm where the impossible becomes possible
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) The realm where the impossible becomes possible`,
+
+            explanation: `
+            選択肢D「不可能が可能になる領域」が正解です。第1段落では、夢から作られた世界に隠された王国ゼフィリアが紹介され、その王国で体験できる日常を超えた冒険が強調されています。A「日常生活の限界」、B「ゼフィリアのファンタジー生物」、C「日常を超えたゼフィリアの冒険」も関連するテーマですが、この段落の主要な焦点は「不可能が可能になる領域」です。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Zephyria's environment is ever-changing, shaped by the subconscious thoughts and emotions of the dreamer. One might find themselves traversing enchanted forests, soaring through starlit skies, or uncovering ancient mysteries. The experiences are diverse and personalized, reflecting the dreamer's innermost desires and fears.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) The enchanted forests in Zephyria
+            B) The ever-changing environment of Zephyria
+            C) The personalization of experiences in Zephyria
+            D) The innermost desires and fears of the dreamer
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The personalization of experiences in Zephyria`,
+
+            explanation: `
+            選択肢C「ゼフィリアでの体験の個人化」が正解です。第2段落では、ゼフィリアの環境が夢見る人の潜在意識によって常に変化し、その体験が夢見る人の内面の願望や恐れを反映することが説明されています。A「ゼフィリアの魔法の森」、B「ゼフィリアの常変する環境」、D「夢見る人の最も内面的な願望と恐れ」も重要なポイントですが、この段落の中心テーマは体験の個人化です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Interactions in Zephyria are deeply symbolic, often leading to self-discovery and personal insight. The kingdom's inhabitants, mystical guides known as the Dream Sentinels, assist dreamers in navigating their subconscious, unveiling hidden emotions and thoughts. This journey through Zephyria can lead to profound revelations about one's self and life.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The role of the Dream Sentinels
+            B) The symbolic interactions in Zephyria
+            C) The journey leading to profound revelations
+            D) The unveiling of hidden emotions and thoughts
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The role of the Dream Sentinels`,
+
+            explanation: `
+            選択肢A「ドリーム・センティネルの役割」が正解です。第3段落では、ゼフィリアの住人である神秘的なガイド、ドリーム・センティネルが、夢見る人がその潜在意識を探索し、隠された感情や考えを明らかにするのを助けることが強調されています。B「ゼフィリアでの象徴的な相互作用」、C「深い啓示に至る旅」、D「隠された感情や考えの明らかに」も関連するテーマですが、この段落の主要なテーマはドリーム・センティネルの役割です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Zephyria's existence challenges the boundaries of our understanding of the subconscious mind. It suggests a realm where individual dream narratives intertwine, forming a collective unconscious tapestry. This concept revolutionizes our perception of dreams, positing that they may be more than mere figments of imagination, but windows into deeper, shared human experiences.`,
+
+            question: `What is the key idea in the fourth paragraph?`,
+
+            choices:`
+            A) The concept of a collective unconscious tapestry
+            B) The challenge to our understanding of the subconscious
+            C) The intertwining of individual dream narratives
+            D) The deeper, shared human experiences in dreams
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The challenge to our understanding of the subconscious`,
+
+            explanation: `
+            選択肢B「潜在意識に対する理解の境界への挑戦」が正解です。第4段落では、ゼフィリアの存在が、個々の夢の物語が絡み合って集合的無意識のテープストリーを形成することを示唆し、夢の性質と人間の認識、感情処理への影響に関する既存のパラダイムに挑戦することが説明されています。A「集合的無意識のテープストリーの概念」、C「個々の夢の物語の相互関連性」、D「夢におけるより深い共有された人間の経験」も重要なポイントですが、この段落のキーポイントは潜在意識に対する理解の境界への挑戦です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In the dream realm of Zephyria, individuals (1)______ through sleep, encountering (2)______ and (3)______. Each visit is (4)______, reflecting the dreamer's subconscious. The interactions with the Dream Sentinels in Zephyria lead to (5)______ and a deeper understanding of oneself. This kingdom challenges our (6)______ of consciousness and the subconscious.`,
+
+          choices:`
+          A. embark on fantastical adventures
+          B. access the kingdom
+          C. mythical creatures and surreal landscapes
+          D. shaped by personal fears and desires
+          E. engage with symbolic representations
+          F. gain insight into their own psyche
+          G. challenge the boundaries
+          H. surreal experiences
+          I. explore new dimensions of thought
+          J. unique to the individual
+          K. understanding
+          L. navigate through intricate storylines
+          `,
+
+          answer_ids: ['2', '3', '8', '10', '6', '11'],
+
+          answers: `
+          1. B
+          2. C
+          3. H
+          4. J
+          5. F
+          6. K
+          `,
+
+          explanation: `
+          1. 選択肢B「王国へアクセスする」が正解です。ゼフィリアは夢の中でアクセスされるため、この選択肢が適切です。A「ファンタジーの冒険に乗り出す」やI「思考の新しい次元を探索する」は関連していますが、この文脈では「王国へアクセスする」が直接的です。
+
+          2. 選択肢C「神話の生物と超現実的な風景」が正解です。ゼフィリアでは、夢見る人が神話の生物や超現実的な風景に遭遇することが特徴です。E「象徴的な表現との対話」やL「複雑なストーリーラインをナビゲートする」も関連するが、この文脈での主題は「神話の生物と超現実的な風景」です。
+
+          3. 選択肢H「超現実的な体験」が正解です。ゼフィリアの訪問者は超現実的な体験をします。A「ファンタジーの冒険に乗り出す」やL「複雑なストーリーラインをナビゲートする」も可能性がありますが、この文脈では「超現実的な体験」が最も適切です。
+
+          4. 選択肢J「個人に固有の」が正解です。ゼフィリアへの各訪問は、夢見る人の潜在意識に基づいて異なります。D「個人の恐れと願望によって形作られる」やI「思考の新しい次元を探索する」も関連するが、この文脈での主題は「個人に固有の」です。
+
+          5. 選択肢F「自身の心理への洞察を得る」が正解です。ゼフィリアのドリーム・センティネルとの相互作用は、夢見る人に自己理解を深める機会を提供します。E「象徴的な表現との対話」やL「複雑なストーリーラインをナビゲートする」も関連するが、この文脈での主題は「自身の心理への洞察を得る」です。
+
+          6. 選択肢K「理解」が正解です。ゼフィリアの存在は、意識と潜在意識に関する私たちの理解に挑戦します。G「境界への挑戦」やI「思考の新しい次元を探索する」も関連するが、この文脈での主題は「理解」です。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In the whimsical town of Temporia, a young child named Milo discovers a rare gift: the ability to stop time at will. This extraordinary talent turns his everyday life into a series of unique adventures, as he explores the frozen world around him. From pausing moments to savor happiness to halting unpleasant situations, Milo's life becomes a blend of wonder and challenges.`,
+
+            question: `What is the main focus of the first paragraph?`,
+
+            choices:`
+            A) Milo's everyday life in Temporia
+            B) The unique adventures Milo experiences
+            C) The ability to stop time at will
+            D) The blend of wonder and challenges in Milo's life
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The ability to stop time at will`,
+
+            explanation: `
+            選択肢C「意のままに時間を止める能力」が正解です。第1段落では、テンポリアの町に住む若い少年ミロが、時間を止めるという珍しい才能を発見し、その才能が彼の日常生活にユニークな冒険をもたらすことが説明されています。A「テンポリアでのミロの日常生活」、B「ミロが経験するユニークな冒険」、D「ミロの生活における驚異と挑戦の融合」も関連する要素ですが、この段落の主要な焦点は時間を止める能力です。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Milo's ability, a phenomenon rooted in quantum physics, involves manipulating the space-time continuum. Through careful observation and experimentation, he learns to control the duration and scope of his time stops. This intricate mastery over time not only requires deep concentration but also an understanding of the potential consequences on the natural order of events.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) The quantum physics behind Milo's ability
+            B) Milo's experimentation with time stops
+            C) The control over the duration and scope of time stops
+            D) The consequences of manipulating the space-time continuum
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The quantum physics behind Milo's ability`,
+
+            explanation: `
+            選択肢A「ミロの能力に関する量子物理学」が正解です。第2段落では、ミロの能力が量子物理学に根ざしており、彼が時間停止の持続時間と範囲を制御する方法を学ぶことが中心となっています。B「時間停止に関するミロの実験」、C「時間停止の持続時間と範囲の制御」、D「時空連続体を操作することの結果」も重要な要素ですが、この段落の主要な焦点は量子物理学です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            However, Milo soon realizes the moral implications of his power. He witnesses the impact his interventions have on the lives of those around him, leading to unexpected consequences. This realization brings a sense of responsibility and caution in using his ability, as he learns that every action, even in stopped time, has its repercussions.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The moral implications of Milo's power
+            B) The impact of Milo's interventions on others
+            C) The responsibility and caution in using his ability
+            D) The repercussions of actions in stopped time
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The moral implications of Milo's power`,
+
+            explanation: `
+            選択肢A「ミロの力に関する道徳的な意味合い」が正解です。第3段落では、ミロが彼の介入が周囲の人々の生活に与える影響を目撃し、それによって彼の力の使用における責任感と慎重さを学ぶことが説明されています。B「ミロの介入が他人に与える影響」、C「彼の能力を使用する際の責任感と慎重さ」、D「停止した時間における行動の影響」も関連するテーマですが、この段落の中心テーマは道徳的な意味合いです。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            The climax of the story sees Milo facing a dilemma when he must use his power to avert a disaster. This critical moment tests his understanding of his ability and its ethical use. Ultimately, Milo's decision reflects his growth and maturity, highlighting the theme of responsibility that comes with great power.`,
+
+            question: `What is the key idea in the fourth paragraph?`,
+
+            choices:`
+            A) Milo facing a critical dilemma
+            B) The use of Milo's power to avert a disaster
+            C) The test of Milo's understanding of his ability
+            D) The theme of responsibility with great power
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) The theme of responsibility with great power`,
+
+            explanation: `
+            選択肢D「偉大な力に伴う責任のテーマ」が正解です。第4段落では、ミロが災害を回避するために彼の力を使わなければならない重要な瞬間に直面し、その決断が彼の成長と成熟を反映し、偉大な力に伴う責任のテーマを強調しています。A「重大なジレンマに直面するミロ」、B「災害を回避するためのミロの力の使用」、C「彼の能力に対するミロの理解の試験」も重要なポイントですが、最も重要なのは責任のテーマです。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In the story set in Temporia, Milo, a child who can (1)______, uses his ability to explore and experience life uniquely. He discovers that his power, involving (2)______, must be used with caution due to its (3)______. Milo faces ethical dilemmas, realizing that (4)______ can have unforeseen consequences. The climax occurs when he (5)______ to prevent a disaster, teaching him the significance of (6)______.`,
+
+          choices:`
+          A. freely stop time
+          B. manipulate physical objects
+          C. the manipulation of the space-time continuum
+          D. travel through different dimensions
+          E. ethical responsibilities
+          F. moral complexities of his actions
+          G. encounters a moral crisis
+          H. collaborates with friends
+          I. the potential for altering future events
+          J. learns the importance of responsibility
+          K. uses his ability in critical situations
+          L. the impact on others' lives
+          `,
+
+          answer_ids: ['1', '3', '6', '12', '11', '10'],
+
+          answers: `
+          1. A
+          2. C
+          3. F
+          4. L
+          5. K
+          6. J
+          `,
+
+          explanation: `
+          1. 選択肢A「自由に時間を止める」が正解です。物語では、ミロは時間を自由に止める能力を持っており、この選択肢が彼の能力を的確に表しています。B「物理的な物体を操る」やD「異なる次元を旅する」は関連するが、この文脈では「自由に時間を止める」が最も適切です。
+
+          2. 選択肢C「時空連続体の操作」が正解です。ミロの能力は時空連続体の操作に関連しており、この選択肢がその側面を捉えています。B「物理的な物体を操る」やD「異なる次元を旅する」は関連するが、文脈上最も適切なのは「時空連続体の操作」です。
+
+          3. 選択肢F「行動の道徳的複雑さ」が正解です。ミロは自分の行動の道徳的複雑さを理解し、そのために慎重に能力を使用する必要があります。E「倫理的責任」やI「将来の出来事を変える可能性」も関連するが、文脈上最も適切なのは「行動の道徳的複雑さ」です。
+
+          4. 選択肢L「他人の生活への影響」が正解です。ミロは、彼の行動が他人の生活に予期せぬ影響を及ぼすことに気付きます。E「倫理的責任」やI「将来の出来事を変える可能性」も関連するが、文脈上最も適切なのは「他人の生活への影響」です。
+
+          5. 選択肢K「重要な状況での能力の使用」が正解です。物語のクライマックスでは、ミロは災害を防ぐために自分の能力を使用します。G「道徳的危機に直面する」やH「友人と協力する」も関連するが、文脈上最も適切なのは「重要な状況での能力の使用」です。
+
+          6. 選択肢J「責任の重要性の学習」が正解です。ミロは、自分の決断を通じて責任の重要性を学びます。E「倫理的責任」やI「将来の出来事を変える可能性」も関連するが、文脈上最も適切なのは「責任の重要性の学習」です。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In a realm where mystical forces intertwine with the natural world, there exists a wizard, Alaric, with the extraordinary ability to manipulate weather patterns. His profound understanding of meteorological phenomena, combined with ancient magical lore, allows him to summon storms, clear skies, or gentle rains at will. Alaric's powers are not only a display of awe-inspiring magic but also a crucial element in maintaining the ecological balance of his world.`,
+
+            question: `What is the primary focus of the first paragraph?`,
+
+            choices:`
+            A) Alaric's profound understanding of meteorological phenomena
+            B) The role of Alaric's powers in ecological balance
+            C) The display of awe-inspiring magic by Alaric
+            D) The combination of ancient magical lore and weather manipulation
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The role of Alaric's powers in ecological balance`,
+
+            explanation: `
+            選択肢B「アラリックの力の生態学的バランスにおける役割」が正解です。第1段落では、アラリックが気象現象を操る能力を持ち、その力が彼の世界の生態学的バランスを維持する上で重要であることが説明されています。A「気象現象に対するアラリックの深い理解」、C「アラリックによる壮大な魔法の展示」、D「古代の魔法の伝承と天気操作の組み合わせ」も関連しますが、生態学的バランスの役割が中心テーマです。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Alaric's journey began as an apprentice to a renowned weather mage. Through years of rigorous training and study, he mastered the art of weather manipulation. His abilities, once a source of mere fascination, became essential during times of drought or catastrophic weather events, aiding communities in need and averting natural disasters.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) Alaric's apprenticeship and mastery of weather manipulation
+            B) The role of Alaric's abilities in averting natural disasters
+            C) The journey of Alaric from apprentice to weather mage
+            D) The fascination with Alaric's magical abilities
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Alaric's apprenticeship and mastery of weather manipulation`,
+
+            explanation: `
+            選択肢A「アラリックの徒弟時代と天気操作の習得」が正解です。第2段落では、アラリックが著名な天気魔術師の徒弟として始まり、天気操作の芸術をマスターした彼の旅が中心に説明されています。B「自然災害を回避するアラリックの能力の役割」、C「徒弟から天気魔術師へのアラリックの旅」、D「アラリックの魔法の能力に対する魅了」も関連するが、習得と旅が主要テーマです。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Despite his powers, Alaric faces challenges. His interventions in natural weather patterns often raise ethical questions and concerns from those who fear the repercussions of tampering with nature. Alaric must navigate these moral dilemmas, weighing the benefits of his actions against the potential risks to the natural order.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The ethical questions raised by Alaric's interventions
+            B) The challenges Alaric faces in manipulating weather
+            C) The repercussions of tampering with nature
+            D) Alaric's navigation of moral dilemmas
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Alaric's navigation of moral dilemmas`,
+
+            explanation: `
+            選択肢D「アラリックの道徳的ジレンマのナビゲーション」が正解です。第3段落では、アラリックが自然の天気パターンに介入することによって生じる倫理的な問題や懸念が取り上げられ、彼がこれらの道徳的ジレンマをどのように扱うかが説明されています。A「アラリックの介入によって生じる倫理的な問題」、B「天気操作におけるアラリックの直面する課題」、C「自然とのいじり合いの結果」も考慮されますが、道徳的ジレンマのナビゲーションが中心です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Alaric's story is not just about magical prowess but also about the responsibility that comes with great power. He has become a guardian of nature, using his abilities to promote harmony between the natural world and its inhabitants. His tale is a reminder of the delicate balance between human intervention and the forces of nature.`,
+
+            question: `What is the key point in the fourth paragraph?`,
+
+            choices:`
+            A) Alaric's role as a guardian of nature
+            B) The responsibility that comes with Alaric's powers
+            C) The harmony between nature and its inhabitants
+            D) The balance between human intervention and natural forces
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The responsibility that comes with Alaric's powers`,
+
+            explanation: `
+            選択肢B「アラリックの力に伴う責任」が正解です。第4段落では、アラリックが自然の守護者として彼の能力を使用し、自然の世界とその住民との調和を促進する彼の役割が強調され、その力に伴う責任が重要なポイントとして取り上げられています。A「自然の守護者としてのアラリックの役割」、C「自然とその住民との調和」、D「人間の介入と自然の力とのバランス」も関連しますが、責任が主要なテーマです。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Alaric, a powerful wizard in Eldoria, possesses the unique ability to (1)______. His journey from apprentice to master involved rigorous training, where he learned to use his powers to (2)______ and aid communities. However, Alaric's actions often spark (3)______, compelling him to balance the benefits and risks. His story is not just about magical abilities, but also about the (4)______, using his powers responsibly to maintain (5)______ and serving as a guardian who upholds (6)______.`,
+
+          choices:`
+          A. manipulate weather patterns at will
+          B. control the natural elements
+          C. ethical debates and moral dilemmas
+          D. confront the forces of nature
+          E. understanding and navigating intricate moral choices
+          F. create intricate weather phenomena
+          G. the essence of true wisdom
+          H. the harmony between nature and society
+          I. navigate the intricacies of nature's balance
+          J. the importance of respecting nature's laws
+          K. assist in agricultural development
+          L. the delicate balance of the ecosystem
+          `,
+
+          answer_ids: ['1', '11', '3', '5', '8', '12'],
+
+          answers: `
+          1. A
+          2. K
+          3. C
+          4. E
+          5. H
+          6. L
+          `,
+
+          explanation: `
+          1. 選択肢A「意のままに気象パターンを操る」が正解です。アラリックは、気象を意のままに操る特異な能力を持っています。他の選択肢B「自然の要素を制御する」やF「複雑な天候現象を作り出す」も関連しますが、最も適切なのは「気象パターンを操る」です。
+
+          2. 選択肢K「農業の発展を支援する」が正解です。アラリックは、特に干ばつや自然災害の際に、農業を含むコミュニティを支援するために力を使っています。他の選択肢D「自然の力と対峙する」やF「複雑な天候現象を作り出す」も考えられますが、「農業の発展を支援する」がこの文脈で最も適切です。
+
+          3. 選択肢C「倫理的討論と道徳的ジレンマ」が正解です。アラリックの自然の天候パターンへの介入は、倫理的な議論や道徳的なジレンマを引き起こしがちです。他の選択肢D「自然の力と対峙する」やJ「自然の法則を尊重する重要性」も関連しますが、文脈上「倫理的討論と道徳的ジレンマ」が最も適切です。
+
+          4. 選択肢E「理解し、複雑な道徳的選択をナビゲートすること」が正解です。アラリックの物語は、魔法の能力だけでなく、彼が直面する道徳的な選択を理解し、ナビゲートすることにも焦点を当てています。G「真の知恵の本質」やJ「自然の法則を尊重する重要性」も考えられますが、この文脈では「道徳的選択をナビゲートすること」が最も適切です。
+
+          5. 選択肢H「自然と社会の調和」が正解です。アラリックは自然と社会の調和を維持するために責任を持って力を使います。他の選択肢I「自然のバランスの複雑さをナビゲートする」やJ「自然の法則を尊重する重要性」も関連しますが、「自然と社会の調和」が最も適切です。
+
+          6. 選択肢L「環境のデリケートなバランス」が正解です。アラリックは自然の守護者として、環境のデリケートなバランスを維持する役割を果たしています。I「自然のバランスの複雑さをナビゲートする」やJ「自然の法則を尊重する重要性」も関連しますが、文脈上「環境のデリケートなバランス」が最も適切です。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 5,
+
+    title: 'Main Test4',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In the mystical realm of Eldoria, the coexistence of humans and mythical creatures such as unicorns and dragons is a deeply ingrained part of society. These creatures, possessing unique magical abilities and ancient wisdom, play a pivotal role in maintaining the ecological balance and mystical harmony of this world. Their interactions with humans are guided by ancient treaties and mutual respect, forming an integral aspect of Eldorian culture.`,
+
+            question: `What is the primary focus of the first paragraph?`,
+
+            choices:`
+            A) The magical abilities of mythical creatures
+            B) The ecological balance and mystical harmony in Eldoria
+            C) The ancient treaties between humans and mythical creatures
+            D) The role of mythical creatures in Eldorian culture
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) The role of mythical creatures in Eldorian culture`,
+
+            explanation: `
+            選択肢D「エルドリア文化における神秘的な生き物の役割」が正解です。第1段落では、エルドリアの世界で人間とユニコーンやドラゴンなどの神秘的な生き物との共存が、その社会に深く根ざしていることが説明されています。A「神秘的な生き物の魔法の能力」、B「エコロジカルバランスと神秘的な調和」、C「人間と神秘的な生き物との古代の条約」も関連する要素ですが、この段落の主要な焦点はエルドリア文化における彼らの役割です。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            The unicorns of Eldoria, known for their healing powers and serene nature, are revered by the people. They inhabit the enchanted Forest of Whispering Willows, where they can often be seen grazing near the Crystal Lake. The unicorns' ability to purify water and heal injuries makes them invaluable allies in times of need, and their presence symbolizes peace and prosperity in Eldorian lore.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) The habitat of the unicorns in Eldoria
+            B) The healing powers and symbolism of unicorns
+            C) The significance of the Crystal Lake
+            D) The peaceful nature of the unicorns
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The healing powers and symbolism of unicorns`,
+
+            explanation: `
+            選択肢B「ユニコーンの癒しの力と象徴性」が正解です。第2段落では、エルドリアのユニコーンが持つ癒しの力や穏やかな性質、そしてそれらがエルドリアの伝説において平和と繁栄の象徴であることが中心的に説明されています。A「エルドリアのユニコーンの生息地」、C「クリスタルレイクの重要性」、D「ユニコーンの平和な性質」も重要な要素ですが、この段落の中心テーマはユニコーンの癒しの力と象徴性です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Dragons, on the other hand, are formidable creatures known for their wisdom and elemental powers. Dwelling in the high mountains and volcanic regions, they are respected as guardians of Eldoria. These majestic beings are capable of controlling weather patterns and protecting the land from external threats. The Eldorians view dragons not just as beasts, but as wise sages and protectors.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The dwelling places of dragons in Eldoria
+            B) The elemental powers and wisdom of dragons
+            C) The role of dragons as guardians and sages
+            D) The protection of Eldoria by dragons
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The role of dragons as guardians and sages`,
+
+            explanation: `
+            選択肢C「ドラゴンの守護者および賢者としての役割」が正解です。第3段落では、ドラゴンがエルドリアの守護者として、また賢者として尊敬されていることが説明されています。A「エルドリアのドラゴンの住処」、B「ドラゴンの元素の力と知恵」、D「エルドリアの保護」も関連するテーマですが、この段落の中心テーマはドラゴンの役割です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            The interactions between humans and these mythical beings are not without challenges. Misunderstandings and conflicts have arisen in the past, but through dialogue and mutual understanding, peaceful coexistence has been achieved. These relationships serve as a testament to the possibility of harmony between different beings, offering lessons in respect, cooperation, and the importance of preserving natural and magical ecosystems.`,
+
+            question: `What is the key point in the fourth paragraph?`,
+
+            choices:`
+            A) The challenges in human-mythical being interactions
+            B) The resolution of conflicts through dialogue
+            C) The testament to peaceful coexistence
+            D) The lessons learned from these relationships
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The testament to peaceful coexistence`,
+
+            explanation: `
+            選択肢C「平和的共存の証し」が正解です。第4段落では、人間と神秘的な生き物との間の相互作用が挑戦なしには成り立たないが、対話と相互理解を通じて平和的共存が達成されていることが強調されています。A「人間と神秘的な生き物との相互作用の挑戦」、B「対話を通じた紛争の解決」、D「これらの関係から学んだ教訓」も重要なポイントですが、この段落のキーポイントは平和的共存の証しです。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In the mystical world of Eldoria, humans and mythical creatures like unicorns and dragons coexist. Unicorns, known for (1)______, live in an enchanted forest and are revered for their (2)______. Dragons, residing in mountains, are recognized as (3)______ with abilities to control the weather. This unique coexistence faces challenges but is maintained through (4)______, symbolizing (5)______. These interactions between different beings demonstrate (6)______.`,
+
+          choices:`
+          A. their healing powers
+          B. their wisdom and strength
+          C. the importance of ecological balance
+          D. guardians of the realm
+          E. the enchanted Forest of Whispering Willows
+          F. their peaceful and serene nature
+          G. mutual respect and understanding
+          H. the necessity of harmony between species
+          I. the essence of Eldorian culture
+          J. the need for mutual cooperation
+          K. a variety of magical abilities
+          L. the complexity of inter-species relationships
+          `,
+
+          answer_ids: ['1', '6', '4', '7', '8', '12'],
+
+          answers: `
+          1. A
+          2. F
+          3. D
+          4. G
+          5. H
+          6. L
+          `,
+
+          explanation: `
+          1. 選択肢A「彼らの癒しの力」が正解です。ユニコーンはその癒しの力で知られており、エルドリアの世界で重要な役割を果たしています。他の選択肢E「ウィスパリング・ウィローの魔法の森」やK「様々な魔法の能力」も関連していますが、この文脈では「癒しの力」が最も適切です。
+
+          2. 選択肢F「彼らの平和で穏やかな性質」が正解です。ユニコーンは平和で穏やかな性質が強調され、エルドリアの文化において尊敬されています。B「彼らの知恵と強さ」やK「様々な魔法の能力」も考えられますが、「平和で穏やかな性質」が最も適切です。
+
+          3. 選択肢D「領域の守護者」としてが正解です。ドラゴンは領域の守護者として知られ、天候を制御する能力を持っています。これは、B「彼らの知恵と強さ」と比較しても、文脈上最も適切な選択肢です。
+
+          4. 選択肢G「相互尊重と理解」が正解です。エルドリアの世界では、異なる存在間の共存は相互尊重と理解を通じて維持されています。これは、J「相互協力の必要性」やI「エルドリア文化の本質」よりも文脈に適しています。
+
+          5. 選択肢H「種間の調和の必要性」が正解です。エルドリアの世界における異なる存在間の共存は、種間の調和の必要性を象徴しています。これは、C「生態系のバランスの重要性」やI「エルドリア文化の本質」と比較しても、最も適切な選択肢です。
+
+          6. 選択肢L「異種間関係の複雑さ」が正解です。人間と神秘的な生き物との相互作用は、異種間関係の複雑さを示しています。これは、C「生態系のバランスの重要性」やJ「相互協力の必要性」と比較しても、文脈に最も適しています。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In the vast expanse of the cosmos, a myriad of civilizations coexist, each with its unique political system and diplomatic relationships. These cosmic civilizations, ranging from technologically advanced empires to peaceful federations, navigate a complex web of alliances and rivalries. Their interactions are governed by intricate diplomatic protocols, influenced by their diverse cultures and histories.`,
+
+            question: `What is the main focus of the first paragraph?`,
+
+            choices:`
+            A) The technological advancements of cosmic civilizations
+            B) The complex web of alliances and rivalries among civilizations
+            C) The diverse cultures and histories influencing interactions
+            D) The role of diplomatic protocols in cosmic relationships
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The complex web of alliances and rivalries among civilizations`,
+
+            explanation: `
+            選択肢B「文明間の複雑な同盟関係と競争関係」が正解です。第1段落では、様々な宇宙文明がそれぞれの独特な政治体制と外交関係を持ち、複雑な同盟関係と競争関係を航行していることが中心テーマとして説明されています。A「宇宙文明の技術的進歩」、C「異なる文化と歴史が相互作用に影響を与える」、D「宇宙関係における外交プロトコルの役割」も関連する要素ですが、この段落の主要な焦点は同盟関係と競争関係です。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            One notable civilization, the Harmonic Union, is renowned for its emphasis on peaceful coexistence and diplomacy. They employ skilled ambassadors who master the art of negotiation, striving to resolve conflicts through dialogue and mutual understanding. Their political system is based on collective decision-making, ensuring that all voices within their society are heard and respected.`,
+
+            question: `What does the second paragraph primarily discuss?`,
+
+            choices:`
+            A) The Harmonic Union's emphasis on peaceful coexistence
+            B) The role of ambassadors in the Harmonic Union
+            C) The conflict resolution strategies of the Harmonic Union
+            D) The collective decision-making process in the Harmonic Union
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The Harmonic Union's emphasis on peaceful coexistence`,
+
+            explanation: `
+            選択肢A「ハーモニック・ユニオンの平和的共存への重点」が正解です。第2段落では、平和的共存と外交に重点を置いている文明であるハーモニック・ユニオンについて、その特徴や外交戦略が説明されています。B「ハーモニック・ユニオンの大使の役割」、C「ハーモニック・ユニオンの紛争解決戦略」、D「ハーモニック・ユニオンにおける集団意思決定プロセス」も重要な要素ですが、この段落の中心テーマは平和的共存への重点です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Conversely, the Zentari Empire adopts a more aggressive approach in its cosmic relations. Governed by a rigid hierarchical system, the Empire's political strategy is often characterized by dominance and territorial expansion. The Zentari leadership, comprising of a council of high-ranking officials, makes strategic decisions that sometimes lead to friction with neighboring civilizations, testing the delicate balance of power in the cosmos.`,
+
+            question: `What is the central topic of the third paragraph?`,
+
+            choices:`
+            A) The hierarchical system of the Zentari Empire
+            B) The aggressive cosmic relations of the Zentari Empire
+            C) The decision-making process within the Zentari leadership
+            D) The impact of the Zentari Empire's strategy on neighboring civilizations
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The aggressive cosmic relations of the Zentari Empire`,
+
+            explanation: `
+            選択肢B「ゼンタリ帝国の積極的な宇宙関係」が正解です。第3段落では、より攻撃的なアプローチを採る文明であるゼンタリ帝国について、その政治戦略や階層的なシステムが説明されています。A「ゼンタリ帝国の階層的システム」、C「ゼンタリ指導部内の意思決定プロセス」、D「ゼンタリ帝国の戦略が隣接文明に与える影響」も関連する要素ですが、この段落の主要な焦点は積極的な宇宙関係です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Amidst these diverse political landscapes, an interstellar organization known as the Galactic Assembly plays a pivotal role. It serves as a forum for civilizations to discuss and address common issues, promoting cooperation and stability across the galaxy. The Assembly's efforts to maintain peace and order are crucial in an ever-evolving cosmic environment.`,
+
+            question: `What is the key idea in the fourth paragraph?`,
+
+            choices:`
+            A) The diverse political landscapes in the galaxy
+            B) The role of the Galactic Assembly as a forum
+            C) The promotion of cooperation and stability by the Galactic Assembly
+            D) The efforts to maintain peace and order by the Galactic Assembly
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The promotion of cooperation and stability by the Galactic Assembly`,
+
+            explanation: `
+            選択肢C「銀河アセンブリによる協力と安定の促進」が正解です。第4段落では、文明間の議論と共通の問題への対処のためのフォーラムとして機能する銀河アセンブリについて、その役割や平和と秩序の維持に向けた取り組みが説明されています。A「銀河における多様な政治風景」、B「銀河アセンブリのフォーラムとしての役割」、D「銀河アセンブリによる平和と秩序の維持への努力」も重要な要素ですが、この段落のキーポイントは協力と安定の促進です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In the cosmic realm, various civilizations exist with (1)______, each shaped by unique political systems and cultural norms. The Harmonic Union, known for its (2)______, contrasts with the Zentari Empire, which practices (3)______ and seeks territorial expansion. These diverse societies are part of a larger system where the Galactic Assembly (4)______, facilitating discussions and promoting (5)______ among civilizations. This intricate network of relationships highlights the (6)______ of cosmic diplomacy and political strategy.`,
+
+          choices:`
+          A. the importance of trade agreements
+          B. a variety of economic policies
+          C. emphasizes individual sovereignty
+          D. the impact of cultural diversity
+          E. plays a central role
+          F. the necessity of mutual understanding
+          G. complex diplomatic relationships
+          H. peaceful coexistence strategies
+          I. a focus on technological advancements
+          J. aggressive diplomatic tactics
+          K. fosters peaceful resolutions
+          L. the intricacies of interstellar politics
+          `,
+
+          answer_ids: ['7', '8', '10', '5', '6', '12'],
+
+          answers: `
+          1. G
+          2. H
+          3. J
+          4. E
+          5. F
+          6. L
+          `,
+
+          explanation: `
+          1. 選択肢G「複雑な外交関係」が正解です。宇宙の領域では、独自の政治体制と文化的規範によって形作られた様々な文明が存在し、それぞれが複雑な外交関係を持っています。I「技術的進歩に焦点を当てる」やB「様々な経済政策」は関連するが、この文脈では「複雑な外交関係」が最も適切です。
+
+          2. 選択肢H「平和的共存戦略」が正解です。ハーモニック・ユニオンは平和的共存戦略で知られています。これは、他の選択肢よりも文脈に合致しています。
+
+          3. 選択肢J「積極的な外交戦術」が正解です。ゼンタリ帝国は積極的な外交戦術を実践し、領土拡大を目指しています。これは、文脈上最も適切な選択肢です。
+
+          4. 選択肢E「中心的な役割を果たす」が正解です。銀河アセンブリは、文明間の議論を促進し、中心的な役割を果たしています。他の選択肢に比べ、この文脈で最も適切です。
+
+          5. 選択肢F「相互理解の必要性」が正解です。銀河アセンブリは、文明間の相互理解の必要性を促進しています。これは、文脈上最も適切な選択肢です。
+
+          6. 選択肢L「宇宙外交と政治戦略の複雑さ」が正解です。これらの文明間の関係は、宇宙外交と政治戦略の複雑さを浮き彫りにしています。他の選択肢よりもこの文脈に適しています。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 855.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In the lunar civilization, residents live in domed habitats, designed to emulate Earth's atmosphere. These habitats are equipped with advanced air filtration systems and artificial gravity generators to create a comfortable living environment. The community heavily relies on renewable energy sources, such as solar panels, to power their homes and facilities. Daily life is a blend of traditional Earth customs and new adaptations necessary for lunar living.`,
+
+            question: `What is the primary focus of the first paragraph?`,
+
+            choices:`
+            A) The design and function of the domed habitats
+            B) The reliance on renewable energy sources
+            C) The blend of Earth customs and lunar adaptations
+            D) The advanced air filtration systems and artificial gravity
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The blend of Earth customs and lunar adaptations`,
+
+            explanation: `
+            選択肢C「地球の慣習と月の適応の融合」が正解です。第1段落では、月の住民がどのように伝統的な地球の慣習と月での生活に必要な新しい適応を組み合わせて生活しているかが中心に説明されています。A「ドーム型居住区の設計と機能」、B「再生可能エネルギー源への依存」、D「高度な空気清浄システムと人工重力」も関連しますが、慣習と適応の融合が主要なテーマです。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Agriculture on the moon involves innovative techniques like aeroponics and hydroponics. Due to limited soil availability, these methods allow efficient food production in controlled environments. Lunar greenhouses utilize specialized lighting to mimic the sun's natural spectrum, ensuring plant growth. This sustainable approach is crucial for food security and independence from Earth-based supplies.`,
+
+            question: `What does the second paragraph mainly discuss?`,
+
+            choices:`
+            A) The use of aeroponics and hydroponics in agriculture
+            B) The role of lunar greenhouses and specialized lighting
+            C) The importance of sustainable food production
+            D) The adaptation to limited soil availability on the moon
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The importance of sustainable food production`,
+
+            explanation: `
+            選択肢C「持続可能な食料生産の重要性」が正解です。第2段落では、土壌の限られた可用性に適応し、エアロポニクスやハイドロポニクスを利用した効率的な食料生産が強調されています。A「エアロポニクスとハイドロポニクスの農業利用」、B「月面温室と特殊照明の役割」、D「月面での限られた土壌利用への適応」も関連するが、持続可能な食料生産が中心です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Education and work on the moon emphasize scientific and technological advancement. Schools offer a curriculum focused on space sciences and engineering, preparing the youth for careers in lunar industries. Work-life balance is prioritized, with shorter workdays and ample leisure time, reflecting the community's emphasis on well-being and mental health.`,
+
+            question: `What is the central theme of the third paragraph?`,
+
+            choices:`
+            A) The focus on scientific and technological education
+            B) The preparation for careers in lunar industries
+            C) The prioritization of work-life balance
+            D) The emphasis on well-being and mental health in the community
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The focus on scientific and technological education`,
+
+            explanation: `
+            選択肢A「科学技術の教育への焦点」が正解です。第3段落では、月での教育と仕事が科学技術の進歩に重点を置き、青少年を月産業でのキャリアに備えさせることが説明されています。B「月産業でのキャリアへの準備」、C「ワークライフバランスの優先」、D「コミュニティにおけるウェルビーイングとメンタルヘルスへの重視」も関連しますが、教育への焦点が主要なテーマです。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            The lunar society's communication system is highly sophisticated, featuring seamless integration with Earth's networks. The infrastructure includes advanced satellite technology and deep-space transmitters, ensuring reliable and high-speed data transmission. This connectivity not only facilitates scientific collaboration with Earth but also allows cultural exchange and keeps lunar residents connected to their Earthly heritage.`,
+
+            question: `What is the key point in the fourth paragraph?`,
+
+            choices:`
+            A) The sophistication of the lunar communication system
+            B) The integration with Earth's networks
+            C) The use of satellite technology and deep-space transmitters
+            D) The facilitation of scientific collaboration and cultural exchange
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The sophistication of the lunar communication system`,
+
+            explanation: `
+            選択肢A「月の通信システムの高度さ」が正解です。第4段落では、地球のネットワークとのシームレスな統合を特徴とする高度な通信システムが強調されています。これにより、科学的な協力だけでなく、文化的な交流も促進され、月の住民が地球の遺産と繋がりを保つことが可能になっています。B「地球のネットワークとの統合」、C「衛星技術とディープスペーストランスミッターの利用」、D「科学的協力と文化交流の促進」も関連しますが、通信システムの高度さがキーポイントです。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In the lunar civilization, residents live in (1)______ that emulate Earth's atmosphere, relying on (2)______ for energy. Agriculture utilizes (3)______, and schools focus on (4)______. The society values (5)______ and maintains (6)______ with Earth.`,
+
+          choices:`
+          A. a community-centric lifestyle
+          B. artificial lighting for plant growth
+          C. solar arrays and nuclear power
+          D. advanced air filtration systems
+          E. space sciences and engineering in education
+          F. domed habitats
+          G. traditional Earth customs
+          H. renewable energy sources like solar panels
+          I. aeroponics and hydroponics
+          J. work-life balance and mental health
+          K. seamless communication and cultural exchange
+          L. artificial gravity generators
+          `,
+
+          answer_ids: ['6', '8', '9', '5', '10', '11'],
+
+          answers: `
+          1. F
+          2. H
+          3. I
+          4. E
+          5. J
+          6. K
+          `,
+
+          explanation: `
+          1. 選択肢F「ドーム型の居住区」が正解です。文中では、月の住民が地球の大気を模倣するドーム型の居住区で生活していることが説明されています。D「高度な空気清浄システム」やL「人工重力発生装置」も関連するが、ドーム型の居住区が最も適切です。
+
+          2. 選択肢H「太陽パネルなどの再生可能エネルギー源」が正解です。月の文明では、エネルギー供給に再生可能エネルギー源が重要な役割を果たしています。G「伝統的な地球の慣習」やC「太陽電池アレイと核エネルギー」も考えられるが、再生可能エネルギー源が中心です。
+
+          3. 選択肢I「エアロポニクスとハイドロポニクス」が正解です。文中で、月の農業がこれらの革新的な技術を利用していることが強調されています。B「植物成長のための人工照明」も関連するが、エアロポニクスとハイドロポニクスが主要な点です。
+
+          4. 選択肢E「教育における宇宙科学とエンジニアリング」が正解です。月の学校では、科学技術の進歩を重視し、特に宇宙科学とエンジニアリングの教育に焦点を当てています。G「伝統的な地球の慣習」やA「コミュニティ中心のライフスタイル」も関連しますが、宇宙科学とエンジニアリングが最も適切です。
+
+          5. 選択肢J「ワークライフバランスとメンタルヘルス」が正解です。月の社会は、仕事と生活のバランスを大切にし、メンタルヘルスへの配慮を重視しています。G「伝統的な地球の慣習」やA「コミュニティ中心のライフスタイル」も考慮されるが、ワークライフバランスとメンタルヘルスが中心です。
+
+          6. 選択肢K「シームレスな通信と文化交流」が正解です。月の文明は地球のネットワークとシームレスに統合された通信システムを有し、文化交流を促進しています。G「伝統的な地球の慣習」やD「高度な空気清浄システム」も関連するが、通信と文化交流が重要です。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            In the imaginative world of Verdantia, plants are not just living organisms but sentient beings capable of emotions and communication with humans. This unique ecosystem is where humans and plants coexist harmoniously, with plants expressing their feelings through vibrant colors and movements, creating a rich tapestry of interactive life.`,
+
+            question: `What is the main theme of the first paragraph?`,
+
+            choices:`
+            A) The coexistence of humans and plants in Verdantia
+            B) Plants expressing feelings through colors and movements
+            C) The unique ecosystem of Verdantia
+            D) The rich tapestry of interactive life between species
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The unique ecosystem of Verdantia`,
+
+            explanation: `
+            選択肢C「ヴァーダンティアのユニークな生態系」が正解です。第1段落では、ヴァーダンティアの世界が、人間と感情を持ちコミュニケーションを行う植物が共存する特別な生態系として描かれています。A「人間と植物の共存」、B「色や動きを通じた植物の感情表現」、D「種間の対話的な生命の豊かなタペストリー」も重要な要素ですが、この段落の主要なテーマは生態系のユニークさです。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            A young botanist, Elara, discovers a complex network of biochemical signals enabling this communication. Her research reveals that plants use a sophisticated system of pheromones, electrical impulses, and subtle vibrations to convey their emotions and needs, breaking new ground in the field of interspecies communication and challenging the conventional perception of plant intelligence.`,
+
+            question: `What is the primary focus of the second paragraph?`,
+
+            choices:`
+            A) The botanical research of Elara
+            B) The biochemical signals used by plants for communication
+            C) The groundbreaking discovery in interspecies communication
+            D) Challenging conventional perceptions of plant intelligence
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The biochemical signals used by plants for communication`,
+
+            explanation: `
+            選択肢B「植物がコミュニケーションに使用する生化学的シグナル」が正解です。第2段落では、若い植物学者エララが、植物がコミュニケーションに使用する複雑な生化学的シグナルのネットワークを発見することが中心となっています。A「エララの植物学的研究」、C「種間コミュニケーションにおける画期的な発見」、D「植物の知性に対する従来の認識への挑戦」も関連するテーマですが、この段落の主要な焦点は生化学的シグナルです。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Among Verdantia's flora, the Whispering Willows are the most articulate. These willows have the remarkable ability to convey complex thoughts and even form deep emotional bonds with certain humans. Elara forms a special connection with a Willow named Sylvan, leading to profound discoveries about plant consciousness and empathy.`,
+
+            question: `What is the central subject of the third paragraph?`,
+
+            choices:`
+            A) The unique abilities of the Whispering Willows
+            B) The deep emotional bonds formed with certain humans
+            C) Elara's special connection with Sylvan
+            D) Discoveries about plant consciousness and empathy
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) The unique abilities of the Whispering Willows`,
+
+            explanation: `
+            選択肢A「ウィスパリング・ウィローの特別な能力」が正解です。第3段落では、ウィスパリング・ウィローと呼ばれる植物が、複雑な思考を伝え、人間と深い感情的な絆を形成する能力を持つことが中心となっています。B「特定の人間との深い感情的な絆」、C「エララとシルヴァンとの特別なつながり」、D「植物の意識と共感に関する発見」も重要な要素ですが、この段落の中心テーマはウィスパリング・ウィローの能力です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            The climax of the story unfolds when Verdantia faces an ecological crisis. Elara and Sylvan collaborate, using their unique bond to mobilize the plant kingdom in a collective effort to restore balance. This alliance demonstrates the potential of human-plant communication, highlighting the importance of understanding and respecting the emotional world of plants.`,
+
+            question: `What is the key point in the fourth paragraph?`,
+
+            choices:`
+            A) The ecological crisis faced by Verdantia
+            B) The collaboration between Elara and Sylvan
+            C) The mobilization of the plant kingdom
+            D) The importance of human-plant communication
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) The importance of human-plant communication`,
+
+            explanation: `
+            選択肢D「人間と植物のコミュニケーションの重要性」が正解です。第4段落では、ヴァーダンティアが生態危機に直面し、エララとシルヴァンが協力して植物の王国を動員することでバランスを回復しようとする様子が描かれています。この段落のキーポイントは、人間と植物のコミュニケーションの重要性とその可能性です。A「ヴァーダンティアが直面する生態危機」、B「エララとシルヴァンの協力」、C「植物の王国の動員」も関連する要素ですが、最も重要なのはコミュニケーションの重要性です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In Verdantia, a world where (1)______, a young botanist named Elara discovers (2)______ enabling communication between plants and humans. Her findings show that plants use (3)______ to convey emotions. Elara's close bond with a Willow named Sylvan reveals (4)______, but their world faces an ecological crisis. They (5)______ to restore balance, demonstrating (6)______.`,
+
+          choices:`
+          A. the importance of understanding plant emotions
+          B. electrical impulses and subtle vibrations
+          C. collaborate using their unique bond
+          D. a network of biochemical signals
+          E. plants can communicate with humans
+          F. the necessity of preserving the natural world
+          G. a young girl communicates with plants
+          H. plants have their own language
+          I. plants react to human emotions
+          J. complex emotional capacities of plants
+          K. innovative methods of plant care
+          L. plants express feelings through colors
+          `,
+
+          answer_ids: ['5', '4', '2', '10', '3', '1'],
+
+          answers: `
+          1. E
+          2. D
+          3. B
+          4. J
+          5. C
+          6. A
+          `,
+
+          explanation: `
+          1. 選択肢E「植物が人間とコミュニケーションをとることができる」が正解です。ヴァーダンティアは、植物が人間と感情を通じてコミュニケーションを取ることができる世界です。G「若い女の子が植物とコミュニケーションをとる」やL「植物が色を通じて感情を表現する」は関連するが、最も適切なのはEです。
+
+          2. 選択肢D「生化学的シグナルのネットワーク」が正解です。エララは、植物と人間の間のコミュニケーションを可能にする生化学的シグナルのネットワークを発見します。K「植物の世話の革新的な方法」やH「植物には独自の言語がある」という選択肢もあるが、文脈上最も適切なのはDです。
+
+          3. 選択肢B「電気的なインパルスと微妙な振動」が正解です。エララの研究により、植物が感情を伝えるために電気的なインパルスと微妙な振動を使用することが明らかになります。I「植物は人間の感情に反応する」やL「植物が色を通じて感情を表現する」は関連するが、文脈上最も適切なのはBです。
+
+          4. 選択肢J「植物の複雑な感情的な能力」が正解です。エララとシルヴァンとの密接な絆を通じて、植物が複雑な感情を持っていることが明らかになります。L「植物が色を通じて感情を表現する」やH「植物には独自の言語がある」という選択肢もあるが、文脈上最も適切なのはJです。
+
+          5. 選択肢C「ユニークな絆を使って協力する」が正解です。エララとシルヴァンは、彼らのユニークな絆を使って、生態危機に対処するために協力します。K「植物の世話の革新的な方法」やF「自然界の保存の必要性」という選択肢もあるが、文脈上最も適切なのはCです。
+
+          6. 選択肢A「植物の感情を理解する重要性」が正解です。エララとシルヴァンの協力は、植物の感情を理解し、尊重することの重要性を示しています。F「自然界の保存の必要性」やI「植物は人間の感情に反応する」という選択肢もあるが、文脈上最も適切なのはAです。
           `,
         },
       },
