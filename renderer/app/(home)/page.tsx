@@ -1,16 +1,19 @@
 'use client'
 
+import { useEffect } from 'react';
 import Link from 'next/link'
-import { works } from '@/lib/data';
+import { works } from '@/lib/main_data';
 
 export default function Page () {
-  const connect = fetch('http://localhost:8765/tobii_pro/connect')
-    .then((response) => response.json())
-    .then((data) => {
-      if (data.response !== 'succeeded') {
-        throw new Error('Not connected to logger station!');
-      }
-    })
+  useEffect(() => {
+    const connect = fetch('http://localhost:8765/tobii_pro/connect')
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.response !== 'succeeded') {
+          throw new Error('Not connected to logger station!');
+        }
+      })
+  }, [])
 
   return (
     <main className="h-body">

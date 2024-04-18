@@ -1,4 +1,4 @@
-import { works, page } from '@/lib/data';
+import { works, page } from '@/lib/main_data';
 
 export async function generateStaticParams() {
   return await page
@@ -7,15 +7,17 @@ export async function generateStaticParams() {
 export default function Page ({
   params,
 }: {
-  params: { work: string; id: string }
+  params: { work: number; id: number }
 }) {
   const { work, id } = params
-  const text = works[Number(work) - 1].work[Number(id) - 1].text
+  const paragraphs = works[work - 1].work[id - 1].paragraph
 
   return (
     <main className="h-body">
       <h1 className="mt-[3%] text-2xl font-bold text-center text-gray-900">第{id}文章</h1>
-      <p className='mt-[1%] mx-[20%] text-lg text-justify'>{text}</p>
+      {paragraphs.map((paragraph, index) => (
+        <p key={index} className='mt-0 mx-[10%] text-lg text-justify'>{paragraph.text}</p>
+      ))}
     </main>
   )
 }
