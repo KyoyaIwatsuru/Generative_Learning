@@ -244,7 +244,6 @@ export function NextButton () {
           router.push(link)
           setWebSocket(true)
         }, 500);
-        fetch('http://localhost:8765/recording/stop')
       }} className="shadow-lg px-5 py-2.5 bg-button-next text-lg text-white font-semibold rounded-lg hover:bg-button-nextHover hover:shadow-sm hover:translate-y-0.5 transform transition inline-flex items-center">
         Next
         <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
