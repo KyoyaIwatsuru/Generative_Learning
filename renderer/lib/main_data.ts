@@ -2752,7 +2752,7 @@ export const works = [
       {
         id: 1,
 
-        y_position: [260.0, 435.0, 575.0, 715.0, 890.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
@@ -2900,7 +2900,7 @@ export const works = [
       {
         id: 2,
 
-        y_position: [260.0, 400.0, 540.0, 715.0, 855.0],
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
 
         paragraph: [
           {
