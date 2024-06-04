@@ -31,6 +31,11 @@ export const page = [
   { work: '5', id: '2' },//The complex diplomatic relationships and political systems among different cosmic civilizations.:3,5(Advance: 3)
   { work: '5', id: '3' },//The lifestyle of people who have built a civilization on the moon.:3,5(Advance: 4)
   { work: '5', id: '4' },//A fictional world where plants have emotions and can communicate with humans.:3,5(Advance: 2)
+  //Main Test5
+  { work: '6', id: '1' },//U.S. Labor Market Trends Report:3
+  { work: '6', id: '2' },//The Decline and Fall of the Roman Empire:3
+  { work: '6', id: '3' },//Network Security:3
+  { work: '6', id: '4' },//Litigation Documents:3
 ]
 
 export const works = [
@@ -2732,6 +2737,606 @@ export const works = [
           5. 選択肢C「ユニークな絆を使って協力する」が正解です。エララとシルヴァンは、彼らのユニークな絆を使って、生態危機に対処するために協力します。K「植物の世話の革新的な方法」やF「自然界の保存の必要性」という選択肢もあるが、文脈上最も適切なのはCです。
 
           6. 選択肢A「植物の感情を理解する重要性」が正解です。エララとシルヴァンの協力は、植物の感情を理解し、尊重することの重要性を示しています。F「自然界の保存の必要性」やI「植物は人間の感情に反応する」という選択肢もあるが、文脈上最も適切なのはAです。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 6,
+
+    title: 'Main Test5',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 890.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            The U.S. labor market has shown significant changes in recent years. Employment statistics reveal a steady increase in job opportunities across various sectors. However, certain industries, such as manufacturing, have experienced slower growth. This divergence highlights the evolving nature of the workforce and the varying demand for skills in different sectors.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) The U.S. labor market has seen uniform growth across all sectors.
+            B) Manufacturing has outpaced other sectors in job growth.
+            C) Job opportunities have increased overall, with variations across sectors.
+            D) The demand for skills in different sectors has remained constant.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Job opportunities have increased overall, with variations across sectors.`,
+
+            explanation: `
+            Aの選択肢は、すべてのセクターで均一な成長があったと述べていますが、本文ではセクター間での成長の違いが強調されています。Bの選択肢は製造業が他のセクターを上回る成長を示していると述べていますが、本文では製造業の成長が遅いと述べられています。Dの選択肢は、セクター間のスキル需要が一定であると述べていますが、本文ではその需要の変化が述べられています。Cの選択肢が、セクター間の変動を伴う全体的な雇用機会の増加を最も適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Unemployment rates have fluctuated, reflecting economic uncertainties. During periods of economic downturn, unemployment rates surged, impacting numerous households. Conversely, economic recovery phases have seen a decline in unemployment. These patterns underscore the sensitivity of the labor market to broader economic conditions and the cyclical nature of employment trends.`,
+
+            question: `What does Paragraph 2 highlight about unemployment rates?`,
+
+            choices:`
+            A) Unemployment rates have remained stable over time.
+            B) Economic conditions significantly affect unemployment rates.
+            C) Unemployment rates only increase during economic downturns.
+            D) Household impacts of unemployment are negligible.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Economic conditions significantly affect unemployment rates.`,
+
+            explanation: `
+            Aの選択肢は、失業率が安定していると述べていますが、本文では経済状況に応じて変動すると述べられています。Cの選択肢は、失業率が経済の低迷期にのみ増加すると述べていますが、経済の回復期にも失業率が低下することが述べられています。Dの選択肢は、失業の家庭への影響が軽微であると述べていますが、本文ではその影響について述べられています。Bの選択肢が、経済状況が失業率に大きな影響を与えることを最も適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Labor force participation rates provide additional insights into the health of the labor market. Recent trends indicate an increase in participation, particularly among older workers and women. This shift suggests a broader inclusion in the workforce, driven by changing demographics and societal norms. Understanding these participation rates is crucial for predicting future labor market dynamics.`,
+
+            question: `Which trend is discussed in Paragraph 3 regarding labor force participation rates?`,
+
+            choices:`
+            A) A decline in participation among older workers.
+            B) A decrease in participation among women.
+            C) An increase in participation among younger workers.
+            D) A rise in participation among older workers and women.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) A rise in participation among older workers and women.`,
+
+            explanation: `
+            Aの選択肢は、年配労働者の参加率が減少していると述べていますが、本文ではその逆が述べられています。Bの選択肢は、女性の参加率が減少していると述べていますが、本文では増加していると述べられています。Cの選択肢は、若い労働者の参加率が増加していると述べていますが、本文では特に言及されていません。Dの選択肢が、年配労働者と女性の参加率の増加を最も適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Looking ahead, the labor market outlook appears optimistic but uncertain. Technological advancements and automation are expected to create new job opportunities while potentially displacing certain roles. Policymakers and businesses must adapt to these changes to ensure workforce readiness. Ongoing education and training will be essential for equipping workers with the necessary skills for emerging jobs.`,
+
+            question: `What is the outlook for the labor market as mentioned in Paragraph 4?`,
+
+            choices:`
+            A) The labor market is expected to remain static.
+            B) New job opportunities will emerge, unaffected by technological changes.
+            C) Technological advancements will create and displace jobs.
+            D) Policymakers need not worry about workforce readiness.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Technological advancements will create and displace jobs.`,
+
+            explanation: `
+            Aの選択肢は、労働市場が静的であると述べていますが、本文では技術の進歩に伴う変化が予測されています。Bの選択肢は、新しい仕事が技術の変化に影響されないと述べていますが、本文では影響があることが述べられています。Dの選択肢は、政策立案者が労働力の準備について心配する必要がないと述べていますが、本文では適応の必要性が強調されています。Cの選択肢が、技術の進歩が新しい仕事を創出し、同時にいくつかの役割を置き換えることを最も適切に要約しています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `The U.S. labor market has experienced significant changes recently, with (1)______ across various sectors and (2)______ in manufacturing. Unemployment rates have (3)______, reflecting economic uncertainties and recovery phases. Labor force participation rates have (4)______, especially among older workers and women. The future labor market outlook is (5)______, with technological advancements creating new jobs and (6)______ existing roles.`,
+
+          choices:`
+          A. slow growth
+          B. increased overall job opportunities
+          C. fluctuated
+          D. declined steadily
+          E. stable participation
+          F. increased
+          G. optimistic but uncertain
+          H. predictable
+          I. significantly increased
+          J. technological advancements 
+          K. potentially displacing
+          L. maintaining
+          `,
+
+          answer_ids: ['2', '1', '3', '6', '7', '11'],
+
+          answers: `
+          1. B
+          2. A
+          3. C
+          4. F
+          5. G
+          6. K
+          `,
+
+          explanation: `
+          1. Aの選択肢「slow growth」は製造業の成長に関するものであり、セクター全体の雇用機会の増加には適しません。Bの選択肢「increased overall job opportunities」は本文に沿ってセクター全体の雇用機会の増加を示しています。したがって正解です。
+
+          2. Bの選択肢「increased overall job opportunities」はすでに1番で使われており、製造業の成長には適していません。Aの選択肢「slow growth」が製造業の成長が遅いことを示しており、本文の内容に一致しています。したがって正解です。
+
+          3. Dの選択肢「declined steadily」は本文の失業率の変動を反映していません。Cの選択肢「fluctuated」は失業率が経済状況によって変動することを示しており、本文に沿っています。したがって正解です。
+
+          4. Eの選択肢「stable participation」は参加率が安定していることを示していますが、本文では参加率が増加していると述べられています。Fの選択肢「increased」が本文に沿って労働力参加率の増加を示しています。したがって正解です。
+
+          5. Hの選択肢「predictable」は将来の労働市場が予測可能であることを示していますが、本文では不確実性があると述べています。Gの選択肢「optimistic but uncertain」が技術の進歩による新しい雇用機会の創出と不確実性を示しています。したがって正解です。
+
+          6. Lの選択肢「maintaining」は既存の役割を維持することを示していますが、本文では技術の進歩が一部の役割を置き換える可能性があると述べられています。Kの選択肢「potentially displacing」が既存の役割の置き換えの可能性を示しています。したがって正解です。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 400.0, 540.0, 715.0, 855.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            The decline of the Roman Empire was marked by political instability. Corrupt leadership, civil wars, and power struggles weakened the government. As emperors were frequently overthrown, the lack of stable leadership led to administrative inefficiencies and contributed to the empire's gradual decline. This period of internal turmoil significantly undermined the political structure of Rome.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) The Roman Empire had strong leadership throughout its history.
+            B) Political instability and internal turmoil weakened the Roman government.
+            C) Civil wars were uncommon in the Roman Empire.
+            D) Emperors maintained power without challenges.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Political instability and internal turmoil weakened the Roman government.`,
+
+            explanation: `
+            Aの選択肢は、ローマ帝国がその歴史を通じて強力な指導力を持っていたと述べていますが、本文では指導力の不安定さが強調されています。Bの選択肢は、政治的不安定さと内部の混乱がローマ政府を弱体化させたと述べており、本文の内容に一致しています。Cの選択肢は、内戦がローマ帝国では珍しかったと述べていますが、本文では頻繁に起こっていたと述べられています。Dの選択肢は、皇帝が挑戦を受けることなく権力を維持していたと述べていますが、本文では頻繁に追放されていたと述べられています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Economic troubles also played a crucial role in the fall of the Roman Empire. Heavy taxation, inflation, and reliance on slave labor caused financial strain. The devaluation of currency and economic disparity further destabilized society. These economic issues created a fragile foundation that made the empire susceptible to other internal and external pressures.`,
+
+            question: `What does Paragraph 2 highlight about the Roman Empire's economy?`,
+
+            choices:`
+            A) The economy was stable and prosperous.
+            B) Heavy taxation and inflation were minor issues.
+            C) Economic troubles created a fragile foundation.
+            D) Reliance on slave labor had no significant impact.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Economic troubles created a fragile foundation.`,
+
+            explanation: `
+            Aの選択肢は、経済が安定し繁栄していたと述べていますが、本文では経済問題が強調されています。Bの選択肢は、重税とインフレーションが小さな問題であったと述べていますが、本文ではそれが主要な問題であったと述べられています。Cの選択肢は、経済問題が脆弱な基盤を作り出したと述べており、本文の内容に一致しています。Dの選択肢は、奴隷労働への依存が大きな影響を与えなかったと述べていますが、本文ではそれが問題の一部であったと述べられています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            The Roman military, once a formidable force, faced numerous challenges during the empire's decline. Frequent invasions by barbarian tribes, internal rebellions, and the high cost of maintaining the army strained resources. Additionally, the recruitment of non-Roman mercenaries, who had little loyalty to the empire, weakened the military's effectiveness and cohesion.`,
+
+            question: `Which challenge did the Roman military face according to Paragraph 3?`,
+
+            choices:`
+            A) A surplus of loyal soldiers.
+            B) Frequent invasions and high costs weakened the military.
+            C) Internal rebellions had little impact.
+            D) The recruitment of non-Roman mercenaries strengthened the military.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Frequent invasions and high costs weakened the military.`,
+
+            explanation: `
+            Aの選択肢は、忠実な兵士が過剰にいたと述べていますが、本文では兵士の不足が問題であったと述べられています。Bの選択肢は、頻繁な侵略と高コストが軍を弱体化させたと述べており、本文の内容に一致しています。Cの選択肢は、内部の反乱がほとんど影響を与えなかったと述べていますが、本文ではそれが問題であったと述べられています。Dの選択肢は、非ローマ人傭兵の募集が軍を強化したと述べていますが、本文では逆の影響が述べられています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            External pressures also hastened the fall of the Roman Empire. Invasions by Visigoths, Vandals, and Huns placed enormous stress on the empire's borders. The inability to repel these invasions, coupled with internal weaknesses, sealed Rome's fate. The combination of these external threats and existing internal issues led to the eventual collapse of one of history's greatest empires.`,
+
+            question: `What external pressures contributed to the fall of the Roman Empire as mentioned in Paragraph 4?`,
+
+            choices:`
+            A) Only internal weaknesses led to the empire's collapse.
+            B) Invasions by Visigoths, Vandals, and Huns were repelled successfully.
+            C) External threats, combined with internal issues, led to the collapse.
+            D) The Roman Empire had no external enemies.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) External threats, combined with internal issues, led to the collapse.`,
+
+            explanation: `
+            Aの選択肢は、内部の弱点のみが帝国の崩壊を引き起こしたと述べていますが、本文では外部の脅威も重要な要因であったと述べられています。Bの選択肢は、Visigoths、Vandals、Hunsによる侵略が成功裏に撃退されたと述べていますが、本文ではそれがローマ帝国に大きなストレスを与えたと述べられています。Cの選択肢は、外部の脅威と内部の問題が組み合わさって崩壊を引き起こしたと述べており、本文の内容に一致しています。Dの選択肢は、ローマ帝国には外部の敵がいなかったと述べていますが、本文では複数の外部の脅威が述べられています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `The decline and fall of the Roman Empire were influenced by several factors, including (1)______, which caused political instability. Additionally, (2)______ created a fragile economy. The Roman military faced numerous challenges, such as (3)______, which weakened its effectiveness. Furthermore, external pressures, like (4)______, added to the empire's troubles. Ultimately, the combination of these internal and external issues led to (5)______ and the eventual (6)______ of the Roman Empire.`,
+
+          choices:`
+          A. economic troubles, like heavy taxation and inflation,
+          B. political factors, such as corrupt leadership and civil wars,
+          C. frequent invasions by barbarian tribes
+          D. high costs and reliance on mercenaries
+          E. external threats, like invasions by Visigoths, Vandals, and Huns,
+          F. reliance on slave labor
+          G. devaluation of currency
+          H. military challenges, including frequent invasions and internal rebellions,
+          I. internal rebellions
+          J. administrative inefficiencies
+          K. the decline and fall
+          L. the ultimate collapse
+          `,
+
+          answer_ids: ['2', '1', '4', '5', '8', '12'],
+
+          answers: `
+          1. B
+          2. A
+          3. D
+          4. E
+          5. H
+          6. L
+          `,
+
+          explanation: `
+          1. Bの選択肢は、「corrupt leadership and civil wars」が政治的不安定を引き起こした要因として本文の内容に一致しています。他の選択肢（A、C、D、E、F、G、H、I、J、K、L）は政治的な問題を示しておらず、適切ではありません。
+
+          2. Aの選択肢は、「heavy taxation and inflation」が経済的な問題として本文の内容に一致しています。Bの選択肢は政治的な問題を示しており、適切ではありません。他の選択肢（C、D、E、F、G、H、I、J、K、L）は経済的な問題を示していません。
+
+          3. Dの選択肢は、「high costs and reliance on mercenaries」が軍事の有効性を弱体化させた要因として本文の内容に一致しています。他の選択肢（A、B、C、E、F、G、H、I、J、K、L）は軍事的な問題を示していません。
+
+          4. Eの選択肢は、「invasions by Visigoths, Vandals, and Huns」が外部からの脅威として本文の内容に一致しています。Bの選択肢は政治的な問題を示しており、適切ではありません。他の選択肢（A、C、D、F、G、H、I、J、K、L）は外部の脅威を示していません。
+
+          5. Hの選択肢は、「frequent invasions and internal rebellions」が軍事的な問題として本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、I、J、K、L）は軍事的な問題を示していません。
+
+          6. Lの選択肢は、「the ultimate collapse」がローマ帝国の最終的な崩壊を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、K）はローマ帝国の崩壊を示していません。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 890.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Network security involves protecting networks from various types of attacks. Common network attacks include phishing, malware, and denial-of-service (DoS) attacks. Each type of attack exploits different vulnerabilities and requires specific countermeasures. Understanding these attacks is essential for developing effective defense strategies and ensuring the integrity, confidentiality, and availability of network resources.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) Network security mainly focuses on preventing malware.
+            B) Understanding network attacks is key to developing defense strategies.
+            C) Denial-of-service attacks are the only threat to network security.
+            D) Phishing attacks are the most dangerous network threats.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Understanding network attacks is key to developing defense strategies.`,
+
+            explanation: `
+            Aの選択肢は、ネットワークセキュリティが主にマルウェアの防止に焦点を当てていると述べていますが、本文は様々な攻撃の理解が防御戦略の開発に重要であることを強調しています。Bの選択肢が本文の内容に一致しています。Cの選択肢は、DoS攻撃が唯一の脅威であると述べていますが、他の脅威も存在します。Dの選択肢は、フィッシング攻撃が最も危険であると述べていますが、本文では様々な攻撃が挙げられています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Firewalls are a critical component of network security, acting as a barrier between trusted and untrusted networks. Proper firewall configuration can prevent unauthorized access and protect sensitive data. Firewalls can be hardware-based, software-based, or a combination of both. Configuring firewalls correctly involves setting up rules and policies that define what traffic is allowed or blocked.`,
+
+            question: `What does Paragraph 2 highlight about firewalls?`,
+
+            choices:`
+            A) Firewalls are unnecessary for network security.
+            B) Firewalls only work if they are hardware-based.
+            C) Proper configuration of firewalls is crucial for preventing unauthorized access.
+            D) Firewalls cannot protect sensitive data.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Proper configuration of firewalls is crucial for preventing unauthorized access.`,
+
+            explanation: `
+            Aの選択肢は、ファイアウォールがネットワークセキュリティに不要であると述べていますが、本文はファイアウォールの重要性を強調しています。Bの選択肢は、ハードウェアベースのファイアウォールのみが機能すると述べていますが、ソフトウェアベースのものも機能します。Cの選択肢が本文の内容に一致しています。Dの選択肢は、ファイアウォールが機密データを保護できないと述べていますが、適切な設定により保護が可能です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Intrusion Detection Systems (IDS) monitor network traffic for suspicious activities and potential threats. IDS can be network-based or host-based, each with its advantages. By analyzing traffic patterns, IDS can identify anomalies and alert administrators to possible intrusions. Effective IDS implementation is crucial for maintaining network security and responding to threats promptly.`,
+
+            question: `Which statement best describes the role of Intrusion Detection Systems (IDS) as mentioned in Paragraph 3?`,
+
+            choices:`
+            A) IDS are used to configure firewall settings.
+            B) IDS monitor network traffic for suspicious activities.
+            C) IDS are not important for network security.
+            D) IDS replace the need for firewalls.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) IDS monitor network traffic for suspicious activities.`,
+
+            explanation: `
+            Aの選択肢は、IDSがファイアウォールの設定に使用されると述べていますが、本文はIDSの役割を異なります。Bの選択肢が本文の内容に一致しています。Cの選択肢は、IDSがネットワークセキュリティに重要でないと述べていますが、本文はその重要性を強調しています。Dの選択肢は、IDSがファイアウォールの必要性を置き換えると述べていますが、どちらも重要な役割を果たします。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Encryption technologies are essential for protecting data transmitted over networks. Encryption converts data into a coded format, making it unreadable to unauthorized users. Strong encryption algorithms and key management practices ensure data confidentiality. Additionally, developing comprehensive security policies and conducting regular risk assessments help organizations manage security risks and protect network infrastructure effectively.`,
+
+            question: `What is emphasized about encryption technologies in Paragraph 4?`,
+
+            choices:`
+            A) Encryption makes data readable to all users.
+            B) Encryption is unnecessary for network security.
+            C) Strong encryption and key management practices protect data confidentiality.
+            D) Security policies are irrelevant if encryption is used.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Strong encryption and key management practices protect data confidentiality.`,
+
+            explanation: `
+            Aの選択肢は、暗号化がすべてのユーザーにデータを読みやすくすると述べていますが、暗号化はデータを読めなくするものです。Bの選択肢は、暗号化がネットワークセキュリティに不要であると述べていますが、本文はその重要性を強調しています。Cの選択肢が本文の内容に一致しています。Dの選択肢は、暗号化が使用されていればセキュリティポリシーが無関係であると述べていますが、ポリシーと暗号化の両方が重要です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Network security is vital for protecting against (1)______, with firewalls serving as a critical barrier. Proper firewall configuration (2)______ and protects sensitive data. Intrusion Detection Systems (IDS) (3)______ for suspicious activities, while encryption technologies (4)______ data from unauthorized access. Comprehensive security policies and risk management (5)______ to address threats and ensure (6)______.`,
+
+          choices:`
+          A. helps to monitor network traffic
+          B. preventing unauthorized access
+          C. are essential for protecting data
+          D. analyzes traffic patterns
+          E. involves setting up rules and policies
+          F. ensure data confidentiality
+          G. convert data into a coded format
+          H. create strong encryption algorithms
+          I. monitor network traffic
+          J. are crucial for managing security risks
+          K. various types of attacks
+          L. strengthens the effectiveness of firewalls
+          `,
+
+          answer_ids: ['11', '5', '9', '7', '10', '2'],
+
+          answers: `
+          1. K
+          2. E
+          3. I
+          4. G
+          5. J
+          6. B
+          `,
+
+          explanation: `
+          1. Kの選択肢は「various types of attacks」がネットワークセキュリティが保護するものとして本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、L）はネットワーク攻撃の種類を示していません。
+
+          2. Eの選択肢は「involves setting up rules and policies」がファイアウォールの正しい設定方法として本文の内容に一致しています。他の選択肢（A、B、C、D、F、G、H、I、J、K、L）はファイアウォールの設定方法を示していません。
+
+          3. Iの選択肢は「monitor network traffic」がIDSの役割として本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、J、K、L）はIDSの役割を示していません。
+
+          4. Gの選択肢は「convert data into a coded format」が暗号化技術の役割として本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、H、I、J、K、L）は暗号化技術の役割を示していません。
+
+          5. Jの選択肢は「are crucial for managing security risks」が包括的なセキュリティポリシーとリスク管理の重要性として本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、K、L）はセキュリティポリシーとリスク管理の重要性を示していません。
+
+          6. Bの選択肢は「preventing unauthorized access」がネットワークセキュリティの目的として本文の内容に一致しています。他の選択肢（A、C、D、E、F、G、H、I、J、K、L）はネットワークセキュリティの目的を示していません。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Litigation documents are essential in legal proceedings, providing a record of the case. Complaints initiate lawsuits by detailing the plaintiff's allegations against the defendant. These documents outline the legal basis for the claim and the desired outcome. Accurate and thorough complaints are crucial for establishing the framework of the case and guiding subsequent legal actions.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) Complaints are only filed by defendants in legal proceedings.
+            B) Complaints outline the plaintiff's allegations and desired outcome.
+            C) The plaintiff's allegations are not included in the complaint.
+            D) Complaints have no impact on the legal framework of the case.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Complaints outline the plaintiff's allegations and desired outcome.`,
+
+            explanation: `
+            Aの選択肢は、被告が法的手続きでのみ訴状を提出すると述べていますが、原告が訴状を提出します。Bの選択肢が本文の内容に一致しており、原告の主張と希望する結果を述べています。Cの選択肢は、訴状に原告の主張が含まれていないと述べていますが、実際には含まれています。Dの選択肢は、訴状がケースの法的枠組みに影響を与えないと述べていますが、訴状は枠組みを確立する重要な役割を果たします。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            After receiving a complaint, the defendant must file an answer. The answer addresses each allegation made by the plaintiff, either admitting or denying them. This document may also include counterclaims against the plaintiff. A well-prepared answer is vital for the defendant's defense, as it directly responds to the issues raised in the complaint.`,
+
+            question: `What is the primary purpose of an answer as described in Paragraph 2?`,
+
+            choices:`
+            A) To introduce new allegations against the defendant.
+            B) To address the allegations made by the plaintiff.
+            C) To ignore the plaintiff's claims and present new evidence.
+            D) To provide a final decision on the case.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) To address the allegations made by the plaintiff.`,
+
+            explanation: `
+            Aの選択肢は、新しい主張を被告に対して導入すると述べていますが、回答の目的は原告の主張に対処することです。Bの選択肢が本文の内容に一致しており、原告の主張に対処することを述べています。Cの選択肢は、原告の主張を無視し、新しい証拠を提示すると述べていますが、回答は主張に直接応答します。Dの選択肢は、ケースの最終決定を提供すると述べていますが、それは裁判所の役割です。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Evidence submissions are critical in litigation, as they support the claims and defenses presented in the case. These documents include witness statements, expert reports, and physical evidence. Properly submitted evidence can significantly impact the outcome of a trial, making it essential for both parties to present their evidence effectively and in accordance with legal standards.`,
+
+            question: `What role do evidence submissions play in litigation according to Paragraph 3?`,
+
+            choices:`
+            A) They provide background information about the parties.
+            B) They offer opinions on the legal issues.
+            C) They support the claims and defenses in the case.
+            D) They are unnecessary for the trial outcome.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) They support the claims and defenses in the case.`,
+
+            explanation: `
+            Aの選択肢は、証拠提出が当事者に関する背景情報を提供すると述べていますが、証拠は主張と防御をサポートするためのものです。Bの選択肢は、法的問題に関する意見を提供すると述べていますが、証拠は事実を提示します。Cの選択肢が本文の内容に一致しており、ケースの主張と防御をサポートすることを述べています。Dの選択肢は、裁判の結果には不要であると述べていますが、証拠は重要な役割を果たします。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Throughout the litigation process, various motions and briefs are filed to address specific legal issues. Motions may request the court to make decisions on procedural matters, while briefs provide detailed arguments and legal precedents supporting a party's position. These documents play a crucial role in shaping the direction of the case and influencing the court's rulings.`,
+
+            question: `What do motions and briefs aim to achieve in the litigation process as stated in Paragraph 4?`,
+
+            choices:`
+            A) They delay the litigation process.
+            B) They address specific legal issues and provide supporting arguments.
+            C) They serve as informal notes between parties.
+            D) They are used only after the trial concludes.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) They address specific legal issues and provide supporting arguments.`,
+
+            explanation: `
+            Aの選択肢は、訴訟手続きを遅らせることを目的としていると述べていますが、モーションとブリーフは法的問題に対処するためのものです。Bの選択肢が本文の内容に一致しており、特定の法的問題に対処し、サポートする議論を提供することを述べています。Cの選択肢は、当事者間の非公式なメモとして機能すると述べていますが、これらの文書は正式な法的提出物です。Dの選択肢は、裁判が終了した後にのみ使用されると述べていますが、訴訟過程全体で使用されます。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Litigation documents are crucial in legal proceedings, with complaints (1)______. After receiving a complaint, the defendant must file an answer (2)______. Evidence submissions, including witness statements and expert reports, (3)______. Throughout the litigation process, various motions and briefs (4)______, addressing specific legal issues and (5)______. These documents play a crucial role in (6)______.`,
+
+          choices:`
+          A. establishing the framework of the case
+          B. supporting claims and defenses
+          C. responding to the issues raised in the complaint
+          D. protecting sensitive data
+          E. presenting detailed arguments and legal precedents
+          F. to support the plaintiff's allegations
+          G. influencing the court's rulings
+          H. requesting the court to make decisions on procedural matters
+          I. to address specific legal issues
+          J. providing background information on the case
+          K. guiding subsequent legal actions
+          L. outlining the legal basis for the claim and the desired outcome
+          `,
+
+          answer_ids: ['12', '3', '2', '9', '5', '7'],
+
+          answers: `
+          1. L
+          2. C
+          3. B
+          4. I
+          5. E
+          6. G
+          `,
+
+          explanation: `
+          1. Lの選択肢は、「outlining the legal basis for the claim and the desired outcome」が訴状の役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、K）は訴状の役割を示していません。
+
+          2. Cの選択肢は、「responding to the issues raised in the complaint」が回答の役割を示しており、本文の内容に一致しています。他の選択肢（A、B、D、E、F、G、H、I、J、K、L）は回答の役割を示していません。
+
+          3. Bの選択肢は、「supporting claims and defenses」が証拠提出の役割を示しており、本文の内容に一致しています。他の選択肢（A、C、D、E、F、G、H、I、J、K、L）は証拠提出の役割を示していません。
+
+          4. Iの選択肢は、「to address specific legal issues」がモーションとブリーフの役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、J、K、L）はモーションとブリーフの役割を示していません。
+
+          5. Eの選択肢は、「presenting detailed arguments and legal precedents」がモーションとブリーフの役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、F、G、H、I、J、K、L）はモーションとブリーフの役割を示していません。
+
+          6. Gの選択肢は、「influencing the court's rulings」が訴訟文書の重要な役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、H、I、J、K、L）は訴訟文書の役割を示していません。
           `,
         },
       },
