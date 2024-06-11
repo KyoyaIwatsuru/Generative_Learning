@@ -36,6 +36,11 @@ export const page = [
   { work: '6', id: '2' },//The Decline and Fall of the Roman Empire:3
   { work: '6', id: '3' },//Network Security:3
   { work: '6', id: '4' },//Litigation Documents:3
+  //Main Test6
+  { work: '7', id: '1' },//Philosophy of Mind:3
+  { work: '7', id: '2' },//Themes of Race and Morality in Mark Twain's "Adventures of Huckleberry Finn":3
+  { work: '7', id: '3' },//Innovations in Fintech (Financial Technology):3
+  { work: '7', id: '4' },//Deforestation and Loss of Biodiversity:3
 ]
 
 export const works = [
@@ -3337,6 +3342,606 @@ export const works = [
           5. Eの選択肢は、「presenting detailed arguments and legal precedents」がモーションとブリーフの役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、F、G、H、I、J、K、L）はモーションとブリーフの役割を示していません。
 
           6. Gの選択肢は、「influencing the court's rulings」が訴訟文書の重要な役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、H、I、J、K、L）は訴訟文書の役割を示していません。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 7,
+
+    title: 'Main Test6',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            The philosophy of mind examines the nature of mental phenomena, exploring concepts such as consciousness, thought, and emotions. Philosophers seek to understand how these elements are related to the physical brain and body. This field addresses fundamental questions about the mind’s capabilities and limitations, and how mental states can influence physical actions.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) The philosophy of mind deals exclusively with physical brain functions.
+            B) Philosophers are only interested in emotions and thought.
+            C) The philosophy of mind explores the nature of mental phenomena and their relation to the physical brain and body.
+            D) Mental states do not influence physical actions.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The philosophy of mind explores the nature of mental phenomena and their relation to the physical brain and body.`,
+
+            explanation: `
+            Aの選択肢は、心の哲学が脳の物理的な機能のみを扱うと述べていますが、本文では精神現象とそれらの身体との関係について述べられています。Bの選択肢は、哲学者が感情と思想のみに興味があると述べていますが、本文はもっと広範な概念を含んでいます。Dの選択肢は、精神状態が身体の行動に影響を与えないと述べていますが、本文ではその逆が述べられています。Cの選択肢が最も適切に本文を要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            One key issue in the philosophy of mind is the mind-body problem, which questions how the mind and body interact. Dualists argue that the mind and body are separate entities, while physicalists believe that mental states are entirely dependent on physical processes. This debate has significant implications for understanding consciousness and personal identity.`,
+
+            question: `What is the primary focus of the mind-body problem discussed in Paragraph 2?`,
+
+            choices:`
+            A) How emotions affect mental states.
+            B) The interaction between the mind and body.
+            C) The physical processes of the brain.
+            D) Personal identity in relation to physical appearance.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The interaction between the mind and body.`,
+
+            explanation: `
+            Aの選択肢は、感情が精神状態にどのように影響するかに焦点を当てていますが、本文は心と身体の相互作用について述べています。Cの選択肢は、脳の物理的プロセスに焦点を当てていますが、本文は心と身体の関係について述べています。Dの選択肢は、個人的なアイデンティティと外見の関係について述べていますが、本文の主題ではありません。Bの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Another important topic is the nature of consciousness itself. Philosophers debate whether consciousness can be fully explained by physical processes alone or if it requires a non-physical explanation. The “hard problem” of consciousness, introduced by David Chalmers, highlights the difficulty of explaining subjective experiences, or qualia, in purely physical terms.`,
+
+            question: `Which statement best captures the debate over consciousness in Paragraph 3?`,
+
+            choices:`
+            A) Consciousness is fully explained by physical processes alone.
+            B) Consciousness requires a non-physical explanation.
+            C) The “hard problem” of consciousness is easy to solve.
+            D) Philosophers agree on the nature of consciousness.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Consciousness requires a non-physical explanation.`,
+
+            explanation: `
+            Aの選択肢は、意識が完全に物理的プロセスで説明されると述べていますが、本文ではこの見解に異議を唱えています。Cの選択肢は、「意識のハードプロブレム」が簡単に解決できると述べていますが、本文ではその困難さを強調しています。Dの選択肢は、哲学者が意識の性質について同意していると述べていますが、本文ではその逆が述べられています。Bの選択肢が最も適切に本文の議論を反映しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Emotions also play a crucial role in the philosophy of mind. Philosophers explore how emotions are experienced, their connection to mental and physical states, and their influence on behavior. Understanding emotions involves examining both their subjective qualities and their physiological basis, providing insights into how emotions shape our perception and interactions with the world.`,
+
+            question: `What aspect of emotions is highlighted in Paragraph 4?`,
+
+            choices:`
+            A) Emotions are entirely separate from mental states.
+            B) Emotions have no influence on behavior.
+            C) Emotions are only physiological responses.
+            D) Emotions are experienced subjectively and have a physiological basis.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Emotions are experienced subjectively and have a physiological basis.`,
+
+            explanation: `
+            Aの選択肢は、感情が精神状態から完全に分離していると述べていますが、本文ではそれらの関係について述べています。Bの選択肢は、感情が行動に影響を与えないと述べていますが、本文ではその影響について述べています。Cの選択肢は、感情が単なる生理的反応であると述べていますが、本文では主観的な側面と生理的基盤の両方について述べています。Dの選択肢が最も適切に本文の内容を要約しています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `The philosophy of mind examines mental phenomena, including (1)______, and their relation to the physical brain. A central issue is the mind-body problem, questioning (2)______. Another important topic is the nature of consciousness, especially whether it requires (3)______. Emotions are also studied to understand their (4)______ and influence on behavior. These elements collectively contribute to understanding (5)______ and their impact on (6)______.`,
+
+          choices:`
+          A. physical or non-physical explanations
+          B. the interaction between mind and body
+          C. emotions and their connection to mental states
+          D. thought, consciousness, and emotions
+          E. the physiological and subjective aspects of emotions
+          F. physical processes in the brain
+          G. the physical brain’s structure
+          H. subjective experiences and their implications
+          I. the origins of consciousness
+          J. how mental states can influence physical actions
+          K. the nature of consciousness
+          L. understanding consciousness and personal identity
+          `,
+
+          answer_ids: ['4', '2', '1', '5', '12', '10'],
+
+          answers: `
+          1. D
+          2. B
+          3. A
+          4. E
+          5. L
+          6. J
+          `,
+
+          explanation: `
+          1. Dの選択肢は、「thought, consciousness, and emotions」が精神現象を示しており、本文の内容に一致しています。他の選択肢（A、B、C、E、F、G、H、I、J、K、L）は精神現象のすべてを含んでいません。
+
+          2. Bの選択肢は、「the interaction between mind and body」が心身問題の核心を示しており、本文の内容に一致しています。他の選択肢（A、C、D、E、F、G、H、I、J、K、L）は心身問題の核心を示していません。
+
+          3. Aの選択肢は、「physical or non-physical explanations」が意識の本質に関する議論を示しており、本文の内容に一致しています。他の選択肢（B、C、D、E、F、G、H、I、J、K、L）は意識の本質に関する議論を示していません。
+
+          4. Eの選択肢は、「the physiological and subjective aspects of emotions」が感情の研究を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、F、G、H、I、J、K、L）は感情の研究を示していません。
+
+          5. Lの選択肢は、「understanding consciousness and personal identity」が意識と個人のアイデンティティの理解に貢献する要素を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、K）は意識と個人のアイデンティティの理解に貢献する要素を示していません。
+
+          6. Jの選択肢は、「how mental states can influence physical actions」が精神状態が身体の行動に与える影響を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、K、L）は精神状態が身体の行動に与える影響を示していません。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Mark Twain's "Adventures of Huckleberry Finn" is set against the backdrop of the American South before the Civil War. The novel vividly depicts the social environment, highlighting the pervasive racial discrimination of the time. Twain uses this setting to explore complex themes of race, morality, and societal norms, challenging the reader to reflect on these issues.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) The novel ignores the social environment of the American South.
+            B) Mark Twain's novel is set in the North during the Civil War.
+            C) The novel uses the setting to explore themes of race, morality, and societal norms.
+            D) Racial discrimination is not depicted in the novel.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) The novel uses the setting to explore themes of race, morality, and societal norms.`,
+
+            explanation: `
+            Aの選択肢は、南部の社会環境を無視していると述べていますが、本文はその環境を強調しています。Bの選択肢は、舞台が北部であると述べていますが、南部が舞台です。Dの選択肢は、差別が描かれていないと述べていますが、本文は差別を強調しています。Cの選択肢が最も本文の内容を適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            A central theme in the novel is the concept of freedom. Huck Finn, the protagonist, seeks liberation from the constraints of society, while Jim, an escaped slave, desires freedom from enslavement. Their shared journey down the Mississippi River symbolizes their quest for personal freedom and autonomy, illustrating the universal longing for liberation.`,
+
+            question: `What is the primary theme discussed in Paragraph 2?`,
+
+            choices:`
+            A) The significance of wealth.
+            B) The quest for personal freedom.
+            C) The importance of education.
+            D) The impact of family heritage.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The quest for personal freedom.`,
+
+            explanation: `
+            Aの選択肢は、富の重要性について述べていますが、本文の主題ではありません。Cの選択肢は、教育の重要性について述べていますが、本文の主題ではありません。Dの選択肢は、家族の遺産について述べていますが、本文の主題ではありません。Bの選択肢が、自由の追求という本文のテーマを最も適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            The friendship between Huck and Jim is a cornerstone of the novel. Despite the racial prejudices of the time, Huck forms a deep bond with Jim. This relationship challenges the racist ideologies of the era, showing that true friendship transcends societal boundaries and prejudices, and it prompts Huck to question his own beliefs and values.`,
+
+            question: `What aspect of Huck and Jim's relationship is highlighted in Paragraph 3?`,
+
+            choices:`
+            A) Their friendship challenges racial prejudices of the time.
+            B) Huck and Jim maintain a distant and formal relationship.
+            C) Jim's escape is the primary focus of their relationship.
+            D) Huck's relationship with Jim remains unchanged throughout the novel.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Their friendship challenges racial prejudices of the time.`,
+
+            explanation: `
+            Bの選択肢は、関係が距離を置いて形式的であると述べていますが、友情が強調されています。Cの選択肢は、ジムの逃走が主題であると述べていますが、友情が主題です。Dの選択肢は、関係が変わらないと述べていますが、変化が強調されています。Aの選択肢が最も本文の内容を適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            The novel also delves into the moral development of Huck. Throughout their journey, Huck grapples with his conscience and the moral dilemmas he faces. His evolving relationship with Jim plays a crucial role in this process, ultimately leading Huck to reject the racist values he was raised with and to recognize Jim's humanity and dignity.`,
+
+            question: `How does Huck's moral development evolve in Paragraph 4?`,
+
+            choices:`
+            A) Huck continues to embrace the racist values he was raised with.
+            B) Huck's relationship with Jim leads him to reject racist values.
+            C) Huck ignores the moral dilemmas he faces.
+            D) Huck becomes more entrenched in societal norms.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Huck's relationship with Jim leads him to reject racist values.`,
+
+            explanation: `
+            Aの選択肢は、差別的な価値観を受け入れ続けると述べていますが、変化が強調されています。Cの選択肢は、道徳的なジレンマを無視すると述べていますが、本文ではその対処が強調されています。Dの選択肢は、社会的規範に固執することを述べていますが、本文ではその拒否が強調されています。Bの選択肢が最も本文の内容を適切に要約しています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Mark Twain's "Adventures of Huckleberry Finn" explores themes of (1)______ against the backdrop of the American South before the Civil War. The novel addresses the quest for (2)______, exemplified by Huck and Jim's journey down the Mississippi River. Their (3)______ challenges the racial prejudices of the time. Huck's (4)______ is influenced by his relationship with Jim, leading him to reject (5)______ and recognize (6)______.`,
+
+          choices:`
+          A. freedom from enslavement
+          B. moral development
+          C. racial discrimination and societal norms
+          D. the search for wealth
+          E. friendship with Jim
+          F. personal freedom and autonomy
+          G. deep bond
+          H. the importance of education
+          I. his racist upbringing
+          J. the significance of family heritage
+          K. Jim's humanity and dignity
+          L. the impact of societal norms on personal identity
+          `,
+
+          answer_ids: ['3', '6', '7', '2', '9', '11'],
+
+          answers: `
+          1. C
+          2. F
+          3. G
+          4. B
+          5. I
+          6. K
+          `,
+
+          explanation: `
+          1. Cの選択肢は「racial discrimination and societal norms」が、南北戦争前のアメリカ南部を背景にしたテーマを示しており、本文の内容に一致しています。他の選択肢（A、B、D、E、F、G、H、I、J、K、L）はこのテーマを示していません。
+
+          2. Fの選択肢は「personal freedom and autonomy」が、ハックとジムのミシシッピ川の旅に表される自由の追求を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、G、H、I、J、K、L）はこの自由の追求を示していません。
+
+          3. Gの選択肢は「deep bond」が、時代の人種偏見に挑戦する彼らの関係を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、H、I、J、K、L）はこの関係を示していません。
+
+          4. Bの選択肢は「moral development」が、ジムとの関係に影響されるハックの道徳的成長を示しており、本文の内容に一致しています。他の選択肢（A、C、D、E、F、G、H、I、J、K、L）はこの成長を示していません。
+
+          5. Iの選択肢は「his racist upbringing」が、ハックが拒否する人種差別的価値観を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、J、K、L）はこの価値観を示していません。
+
+          6. Kの選択肢は「Jim's humanity and dignity」が、ハックが認識するジムの人間性と尊厳を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、L）はこの認識を示していません。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 575.0, 715.0, 890.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Innovations in financial technology, or fintech, have significantly transformed the financial industry. Blockchain technology, in particular, has revolutionized the way transactions are recorded and verified. This decentralized ledger system offers increased security and transparency compared to traditional methods. As a result, blockchain is being adopted across various sectors, enhancing the efficiency of financial operations.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) Blockchain technology has made financial operations less efficient.
+            B) Fintech innovations have revolutionized the financial industry, especially through blockchain technology.
+            C) Traditional financial methods are superior to blockchain technology.
+            D) Blockchain technology is rarely used in financial operations.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Fintech innovations have revolutionized the financial industry, especially through blockchain technology.`,
+
+            explanation: `
+            Aの選択肢は、ブロックチェーン技術が金融業務を非効率にしたと述べていますが、本文では効率を高めたと述べています。Cの選択肢は、伝統的な方法が優れていると述べていますが、本文では革新が強調されています。Dの選択肢は、ブロックチェーン技術がほとんど使用されていないと述べていますが、本文では広く採用されていると述べています。Bの選択肢が最も本文を適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Digital currencies, such as Bitcoin and Ethereum, have emerged as popular alternatives to traditional fiat currencies. These cryptocurrencies offer the benefits of lower transaction fees and faster cross-border payments. However, their volatile nature and regulatory challenges pose significant risks. Governments and financial institutions are still grappling with how to effectively regulate these digital assets.`,
+
+            question: `What is the main focus of Paragraph 2?`,
+
+            choices:`
+            A) The stability of fiat currencies.
+            B) The regulatory challenges and risks of digital currencies.
+            C) The benefits of traditional banking.
+            D) The comparison between Bitcoin and Ethereum.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The regulatory challenges and risks of digital currencies.`,
+
+            explanation: `
+            Aの選択肢は、法定通貨の安定性について述べていますが、本文の主題ではありません。Cの選択肢は、伝統的な銀行業務の利点について述べていますが、本文の主題ではありません。Dの選択肢は、ビットコインとイーサリアムの比較について述べていますが、本文の主題ではありません。Bの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Smart contracts, powered by blockchain, have automated and streamlined complex financial transactions. These self-executing contracts reduce the need for intermediaries, cutting costs and minimizing the risk of human error. Smart contracts are particularly beneficial in areas such as insurance, real estate, and supply chain management, where they can enhance transparency and efficiency.`,
+
+            question: `Which statement best describes the role of smart contracts as mentioned in Paragraph 3?`,
+
+            choices:`
+            A) They increase the need for intermediaries in financial transactions.
+            B) They have no impact on financial transparency.
+            C) They streamline transactions and reduce costs by automating processes.
+            D) They are not useful in insurance and real estate.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) They streamline transactions and reduce costs by automating processes.`,
+
+            explanation: `
+            Aの選択肢は、スマートコントラクトが仲介者の必要性を増加させると述べていますが、本文では逆に減少させると述べています。Bの選択肢は、透明性に影響を与えないと述べていますが、本文では透明性を高めると述べています。Dの選択肢は、保険や不動産で役に立たないと述べていますが、本文では特にこれらの分野で有用であると述べています。Cの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            AI-driven financial services are another major innovation in fintech. Artificial intelligence is being used to provide personalized financial advice, detect fraudulent activities, and improve customer service. By analyzing vast amounts of data, AI systems can make more accurate predictions and offer tailored solutions to clients. However, the integration of AI also raises ethical and privacy concerns that need to be addressed.`,
+
+            question: `What is a key advantage of AI-driven financial services discussed in Paragraph 4?`,
+
+            choices:`
+            A) AI reduces the need for any regulatory oversight.
+            B) AI can make more accurate predictions by analyzing large amounts of data.
+            C) AI eliminates all ethical and privacy concerns.
+            D) AI-driven services are less efficient than human advisors.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) AI can make more accurate predictions by analyzing large amounts of data.`,
+
+            explanation: `
+            Aの選択肢は、AIが規制の監視の必要性を減少させると述べていますが、本文の主題ではありません。Cの選択肢は、AIがすべての倫理的およびプライバシーの懸念を排除すると述べていますが、本文ではこれらの懸念が残っていると述べています。Dの選択肢は、AI駆動のサービスが人間のアドバイザーよりも非効率であると述べていますが、本文では効率が高いと述べています。Bの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Innovations in fintech, such as (1)______, have significantly transformed the financial industry. Digital currencies like Bitcoin and Ethereum offer benefits like (2)______, but their volatile nature and regulatory challenges pose risks. Smart contracts powered by blockchain (3)______, reducing the need for intermediaries. AI-driven financial services provide personalized advice and detect fraud, though they also raise (4)______. These advancements in fintech require (5)______ and effective (6)______.`,
+
+          choices:`
+          A. mitigate climate change by absorbing carbon dioxide
+          B. reforestation initiatives
+          C. offering lower transaction fees and faster payments
+          D. enhance efficiency and security
+          E. eliminate all regulatory issues
+          F. blockchain technology
+          G. streamline financial transactions
+          H. increased human oversight
+          I. enhance transparency and efficiency
+          J. regulatory and privacy concerns
+          K. international cooperation
+          L. policy measures
+          `,
+
+          answer_ids: ['6', '3', '7', '10', '11', '12'],
+
+          answers: `
+          1. F
+          2. C
+          3. G
+          4. J
+          5. K
+          6. L
+          `,
+
+          explanation: `
+          1. Fの選択肢は「blockchain technology」がフィンテックの革新の例として適切であり、本文の内容に一致しています。他の選択肢（A、B、C、D、E、G、H、I、J、K、L）はこの文脈には適していません。
+
+          2. Cの選択肢は「offering lower transaction fees and faster payments」がデジタル通貨の利点を示しており、本文の内容に一致しています。他の選択肢（A、B、D、E、F、G、H、I、J、K、L）はこの利点を示していません。
+
+          3. Gの選択肢は「streamline financial transactions」がスマートコントラクトの役割を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、H、I、J、K、L）はスマートコントラクトの役割を示していません。
+
+          4. Jの選択肢は「regulatory and privacy concerns」がAI駆動の金融サービスが引き起こす問題を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、K、L）はこれらの懸念を示していません。
+
+          5. Kの選択肢は「international cooperation」がフィンテックの進展に必要な要素を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、L）はこの要素を示していません。
+
+          6. Lの選択肢は「policy measures」がフィンテックの進展に必要な効果的な対策を示しており、本文の内容に一致しています。他の選択肢（A、B、C、D、E、F、G、H、I、J、K）はこの対策を示していません。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 400.0, 540.0, 680.0, 820.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Deforestation has profound impacts on ecosystems, leading to a significant loss of biodiversity. Forests are home to countless species, and their destruction disrupts habitats and ecological balance. The loss of plant and animal species can have cascading effects on other organisms and the environment, underscoring the critical need for forest conservation.`,
+
+            question: `Which of the following best summarizes Paragraph 1?`,
+
+            choices:`
+            A) Deforestation has minimal impact on ecosystems.
+            B) The loss of forests leads to significant biodiversity loss and ecological disruption.
+            C) Forest conservation is unnecessary for biodiversity.
+            D) Plant and animal species are unaffected by deforestation.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The loss of forests leads to significant biodiversity loss and ecological disruption.`,
+
+            explanation: `
+            Aの選択肢は、森林破壊が生態系に最小限の影響しか与えないと述べていますが、本文では大きな影響があると述べています。Cの選択肢は、森林保護が生物多様性にとって不必要であると述べていますが、本文では重要であると述べています。Dの選択肢は、植物や動物種が森林破壊によって影響を受けないと述べていますが、本文では大きな影響があると述べています。Bの選択肢が最も本文を適切に要約しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Forests serve as vital carbon sinks, absorbing large amounts of carbon dioxide from the atmosphere. This process helps mitigate climate change by reducing greenhouse gas levels. Deforestation not only eliminates these carbon sinks but also releases stored carbon, exacerbating global warming. Protecting and restoring forests is essential for climate stability.`,
+
+            question: `What is the primary role of forests mentioned in Paragraph 2?`,
+
+            choices:`
+            A) Providing timber for construction.
+            B) Serving as carbon sinks to mitigate climate change.
+            C) Offering recreational spaces for humans.
+            D) Enhancing soil fertility.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Serving as carbon sinks to mitigate climate change.`,
+
+            explanation: `
+            Aの選択肢は、森林が建設用材を提供すると述べていますが、本文の主題ではありません。Cの選択肢は、森林が人間のためのレクリエーションスペースを提供すると述べていますが、本文の主題ではありません。Dの選択肢は、森林が土壌肥沃度を向上させると述べていますが、本文の主題ではありません。Bの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Efforts to conserve forests include reforestation and sustainable agriculture practices. Reforestation involves planting trees to restore deforested areas, while sustainable agriculture aims to reduce the need for clearing new land. These initiatives help maintain biodiversity, enhance carbon sequestration, and promote ecological health. Effective forest conservation requires a combination of these strategies.`,
+
+            question: `What strategies are discussed in Paragraph 3 to conserve forests?`,
+
+            choices:`
+            A) Reforestation and sustainable agriculture.
+            B) Urban development and industrialization.
+            C) Increased logging activities.
+            D) Use of non-renewable energy sources.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Reforestation and sustainable agriculture.`,
+
+            explanation: `
+            Bの選択肢は、都市開発と工業化について述べていますが、本文の主題ではありません。Cの選択肢は、伐採活動の増加について述べていますが、本文の主題ではありません。Dの選択肢は、非再生可能エネルギー源の使用について述べていますが、本文の主題ではありません。Aの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Despite conservation efforts, challenges remain. Illegal logging, agricultural expansion, and inadequate enforcement of environmental regulations continue to threaten forests. International cooperation and stronger policies are necessary to combat deforestation effectively. Public awareness and community involvement also play crucial roles in preserving forest ecosystems for future generations.`,
+
+            question: `What challenges to forest conservation are highlighted in Paragraph 4?`,
+
+            choices:`
+            A) Overfishing and water pollution.
+            B) Illegal logging and agricultural expansion.
+            C) Technological advancements.
+            D) Lack of public interest in environmental issues.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Illegal logging and agricultural expansion.`,
+
+            explanation: `
+            Aの選択肢は、過剰漁業と水質汚染について述べていますが、本文の主題ではありません。Cの選択肢は、技術の進歩について述べていますが、本文の主題ではありません。Dの選択肢は、環境問題への公的関心の欠如について述べていますが、本文の主題ではありません。Bの選択肢が本文の内容に最も一致しています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Deforestation significantly impacts ecosystems, leading to (1)______. Forests serve as vital carbon sinks, helping to (2)______. Conservation efforts, including (3)______ and sustainable agriculture, aim to (4)______. Despite these efforts, challenges such as (5)______ and agricultural expansion persist. To combat deforestation effectively, (6)______ and stronger policies are necessary.`,
+
+          choices:`
+          A. maintain biodiversity and ecological health
+          B. increased biodiversity and habitat creation
+          C. mitigate climate change by absorbing carbon dioxide
+          D. reforestation initiatives
+          E. illegal logging
+          F. enhance soil fertility
+          G. international cooperation
+          H. recreational spaces for humans
+          I. soil degradation and water pollution
+          J. reduce the need for clearing new land
+          K. disrupt habitats and reduce biodiversity
+          L. increased logging activities
+          `,
+
+          answer_ids: ['11', '3', '4', '1', '5', '7'],
+
+          answers: `
+          1. K
+          2. C
+          3. D
+          4. A
+          5. E
+          6. G
+          `,
+
+          explanation: `
+          1. Kの選択肢は「disrupt habitats and reduce biodiversity」が森林伐採の生態系への影響を示しており、本文の内容に一致しています。他の選択肢（B、F、H、I、L）はこの影響を示していません。
+
+          2. Cの選択肢は「mitigate climate change by absorbing carbon dioxide」が森林の炭素吸収機能を示しており、本文の内容に一致しています。他の選択肢（B、D、F、H、I）はこの機能を示していません。
+
+          3. Dの選択肢は「reforestation initiatives」が森林保全のための取り組みを示しており、本文の内容に一致しています。他の選択肢（A、B、E、F、I、L）はこの取り組みを示していません。
+
+          4. Aの選択肢は「maintain biodiversity and ecological health」が森林保全の目的を示しており、本文の内容に一致しています。他の選択肢（B、D、E、F、I、L）はこの目的を示していません。
+
+          5. Eの選択肢は「illegal logging」が森林保全の課題を示しており、本文の内容に一致しています。他の選択肢（A、B、D、F、H、I、L）はこの課題を示していません。
+
+          6. Gの選択肢は「international cooperation」が森林伐採の効果的な対策を示しており、本文の内容に一致しています。他の選択肢（A、B、D、E、F、I、L）はこの対策を示していません。
           `,
         },
       },
