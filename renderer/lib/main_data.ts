@@ -41,6 +41,16 @@ export const page = [
   { work: '7', id: '2' },//Themes of Race and Morality in Mark Twain's "Adventures of Huckleberry Finn":3
   { work: '7', id: '3' },//Innovations in Fintech (Financial Technology):3
   { work: '7', id: '4' },//Deforestation and Loss of Biodiversity:3
+  //Main Test7
+  { work: '8', id: '1' },
+  { work: '8', id: '2' },
+  { work: '8', id: '3' },
+  { work: '8', id: '4' },
+  //Main Test8
+  { work: '9', id: '1' },
+  { work: '9', id: '2' },
+  { work: '9', id: '3' },
+  { work: '9', id: '4' },
 ]
 
 export const works = [
@@ -3942,6 +3952,1326 @@ export const works = [
           5. Eの選択肢は「illegal logging」が森林保全の課題を示しており、本文の内容に一致しています。他の選択肢（A、B、D、F、H、I、L）はこの課題を示していません。
 
           6. Gの選択肢は「international cooperation」が森林伐採の効果的な対策を示しており、本文の内容に一致しています。他の選択肢（A、B、D、E、F、I、L）はこの対策を示していません。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 8,
+
+    title: 'Main Test7',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 400.0, 575.0, 750.0, 925.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Smartphones are part of daily life for many people around the world. Research shows that using a smartphone before bedtime can make it harder to fall asleep. The blue light from screens slows the release of sleep hormones like melatonin, crucial for rest. When melatonin production is delayed, many people experience longer sleep onset latency and poorer overall sleep quality.`,
+
+            question: `What is the main idea of Paragraph 1?`,
+
+            choices:`
+            A) Using smartphones before bed can help produce melatonin quickly.
+            B) The blue light from screens can delay melatonin and worsen sleep quality.
+            C) Reading printed books before bed reduces sleep onset latency.
+            D) Watching television improves sleep onset latency and overall sleep quality.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) The blue light from screens can delay melatonin and worsen sleep quality.`,
+
+            explanation: `
+            A. 誤り。Paragraph 1ではスマートフォン使用がメラトニンの生成を「助ける」とは述べておらず、むしろ遅らせると説明しています。
+            B. 正解。Paragraph 1は「画面のブルーライトがメラトニンの分泌を遅らせ、睡眠の質を低下させる」と明確に述べています。
+            C. 誤り。本文では印刷された本の読書について触れていません。
+            D. 誤り。テレビ視聴が睡眠を改善するとも書かれていないため、本文の内容とは一致しません。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Recent studies asked participants to limit smartphone use before bed to improve sleep. In one experiment, volunteers stopped screen time thirty minutes before sleeping. They reported falling asleep faster and waking less during the night. Another study showed that reducing evening screen exposure normalized circadian rhythms. These findings suggest small changes in screen habits can significantly enhance overall sleep quality.`,
+
+            question: `What do the studies in Paragraph 2 demonstrate?`,
+
+            choices:`
+            A) Limiting smartphone use before bed improved sleep and normalized circadian rhythms.
+            B) Increasing screen time before bed led to deeper sleep stages.
+            C) Keeping phone notifications on at night reduces sleep onset latency.
+            D) Using multiple devices before sleep had no effect on sleep quality.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Limiting smartphone use before bed improved sleep and normalized circadian rhythms.`,
+
+            explanation: `
+            A. 正解。Paragraph 2では、就寝前のスクリーン使用制限が入眠を早め、概日リズムを正常化したと報告しています。
+            B. 誤り。スクリーンタイムを「増やす」とはせず「制限する」ことで睡眠改善が見られたと述べています。
+            C. 誤り。通知を「オンにする」とは逆に、通知をオフにすることで刺激を減らす方法が後の段落で推奨されています。
+            D. 誤り。Paragraph 2は明確に「影響があった」と報告しており、影響がなかったとは述べていません。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Experiments indicate that electromagnetic emissions from touchscreen interactions perturb endogenous melatonin secretion, thereby prolonging circadian phase shifts. Consequently, pre-sleep screen usage is implicated in attenuating sleep efficiency. Moreover, longitudinal analyses have correlated habitual nocturnal device engagement with elevated sleep onset latency and diminished rapid-eye-movement cycles, underscoring the necessity of mitigating nocturnal stimuli to preserve optimal sleep architecture.`,
+
+            question: `According to Paragraph 3, how do touchscreen devices affect sleep?`,
+
+            choices:`
+            A) Touchscreen emissions reduce sleep efficiency by disturbing melatonin and REM cycles.
+            B) Nighttime device use increases physical activity and reduces total sleep time.
+            C) Long-term screen exposure improves circadian rhythms and sleep architecture.
+            D) Short device engagement has no impact on sleep onset latency.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Touchscreen emissions reduce sleep efficiency by disturbing melatonin and REM cycles.`,
+
+            explanation: `
+            A. 正解。Paragraph 3は「タッチスクリーンの電磁放射がメラトニン分泌やREMサイクルを乱し、睡眠効率を低下させる」と述べています。
+            B. 誤り。本文では身体活動の増加については言及されておらず、睡眠時間の短縮とも述べていません。
+            C. 誤り。「睡眠構造が改善された」とは書かれておらず、むしろ悪化することを示唆しています。
+            D. 誤り。短時間の使用でも入眠潜時に影響があると記載されています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Experts recommend that individuals establish a curfew at least one hour prior to bedtime. Turning off notifications and using night mode can reduce exposure to content. Alternatives such as reading a book or practicing relaxation techniques are suggested to ease the transition to sleep. By creating a consistent pre-sleep routine, many users report improved restfulness and decreased serious sleep problems.`,
+
+            question: `What recommendation is offered in Paragraph 4?`,
+
+            choices:`
+            A) Establishing a pre-sleep routine and curfew can enhance sleep quality.
+            B) Eating heavy meals before bed improves restfulness.
+            C) Exercising vigorously at night is recommended to reduce sleep problems.
+            D) Checking social media before sleep is beneficial for relaxation.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Establishing a pre-sleep routine and curfew can enhance sleep quality.`,
+
+            explanation: `
+            A. 正解。Paragraph 4は「就寝1時間前のデジタル就寝時刻設定や一貫したルーティンを作ることが睡眠改善につながる」と推奨しています。
+            B. 誤り。重い食事については一切触れられていません。
+            C. 誤り。激しい運動は推奨されておらず、リラックス技法や読書が示されています。
+            D. 誤り。ソーシャルメディアのチェックは刺激となるため、推奨されていません。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Smartphones are integral to daily routines, and numerous studies have confirmed that nighttime screen exposure (1)______. To counteract these effects, researchers have shown that deliberately limiting device use before bedtime (2)______. Further laboratory investigations indicate that the electromagnetic emissions from touchscreen interactions (3)______. Based on this evidence, sleep experts now advise individuals to (4)______. Additionally, many recommend (5)______. When adopted consistently, these practices (6)______.`,
+
+          choices:`
+          A. significantly delaying melatonin release
+          B. clearly impairing sleep quality
+          C. substantially accelerating sleep onset
+          D. effectively normalizing circadian rhythms
+          E. chronically disrupting hormone regulation
+          F. markedly reducing REM sleep efficiency
+          G. establishing a strict digital curfew
+          H. routinely disabling notifications nightly
+          I. replacing screen time with reading
+          J. mitigating serious sleep disturbances
+          K. significantly enhancing overall restfulness
+          L. habitually tracking charging status
+          `,
+
+          answer_ids: ['1', '3', '5', '7', '8', '11'],
+
+          answers: `
+          1. A
+          2. C
+          3. E
+          4. G
+          5. H
+          6. K
+          `,
+
+          explanation: `
+          1. A. 正解。 第1文は「夜間の画面曝露がメラトニン分泌を大幅に遅らせる」と本文冒頭の主張を具体的にまとめています。B. 誤り。「睡眠質の悪化」は次の文で扱われるべき内容です。C–L. 誤り。これらは「メラトニン遅延」を示す文として不適切です。
+
+          2. C. 正解。 第2文は「就寝前のスクリーン制限が入眠を大幅に早める」と研究結果を要約しています。B. 誤り。「睡眠質の低下」は第1文の内容と混同されがちですが、第2文は改善策の効果を述べています。A, D, E–L. 誤り。これらは「入眠促進と概日リズム正常化」を示す正確な表現ではありません。
+
+          3. E. 正解。 第3文は「タッチスクリーンの電磁放射がホルモン調節を慢性的に乱す」という高度な研究結果を示しています。F. 誤り。REM効率の低下は関連しますが、ここはホルモン調節の乱れを強調すべきです。A–D, G–L. 誤り。第3文の要旨と合致しません。
+
+          4. G. 正解。 第4文は「厳格なデジタルカーフューの設定」を専門家助言として的確に要約しています。D. 誤り。「概日リズム正常化」は別の段落の内容です。A–C, E–F, H–L. 誤り。専門家助言の核心とずれています。
+
+          5. H. 正解。 第5文は「通知を毎晩オフにする」という具体策を本文の推奨と一致させています。I. 誤り。読書への置き換えは次に来る別の選択肢ですが、ここでは通知オフが正です。A–G, J–L. 誤り。本文の具体策を反映していません。
+
+          6. K. 正解。 第6文は「これらの対策で全体的な休息感を大幅に向上させる」と結論づけており、本文全体の効果をまとめています。J. 誤り。「深刻な睡眠障害の緩和」も部分的な効果ですが、本文の結論はより総合的な「休息感の向上」です。A–I, L. 誤り。本文の総合的な効果を示す表現ではありません。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 400.0, 575.0, 750.0, 925.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Many employees now work from home instead of commuting to an office. This change decreases daily travel time by an average of one to two hours. People can use saved time for personal tasks or rest. However, some individuals miss the physical separation between work and home. Managers also need new ways to check attendance and regularly maintain overall productivity.`,
+
+            question: `What is the main point of Paragraph 1?`,
+
+            choices:`
+            A) Working from home cuts commute time significantly and demands new methods for monitoring productivity.
+            B) Remote employees often work fewer hours and require minimal oversight to maintain performance levels.
+            C) Home-based work increases daily travel time and reduces opportunities for personal tasks and rest.
+            D) In-office work enhances team collaboration but limits time spent on family and personal activities.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Working from home cuts commute time significantly and demands new methods for monitoring productivity.`,
+
+            explanation: `
+            A. 正解。 Paragraph 1は「在宅勤務が通勤時間を大幅に削減し、その代わり生産性管理の新手法が必要になる」と述べています。
+            B. 誤り。 「労働時間が減る」「最小限の監督で済む」とは書かれていません。
+            C. 誤り。 通勤時間を「増やす」とは真逆の内容です。
+            D. 誤り。 「オフィス勤務がチーム協働を促進する」とは述べられていません。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Working remotely often increases time spent with family members at home. Parents can join children for meals and supervise homework more easily. Couples report enjoying shared breaks and household duties. Yet, balancing work calls with family needs can cause interruptions and stress. Without clear boundaries, employees sometimes struggle to manage family demands alongside professional responsibilities.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) Remote work improves family engagement but creates challenges in scheduling and enforcing boundaries effectively.
+            B) Working from home reduces family time due to constant meetings and increased work pressures.
+            C) Home-based employment prevents employees from balancing personal and professional tasks without digital tools.
+            D) In-office schedules guarantee separation of duties and minimize interruptions from family obligations.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Remote work improves family engagement but creates challenges in scheduling and enforcing boundaries effectively.`,
+
+            explanation: `
+            A. 正解。 Paragraph 2は「家族との時間は増えるが、スケジュール調整や境界設定が難しくなる」と説明しています。
+            B. 誤り。 家族時間が「減る」とは書かれていません。
+            C. 誤り。 デジタルツールの有無については言及がなく、本文の主旨と異なります。
+            D. 誤り。 オフィススケジュールが話題ではありません。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Many remote workers report changes in mental health when working from home. Reduced social interactions can lead to feelings of isolation and loneliness. Some employees experience burnout due to blurred work-life boundaries. Conversely, flexibility in schedule allows breaks for self-care and exercise, improving mood. Access to mental health resources online has increased, enabling workers to directly seek support more easily.`,
+
+            question: `How does Paragraph 3 describe mental health changes due to remote work?`,
+
+            choices:`
+            A. It shows that remote work only benefits mental health through increased schedule flexibility and self-care.
+            B. It highlights both isolation and burnout risks of remote work, along with self-care and support benefits.
+            C. It states that remote employment has no impact on mental health and maintains work-life balance.
+            D. It argues that increased social interactions at home reduce the need for external mental health resources.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) It highlights both isolation and burnout risks of remote work, along with self-care and support benefits.`,
+
+            explanation: `
+            A. 誤り。 本文では利点だけでなく、孤立や燃え尽きのリスクも指摘しています。
+            B. 正解。 Paragraph 3は「孤立感や燃え尽きのリスクと、自己ケアや支援の利点」を両面で示しています。
+            C. 誤り。 影響が「全くない」とは述べられていません。
+            D. 誤り。 「社会的交流が増える」とは逆の内容です。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            While remote work affords flexibility, it often blurs the demarcation between professional duties and personal life, engendering perpetual connectivity. Employees find themselves negotiating asynchronous schedules with collaborators across time zones, which can exacerbate cognitive overload. Ergo, organizations must promulgate explicit policies delineating work hours and encourage compartmentalization to forestall chronic burnout and safeguard employee well-being in a protracted hybrid environment.`,
+
+            question: `What recommendation is offered in Paragraph 4?`,
+
+            choices:`
+            A) Companies should set clear work hours and encourage separation of work and personal life to prevent burnout.
+            B) Employers must require synchronous availability for all employees regardless of time zone differences.
+            C) Organizations are advised to eliminate formal policies and allow permanent connectivity for maximum flexibility.
+            D) Employees should blur personal and work boundaries as much as possible to foster continuous collaboration.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Companies should set clear work hours and encourage separation of work and personal life to prevent burnout.`,
+
+            explanation: `
+            A. 正解。 Paragraph 4は「明確な就業時間の設定と業務・私生活の区分化」を推奨しています。
+            B. 誤り。 「同期勤務の強制」は提案されていません。
+            C. 誤り。 「正式なポリシー廃止」は逆効果であり、本文と矛盾します。
+            D. 誤り。 境界を曖昧にすることを勧めていません。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Remote work has significantly reduced commuting time, giving employees extra hours for personal tasks and rest, but (1)______; it increases time spent with family, enabling parents to supervise children, share household duties, and strengthen relationships, yet (2)______; it affects employees’ mental health by (3)______ while it also increasingly provides benefits like (4)______; thus, (5)______ and (6)______, which are critical for sustainable work–life balance and improved overall well-being.`,
+
+          choices:`
+          A. it also demands new productivity tracking methods
+          B. it requires employees to return to the office more often
+          C. it can blur boundaries and cause interruptions
+          D. it encourages longer commutes to decompress after work
+          E. raising isolation and burnout risks
+          F. improving team cohesion through in-person meetings
+          G. offering flexible breaks and online support
+          H. mandating constant availability across time zones
+          I. organizations should implement explicit policies and boundaries
+          J. employees must attend daily video stand-ups
+          K. to maintain clear separation between work and personal life
+          L. to reduce overall labor costs for companies
+          `,
+
+          answer_ids: ['1', '3', '5', '7', '9', '11'],
+
+          answers: `
+          1. A
+          2. C
+          3. E
+          4. G
+          5. I
+          6. K
+          `,
+
+          explanation: `
+          1. A. 正解。 第1文は「通勤時間の削減の裏で、新たに生産性管理の方法が必要になった」という本文第1パラグラフの内容を的確に要約しています。B. 誤り。 「オフィスへの頻繁な出社」を求める文は本文に全くなく、逆の内容です。D. 誤り。 「長い通勤を推奨」という文は本文と矛盾します。
+
+          2. F・H・J・L. 誤り。 いずれも本文の問題点（生産性管理の必要性）を表していません。C. 正解。 第2文は「家族との時間は増えるが、仕事と私生活の境界があいまいになり、中断が起きやすい」という第2パラグラフの課題を端的にまとめています。B・D・F・H・J・L. 誤り。 これらは「境界があいまいになる」という特有の問題を示しておらず、本文の内容と一致しません。
+
+          3. E. 正解。 第3文は「孤立感や燃え尽きリスクの増大」という第3パラグラフの負の面を示しています。F. 誤り。 「対面会議によるチーム強化」は本文に記載されていません。A・B・C・D・G・H・I・J・K・L. 誤り。 いずれも「孤立と燃え尽き」の要点を示していません。
+
+          4. G. 正解。 第4文は「柔軟な休憩やオンライン支援の提供」という第3パラグラフの正の面を要約しています。A・B・C・D・E・H・J・L. 誤り。 これらは「オンライン支援と柔軟な休憩」を指しておらず、本文の利点を反映していません。
+
+          5. I. 正解。 第5文は「組織は明確な就業時間ポリシーと境界を設定すべき」という第4パラグラフの提言を表しています。H・J. 誤り。 「常時対応義務」や「毎日の立ち上げ会議」は、本文で奨励されていない強制事項です。B・D・F・G・K・L. 誤り。 これらはいずれも明確なポリシー設定という提言を示していません。
+
+          6. K. 正解。 第6文は「仕事と私生活を明確に分離するため」という第4パラグラフの結論的助言を示しています。L. 誤り。 「コスト削減」は本文の焦点ではなく、ワークライフバランス維持の目的とずれています。A–J. 誤り。 いずれも「分離維持」の具体的な目的を表していません。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 610.0, 785.0, 960.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Many students face academic stress from heavy workloads, tight deadlines, and high expectations. Projects, exams, and assignments can cause anxiety and fatigue. Commuting between classes or part-time jobs adds to time pressure. Without proper planning or support, these demands become overwhelming. Identifying these stressors is essential before applying strategies to alleviate pressure and improve academic performance.`,
+
+            question: `What is the main point of Paragraph 1?`,
+
+            choices:`
+            A) It increases commuting time and adds pressure to balance tasks and rest.
+            B) It reduces commuting time and removes the need for academic support services.
+            C) It reduces commuting time and requires new productivity monitoring methods.
+            D) It increases commuting time but improves collaboration with peers on campus.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) It reduces commuting time and requires new productivity monitoring methods.`,
+
+            explanation: `
+            A. 誤り。 「通学時間を増やす」とは逆で、通学時間が「追加的圧力を与える」との記述はパラグラフ1にはありません。
+            B. 誤り。 「学業支援サービスが不要になる」とは本文にありません。
+            C. 正解。 Paragraph 1は「学業の重圧や締切、通学時間などのストレス要因を特定し、適切な管理方法が必要」と述べています。
+            D. 誤り。 「協働が改善する」とは述べられておらず、主題とずれています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Although interpersonal relationships can buffer stress, unresolved conflicts with peers or family may intensify it. Miscommunications in group work, social comparisons, and peer pressure often heighten tension. Even well-meaning advice can provoke guilt or obligation. These accumulated emotional strains undermine concentration and motivation. Recognizing and addressing such interpersonal stressors enables students to cultivate healthier interactions and sustain mental balance.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) It prevents conflicts and ensures smooth collaboration in all group activities.
+            B) It eliminates interpersonal stress by simplifying communication among students.
+            C) It increases family or peer time but blurs boundaries and causes tension.
+            D) It discourages social interactions and isolates students from supportive networks.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) It increases family or peer time but blurs boundaries and causes tension.`,
+
+            explanation: `
+            A. 誤り。 「常に円滑に協力できる」との主張は本文と異なります。
+            B. 誤り。 「対人ストレスがなくなる」とは書かれていません。
+            C. 正解。 Paragraph 2は「対人関係は支えになる一方、衝突や比較などが境界を曖昧化しストレスを増大させる」とあります。
+            D. 誤り。 「交流を抑制するとあるが、本文は支えにもなるとしています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Mindfulness practices help students manage stress by promoting awareness and relaxation. Techniques like deep breathing and progressive muscle relaxation calm the mind. Even short daily meditation sessions can boost focus and reduce anxiety. Incorporating mindful breaks between study periods enhances emotional regulation and resilience, allowing learners to tackle challenges with greater clarity and composure.`,
+
+            question: `How does Paragraph 3 describe mindfulness?`,
+
+            choices:`
+            A) It risks isolation and burnout while offering flexibility for self-care and support.
+            B) It only improves well-being through flexible schedules and mental health resources.
+            C) It neither affects mental health nor influences academic performance outcomes.
+            D) It completely prevents stress and encourages continuous social engagement with peers.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) It only improves well-being through flexible schedules and mental health resources.`,
+
+            explanation: `
+            B. 正解。 Paragraph 3は「短時間の瞑想や呼吸法が注意力を高め、不安を減少させる」と述べ、Bが最適です。
+            A. 誤り。 これは精神衛生への一面しか示さず、実際には自己ケアや支援の利点が強調されています。
+            C. 誤り。 影響「なし」とは本文に反します。
+            D. 誤り。 継続的な社交を推奨する記述はありません。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Effective time management is crucial for stress reduction. Students should set realistic schedules, prioritize tasks, and break work into manageable chunks. Consistent use of planners or digital calendars helps track deadlines and allocate study time efficiently. Regular breaks prevent burnout and enhance productivity. Weekly review and adjustment of plans ensure workload control and significantly lower academic stress.`,
+
+            question: `What recommendation is offered in Paragraph 4?`,
+
+            choices:`
+            A) They should abandon planners and rely solely on spontaneous study routines.
+            B) They must enforce strict nonstop study sessions without any time for rest.
+            C) Students should create realistic task schedules and take regular breaks to reduce stress.
+            D) They must delegate all assignments to peers to minimize personal workload.
+            `,
+
+            answer_id: '3',
+
+            answer: `答え C) Students should create realistic task schedules and take regular breaks to reduce stress.`,
+
+            explanation: `
+            A. 誤り。 「プランナーを放棄する」とは書かれていません。
+            B. 誤り。 「休憩なしの勉強」を推奨する文は本文の主張と真逆です。
+            C. 正解。 Paragraph 4は「現実的なスケジュール設定と定期的な休憩でストレス軽減を図る」と助言しています。
+            D. 誤り。 同級生に全て委任する方法は本文に含まれていません。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Students face academic stress from heavy workloads and tight deadlines, often leading to anxiety and fatigue, (1)______. Interpersonal conflicts with peers or family can intensify these pressures and erode motivation, (2)______. Mindfulness practices such as deep breathing and brief meditation cultivate calm and focus, (3)______. Effective time management using realistic schedules and regular breaks bolsters productivity, (4)______. Recognizing both academic and interpersonal stressors enables proactive coping, (5)______. Ultimately, these strategies foster resilience and well-being among students, (6)______.`,
+
+          choices:`
+          A. but support and planning needed
+          B. so conflict resolution necessary
+          C. reducing anxiety and improving concentration
+          D. and prevents burnout with breaks
+          E. encouraging early intervention strategies
+          F. and enhance student well-being
+          G. increasing workloads and missed deadlines
+          H. ignoring interpersonal pressures completely
+          I. avoiding mindfulness practice benefits
+          J. requiring constant supervisor check-ins
+          K. detracting from essential study time
+          L. mandating nonstop academic performance
+          `,
+
+          answer_ids: ['1', '2', '3', '4', '5', '6'],
+
+          answers: `
+          1. A
+          2. B
+          3. C
+          4. D
+          5. E
+          6. F
+          `,
+
+          explanation: `
+          1. A. 正解。第1空欄は「計画とサポートが必要」という本文全体の導入部に続く内容であり、学業負担への対策を示します。B. 誤り。「対立解決が必要」という文は第1文脈ではなく、第2空欄に該当します。
+
+          2. B. 正解。第2空欄は「対立解決が必要」で、対人ストレス悪化の直後に置かれる論旨を受けています。A, C–L. 誤り。これらはいずれも「対人衝突への対応策」を適切に要約していません。
+
+          3. C. 正解。第3空欄は「不安軽減と集中力向上」を表し、マインドフルネスの効果を正確にまとめています。A, B, D–L. 誤り。これらはマインドフルネスの具体的効果を示すものではありません。
+
+          4. D. 正解。第4空欄は「休憩で燃え尽き防止」を示し、時間管理の利点を端的に要約しています。A–C, E–L. 誤り。いずれも「定期的な休憩による燃え尽き防止」を示す文ではありません。
+
+          5. E. 正解。第5空欄は「早期介入策を推奨する」という意味で、ストレス要因への対処を強調します。A–D, F–L. 誤り。これらは「積極的対処」にふさわしい表現ではありません。
+
+          6. F. 正解。第6空欄は「学生の幸福感を高める」という最終結論のまとめに最適です。A–E, G–L. 誤り。これらは本文の結論「レジリエンスと幸福の促進」を示すものではありません。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 435.0, 610.0, 785.0, 960.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Many plastic products are used in grocery shopping, such as disposable bags, packaging, and produce containers. To reduce waste, bring reusable cloth totes, carry mesh produce bags, and choose loose fruits and bulk items. These small choices at the store help cut down plastic packaging. Over time, consistent habits in shopping can significantly decrease household plastic consumption and environmental impact.`,
+
+            question: `What is the main idea of Paragraph 1?`,
+
+            choices:`
+            A) Opting for reusable pens and bamboo toothbrushes replaces many plastic items.
+            B) Refilling cleaning bottles with homemade solutions eliminates plastic waste in chores.
+            C) Carrying stainless-steel bottles and bamboo utensils helps cut daily single-use plastic.
+            D) Using reusable totes and choosing loose or bulk produce reduces shopping plastic.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Using reusable totes and choosing loose or bulk produce reduces shopping plastic.`,
+
+            explanation: `
+            A. 誤り。リフィルペンや竹歯ブラシの話は Paragraph 4 に記されています。
+            B. 誤り。掃除用ボトルの詰め替えは Paragraph 3 の内容です。
+            C. 誤り。ステンレスボトル・竹製器具の持参は Paragraph 4 の提案です。
+            D. 正解。 Paragraph 1 は「買い物で布製のトートやメッシュバッグを使い、バラ売り・大容量品を選ぶことでプラスチック包装を減らす」と説明しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Within the kitchen, transitioning to sustainable alternatives entails using glass or stainless-steel containers instead of single-use plastic storage. Additionally, beeswax-coated fabric wraps can substitute cling film, thereby reducing plastic film disposal. Repurposing jars and employing biodegradable sponges further diminish polymer waste while promoting circularity. Habitual integration of these practices contributes to long-term waste minimization and ecological responsibility.`,
+
+            question: `What does Paragraph 2 recommend?`,
+
+            choices:`
+            A) Carrying reusable water bottles and cloth napkins on daily outings.
+            B) Bringing mesh bags to shops and selecting loose fruits over packaged ones.
+            C) Refilling spray bottles with vinegar and water for eco-friendly cleaning.
+            D) Using glass or stainless-steel containers and beeswax wraps to replace plastic storage.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Using glass or stainless-steel containers and beeswax wraps to replace plastic storage.`,
+
+            explanation: `
+            A. 誤り。再利用水筒と布ナプキンは Paragraph 4 の日常習慣として挙げられています。
+            B. 誤り。メッシュバッグやバラ売りは Paragraph 1 の買い物提案です。
+            C. 誤り。ビネガー水の掃除用ボトル詰め替えは Paragraph 3 の掃除対策です。
+            D. 正解。 Paragraph 2 は「キッチンでガラス容器やビーラップを使ってプラスチック容器とラップを代替する」と述べています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Many household cleaning products come in plastic bottles and packaging. To cut plastic use, refill spray bottles with homemade solutions such as vinegar and water. Purchase cleaning concentrates that require dilution instead of buying new bottles. Opt for solid dish soap bars and shampoo bars instead of bottled liquids. These simple swaps for everyday cleaning tasks help decrease plastic waste significantly.`,
+
+            question: `What is the key suggestion in Paragraph 3?`,
+
+            choices:`
+            A) Using bamboo utensils and cloth napkins instead of disposable cutlery.
+            B) Storing grains in glass jars instead of plastic containers in the kitchen.
+            C) Carrying reusable cloth bags for grocery shopping to reduce plastic bags.
+            D) Refilling spray bottles with homemade vinegar-and-water cleaning solutions.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Refilling spray bottles with homemade vinegar-and-water cleaning solutions.`,
+
+            explanation: `
+            A. 誤り。竹製器具は Paragraph 4 の日常携帯アイテムです。
+            B. 誤り。ガラス瓶の食料保存は Paragraph 2 の内容ですが、掃除対策ではありません。
+            C. 誤り。布バッグの携帯は Paragraph 1 の買物対策です。
+            D. 正解。 Paragraph 3 は「ビネガーと水の自家製溶液でスプレーボトルを詰め替え、プラスチックボトルを減らす」と具体的に示しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            To further reduce plastic, adopt reusable items in daily routines. Carry a stainless steel water bottle, bamboo utensils, and cloth napkins. Choose refillable pens and avoid disposable cutlery. Replace plastic toothbrushes with bamboo or recyclable-handled brushes. Encourage family members to follow these habits. Together, these small, practical changes foster a sustainable lifestyle and substantially lower household plastic usage.`,
+
+            question: `What is the focus of Paragraph 4?`,
+
+            choices:`
+            A) Selecting bulk items and minimal packaging when shopping.
+            B) Repurposing jars and using biodegradable sponges in kitchen cleaning.
+            C) Opting for solid soap bars in lieu of bottled liquid products.
+            D) Carrying stainless steel bottles, bamboo utensils, and cloth napkins daily.
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Carrying stainless steel bottles, bamboo utensils, and cloth napkins daily.`,
+
+            explanation: `
+            A. 誤り。バラ売り・大容量品選択は Paragraph 1 の買い物対策です。
+            B. 誤り。ビオスポンジとジャー再利用は Paragraph 2 のキッチン対策です。
+            C. 誤り。固形石鹸バーは Paragraph 3 の掃除・洗剤対策です。
+            D. 正解。 Paragraph 4 は「ステンレスボトル、竹製食器、布ナプキンを持ち歩く」という日常習慣の導入を勧めています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `To reduce plastic waste at home, households should adopt simple, practical everyday changes: (1)______ when grocery shopping, (2)______ in the kitchen instead of plastic wrap, (3)______ rather than purchasing new cleaning bottles, and (4)______ regularly; additionally, carrying (5)______ or using (6)______ during daily activities contributes to sustainable routines and long-term reduction. Consistently applying these methods can greatly lower plastic consumption and protect environmental health.`,
+          
+          choices:`
+          A. refill spray bottles with vinegar
+          B. bring reusable cloth totes
+          C. choose disposable plastic bags
+          D. use bamboo utensils daily
+          E. buy pre-packaged produce
+          F. ignore reusable alternatives
+          G. carry stainless steel bottles
+          H. use glass storage jars
+          I. use paper napkins daily
+          J. install plastic water piping
+          K. ban all plastic usage
+          L. replace plastic wrap with beeswax
+          `,
+
+          answer_ids: ['2', '8', '1', '12', '7', '4'],
+
+          answers: `
+          1. B
+          2. H
+          3. A
+          4. L
+          5. G
+          6. D
+          `,
+
+          explanation: `
+          A. 正解（空欄1）「買い物の際に布製トートを持参する」という内容で、Paragraph 1の「ショッピングで再利用可能なバッグを使用する」を要約しています。
+
+          B. 正解（空欄2）「キッチンでガラス容器を使う」というKitchen Paragraph 2の提案に一致し、「プラスチックラップの代替」を示します。
+
+          C. 正解（空欄3）「スプレー瓶を酢水で詰め替える」はCleaning Paragraph 3の「詰め替え用クリーナー活用」を簡潔に表現しています。
+
+          D. 正解（空欄4）「プラスチックラップを蜜蝋ラップに替える」はKitchen Paragraph 2で紹介された代替品で、定期的な実践を促す文脈に合います。
+
+          E. 正解（空欄5）「ステンレス製ボトルを携帯する」はParagraph 4の日常携帯品提案と一致し、再利用習慣を強調します。
+
+          F. 正解（空欄6）「竹製器具を日常的に使う」は同じくParagraph 4の「竹製カトラリー使用」を反映し、持続可能な生活習慣を表します。
+
+          G. 誤り「使い捨てプラスチック袋を選ぶ」は逆効果の行動であり、一度も推奨されていません。
+
+          H. 誤り「包装済みの食品を買う」はParagraph 1で避けるべき行為で、本文の主旨と逆です。
+
+          I. 誤り「再利用可能な代替品を無視する」は推奨行動の真逆で、不適切です。
+
+          J. 誤り「紙ナプキンを使う」は一部エコ製品ですが、本文では布ナプキンを推奨しており、混同を招きます。
+
+          K. 誤り「プラスチック配管を設置する」はプラスチック使用を助長する行為で、文意に反します。
+
+          L. 誤り「すべてのプラスチック使用を禁止する」は極端すぎて本文の実践的アドバイスとかけ離れています。
+          `,
+        },
+      },
+    ],
+  },
+
+  {
+    work_id: 9,
+
+    title: 'Main Test8',
+
+    work: [
+      {
+        id: 1,
+
+        y_position: [260.0, 435.0, 575.0, 750.0, 925.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Fake news spreads rapidly on social media, causing confusion and mistrust. To spot false information, read headlines carefully and check the publication date. Notice sensational wording or lack of credited sources. Verify the author’s credentials and look for supporting links. Early skepticism prevents sharing misinformation. Following these simple initial steps helps users avoid fake news and protect the wider online community.`,
+
+            question: `What is the main point of Paragraph 1?`,
+
+            choices:`
+            A) It advises reading headlines carefully, checking dates, and noting sensational language to avoid fake news.
+            B) It recommends cross‐referencing news with trusted outlets and using fact‐checking websites.
+            C) It outlines advanced steps for examining domain metadata and detecting bias in content.
+            D) It proposes educational workshops to teach critical media analysis in schools.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) It advises reading headlines carefully, checking dates, and noting sensational language to avoid fake news.`,
+
+            explanation: `
+            A. 正解。 Paragraph 1 は見出しを注意深く読み、日付の確認、扇情的な言葉遣いや情報源の有無に注目する基本対策を示しています。
+            B. 誤り。 事実確認サイトの利用やクロスリファレンスは Paragraph 2 の内容です。
+            C. 誤り。 ドメインメタデータやバイアス検出は Paragraph 3 の高度な手順です。
+            D. 誤り。 教育プログラムの提案は Paragraph 4 に記載されています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Always verify supporting evidence with reputable fact‐checking sites or by cross‐referencing trusted news outlets. Look for original documents, official statements, and data reports cited in articles. Be wary of stories that omit links or rely solely on secondary sources. Consistently applying these verification methods strengthens your ability to discern true information in the digital age.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) It advises cross‐referencing news with trusted outlets and checking original documents.
+            B) It recommends examining domain reputation and metadata for each claim.
+            C) It encourages using browser extensions to flag suspect content automatically.
+            D) It describes peer discussions to critique digital narratives collaboratively.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) It advises cross‐referencing news with trusted outlets and checking original documents.`,
+
+            explanation: `
+            A. 正解。 Paragraph 2 は信頼できる報道機関の情報や原資料を参照し、事実確認サイトを利用することを強調します。
+            B. 誤り。 ドメイン評価は Paragraph 3 の詳細プロセスです。
+            C. 誤り。 ブラウザ拡張機能の使用は Paragraph 4 の提案です。
+            D. 誤り。 ピアディスカッションによる批評は Paragraph 4 に含まれています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            When evaluating a dubious post, critically assess the source’s domain reputation and metadata, ascertain whether multimedia content has been manipulated, and trace each claim back to its original context. Furthermore, identify any implicit bias or loaded language intended to sway opinion. Systematically employing this nuanced checklist cultivates sophisticated media literacy and guards against deceptive digital narratives.`,
+
+            question: `What does Paragraph 3 describe?`,
+
+            choices:`
+            A) It outlines advanced evaluation steps like checking domain reputation, content manipulation, and bias.
+            B) It advises reading headlines carefully and noting credited sources to spot misinformation.
+            C) It recommends refilling cleaning bottles with vinegar and water to reduce plastic waste.
+            D) It explains the benefits of mindfulness and breathing exercises for stress relief.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) It outlines advanced evaluation steps like checking domain reputation, content manipulation, and bias.`,
+
+            explanation: `
+            A. 正解。 Paragraph 3 は疑わしい投稿に対し、ドメイン評価、多媒体操作の有無確認、バイアス検出などの精緻なチェックリストを説明しています。
+            B. 誤り。 見出し確認は Paragraph 1 の基本ステップです。
+            C. 誤り。 掃除用ボトルの詰め替えは別トピックであり無関係です。
+            D. 誤り。 マインドフルネスはストレス管理に関する内容で本文では扱われていません。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Educational programs and online workshops can bolster media literacy through critical thinking exercises. Schools should integrate lessons on identifying bias, interpreting statistics, and understanding algorithms that shape social feeds. Users may also employ browser extensions that flag suspect content and facilitate on‐the‐spot fact checks. Encouraging peer discussions about credible sources and responsible sharing habits further curtails the reach of fake news.`,
+
+            question: `What recommendation is offered in Paragraph 4?`,
+
+            choices:`
+            A) It proposes educational programs, browser tools, and peer discussions to enhance media literacy.
+            B) It explains how to read headlines carefully and check publication dates for accuracy.
+            C) It details advanced checklist steps for verifying domain metadata and original context.
+            D) It outlines using fact‐checking sites and cross‐referencing trusted news outlets.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) It proposes educational programs, browser tools, and peer discussions to enhance media literacy.`,
+
+            explanation: `
+            A. 正解。 Paragraph 4 は批判的思考練習を含む教育プログラム、拡張ツール、ピアディスカッションを用いてメディアリテラシーを高める方法を提案しています。
+            B. 誤り。 見出しと日付の確認は Paragraph 1 の内容です。
+            C. 誤り。 ドメインチェック等の詳細プロセスは Paragraph 3 にあります。
+            D. 誤り。 事実確認サイトとクロスリファレンスは Paragraph 2 の主題です。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In today’s social media environment, to combat fake news effectively, users should first (1)______ when encountering headlines; then they should (2)______ by consulting fact-checking sites; afterward, they need to (3)______; concurrently, they must (4)______; moreover, they can (5)______; and finally, they should (6)______ to deepen collective awareness, fostering critical evaluation skills, strengthening media literacy, and reducing misinformation spread online.`,
+
+          choices:`
+          A. Read headlines carefully each time
+          B. Verify claims via fact-checking sites
+          C. Evaluate the source’s credibility
+          D. Check for manipulated multimedia content
+          E. Install add-ons that flag dubious posts
+          F. Discuss sources and information responsibly
+          G. Rely solely on secondary sources
+          H. Ignore sensational wording entirely
+          I. Trust information without verifying
+          J. Use only official statements
+          K. Avoid peer discussions completely
+          L. Delete fact-checking browser extensions
+          `,
+
+          answer_ids: ['1', '2', '3', '4', '5', '6'],
+
+          answers: `
+          1. A
+          2. B
+          3. C
+          4. D
+          5. E
+          6. F
+          `,
+
+          explanation: `
+          A. 正解（空欄1）Paragraph 1では、「見出しを注意深く読み、公開日や扇情的表現を確認する」ことが最初に示されています。選択肢Aはその要点を簡潔にまとめています。
+
+          B. 正解（空欄2）Paragraph 2は「事実確認サイトや信頼できる報道機関を使って主張を検証する」ことを勧めています。選択肢Bは「fact-checkingサイトを参照する」という具体策と一致します。
+
+          C. 正解（空欄3）Advanced Paragraph 3では、「情報源のドメイン評価や著者資格を確認して信頼性を評価する」手順が説明されています。選択肢Cはそのポイントに合致します。
+
+          D. 正解（空欄4）同じくParagraph 3で、「マルチメディアが改ざんされていないかを調べる」ことも重要な対策として挙げられています。選択肢Dはこの手順を表しています。
+
+          E. 正解（空欄5）Paragraph 4では、「疑わしい投稿を自動的にフラグするブラウザ拡張機能を導入する」ことが推奨されています。選択肢Eはまさにこの行動を示しています。
+
+          F. 正解（空欄6）同じくParagraph 4で、「信頼できる情報源について仲間と議論し、責任ある共有を促す」ことが最後のステップとして紹介されています。選択肢Fはその内容を的確に表現します。
+
+          G. 二次情報のみを頼る行為は、確認不足で誤情報を拡散するリスクを高めます。
+
+          H. 扇情的表現の無視は真偽判定の初歩を放棄することになり危険です。
+
+          I. 検証なしに情報を信頼するのは偽情報対策の逆であり不適切です。
+
+          J. 公式声明のみを参照するのは限定的であり、多角的検証には不十分です。
+
+          K. 対人議論を避けることは協力的検証機会を失うため逆効果です。
+
+          L. 拡張機能を削除すると、疑わしい投稿を見逃しやすくなり、対策として誤りです。
+          `,
+        },
+      },
+
+      {
+        id: 2,
+
+        y_position: [260.0, 400.0, 575.0, 750.0, 925.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Many travelers are drawn to regions by local specialty dishes like pasta in Italy, sushi in Japan, or tacos in Mexico. These dishes showcase unique flavors and cooking methods. Tourists often plan trips around tasting local cuisine and visiting food markets. Food guides and social media reviews highlight popular eateries. Local restaurants capitalize on this interest to attract visitors effectively.`,
+
+            question: `What is the main point of Paragraph 1?`,
+
+            choices:`
+            A) Tourists avoid regions with unique local dishes and focus on generic food.
+            B) Tourists plan trips to taste local specialties and visit food markets.
+            C) Travelers prefer global chains over local eateries for familiar menu options.
+            D) Visitors rely solely on guidebooks rather than online reviews for restaurant choices.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Tourists plan trips to taste local specialties and visit food markets.`,
+
+            explanation: `
+            A. 誤り。 Paragraph 1では名物料理を避けるとは述べられていません。
+            B. 正解。 Paragraph 1は「観光客が地元の名物を味わい、市場を訪れるために旅行を計画する」点を中心に説明しています。
+            C. 誤り。 「グローバルチェーンを好む」という記述は本文に含まれず、地元料理を重視する点と矛盾します。
+            D. 誤り。 ガイドブックのみを利用するといった内容はParagraph 1では示されていません。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Local food tourism boosts regional economies by increasing spending on restaurants, food tours, and market purchases. It generates employment for chefs, farmers, and vendors. Seasonal festivals and culinary events attract hundreds of visitors, raising sales and tax revenues. Small-scale producers benefit from direct sales of artisanal products. Overall, the influx of food-focused travelers strengthens local businesses and supports broader economic development.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) Food tourism reduces revenue for small producers and harms regional agricultural sectors.
+            B) Food tourism increases spending on dining, supports local chefs and farmers, and boosts economies.
+            C) Food tourism discourages visitors from buying artisanal products and local goods.
+            D) Food tourism results in overregulation that limits culinary festivals and events.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Food tourism increases spending on dining, supports local chefs and farmers, and boosts economies.`,
+
+            explanation: `
+            A. 誤り。 生産者の収益が減少するといったネガティブな影響は述べられていません。
+            B. 正解。 Paragraph 2は「飲食支出の増加、シェフや農家の雇用創出、地域経済への貢献」という経済効果を強調しています。
+            C. 誤り。 手工品購入を抑制するといった内容はなく、むしろ購入が促進されると記述されています。
+            D. 誤り。 過度な規制については一切触れられていません。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Many communities preserve culinary traditions through cooking classes and heritage festivals. Local elders teach recipes handed down over generations, ensuring continuity of methods and stories. Tourism-related workshops allow visitors to learn authentic techniques, fostering respect for cultural heritage. Collaboration between tourism boards and artisans promotes awareness of intangible culinary customs. This relationship between food and history preserves traditions.`,
+
+            question: `What is the key idea of Paragraph 3?`,
+
+            choices:`
+            A) Communities lose traditional recipes as elder cooks stop teaching younger generations.
+            B) Communities maintain culinary heritage through cooking classes, workshops, and artisan collaborations.
+            C) Communities favor modern food trends and neglect historical cooking techniques.
+            D) Communities replace cultural cuisine events with industrialized food production practices.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Communities maintain culinary heritage through cooking classes, workshops, and artisan collaborations.`,
+
+            explanation: `
+            A. 誤り。 伝統が途絶えるという否定的事態はParagraph 3の趣旨と異なり、実際には継承方法を示しています。
+            B. 正解。 Paragraph 3は「料理教室や伝統祭で文化遺産を継承し、伝統技術の保存を促進する」仕組みを説明しています。
+            C. 誤り。 「近代的な傾向を優先する」という記述はなく、むしろ伝統を尊重する内容です。
+            D. 誤り。 産業化を推奨する話もなく、伝統文化イベントの置き換えは述べられていません。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Moreover, gastronomic tourism generates a multiplier effect in regional economies, wherein visitor spending on specialty dishes stimulates ancillary sectors such as agriculture and artisanal crafts. Concurrently, it incentivizes the preservation of traditional techniques and indigenous ingredients, reinforcing communal identity and offering immersive cultural experiences. This synergy between economic stimulus and heritage conservation aligns with sustainable development imperatives and bolsters long-term socio-economic resilience.`,
+
+            question: `What recommendation is offered in Paragraph 4?`,
+
+            choices:`
+            A. Gastronomic tourism often benefits only large corporations, ignoring small artisans and farms.
+            B. Gastronomic tourism stimulates regional economies, preserves traditions, and advances sustainable development.
+            C. Gastronomic tourism can dilute cultural authenticity by commercializing local dishes excessively.
+            D. Gastronomic tourism discourages economic growth by overtaxing visitor expenditures on foods.
+            `,
+
+            answer_id: '2',
+
+            answer: `答え B) Gastronomic tourism stimulates regional economies, preserves traditions, and advances sustainable development.`,
+
+            explanation: `
+            A. 誤り。 大企業のみが利益を得るといった批判は含まれておらず、地域全体への波及効果を論じています。
+            B. 正解。 Paragraph 4は「ガストロノミーツーリズムが経済を刺激し、伝統保存を奨励し、持続可能な開発を促進する」という包括的提言です。
+            C. 誤り。 文化の希釈化については言及せず、むしろ文化体験の深化を強調しています。
+            D. 誤り。 経済成長を抑制するといった逆効果の記述はParagraph 4にはありません。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `Local specialty dishes, such as pasta in Italy, sushi in Japan, and tacos in Mexico, attract tourists to food markets and eateries (1)______; this influx of visitors boosts regional economies by increasing spending on restaurants, tours, and artisanal products (2)______; communities preserve culinary traditions through cooking classes and heritage festivals (3)______; seasonal events stimulate local revenue (4)______; small-scale producers benefit from direct sales (5)______; and gastronomic tourism generates a multiplier effect that reinforces sustainable development (6)______.`,
+
+          choices:`
+          A. discourage visiting local eateries
+          B. lower spending on local products
+          C. replace cooking classes with technology
+          D. reduce seasonal event attendance
+          E. increase reliance on imported dishes
+          F. ignore artisan community partnerships
+          G. attract tourists to food markets
+          H. raise regional income streams
+          I. preserve culinary cultural heritage
+          J. spur festival revenue increases
+          K. support direct producer sales
+          L. reinforce sustainable development goals
+          `,
+
+          answer_ids: ['7', '8', '9', '10', '11', '12'],
+
+          answers: `
+          1. G
+          2. H
+          3. I
+          4. J
+          5. K
+          6. L
+          `,
+
+          explanation: `
+          1. A が正解。Paragraph 1 は「観光客を地元の食市場や飲食店に引き寄せる名物料理の魅力」を述べています。選択肢A の「attract tourists to food markets」はまさにその内容を反映しています。G, H, I, J, K, L はいずれも「観光客を食市場へ誘引する」という正味の効果と逆、あるいは無関係な行動を示しているため不正解です。
+
+          2. B が正解。Paragraph 2 は「料理観光によって飲食やツアー、工芸品購入への支出が増え、地域経済が活性化する」点を強調します。選択肢B の「raise regional income streams」は「地域収入源を高める」ことを表現し適切です。H は「支出を減らす」、K は「輸入料理への依存を高める」など経済効果と真逆のため誤りです。
+
+          3. C が正解。Paragraph 3 は「料理教室や伝統祭で文化的ヘリテージを守る」と述べています。選択肢C の「preserve culinary cultural heritage」は「食文化遺産を保存する」という意味で本文に一致します。I は「料理教室を技術に置き換える」、L は「職人コミュニティを無視する」など、継承を阻害する内容となるため不適切です。
+
+          4. D が正解。同じく Paragraph 2 および 4 で「季節の祭典が地元の収益を押し上げる」と説明されています。選択肢D の「spur festival revenue increases」は「祭典収益を促進する」というニュアンスで合致します。J は「季節イベント参加を減らす」を意味し、実際の効果と逆行するため誤りです。
+
+          5. E が正解。Paragraph 2 は「小規模生産者が工芸品を直接販売して恩恵を受ける」と述べています。選択肢E の「support direct producer sales」はまさに「生産者の直接販売を支援する」ことで本文の要点を捉えています。L は「職人との協働を無視する」を示し、生産者支援と矛盾します。
+
+          6. F が正解。Paragraph 4（Advanced）では「ガストロノミーツーリズムが持続可能な開発を後押しする乗数効果を生む」と述べています。選択肢F の「reinforce sustainable development goals」は「持続可能な開発目標を強化する」という語句で本文の結論を要約しています。K やその他の選択肢は「文化保存を弱める」や「経済成長を阻害する」ものが多く、本文の提言と一致しません。
+          `,
+        },
+      },
+
+      {
+        id: 3,
+
+        y_position: [260.0, 435.0, 610.0, 785.0, 960.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Rural and regional cities often face depopulation, making transportation services unsustainable. Local governments implement flexible bus routes that adjust schedules based on demand. These community buses connect residents to shops, healthcare, and schools. Low passenger numbers challenge fixed-route services, but on-demand booking reduces empty runs. Subsidies and ride-pooling help maintain affordable fares. Bus improvements support mobility and broader social inclusion.`,
+
+            question: `What does Paragraph 1 mainly discuss?`,
+
+            choices:`
+            A) Air travel for local transit
+            B) Car-sharing as primary transport solution in towns
+            C) High-speed rail connecting rural areas
+            D) Flexible bus services in depopulating regions with subsidies
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Flexible bus services in depopulating regions with subsidies`,
+
+            explanation: `
+            A. 誤り。 航空輸送は議論されていません。
+            B. 誤り。 カーシェアリングは触れられていません。
+            C. 誤り。 高速鉄道の話題は含まれていません。
+            D. 正解。 Paragraph 1 は「過疎地域での柔軟なバス路線、オンデマンド予約、補助金とライドプーリングによる運賃維持」を説明しています。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Bike-sharing programs provide flexible mobility in low-density towns. Users find and unlock bicycles via smartphone apps and return them to any docking station. Subscription fees balance affordability and usage. Maintenance is managed by municipalities and private firms. Data analytics comprehensively guide station placement and fleet operational distribution. These schemes promote active transport and significantly reduce car dependency.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) Private car ownership declines usage of shared bikes
+            B) Fixed-route buses require no technology in rural areas
+            C) Electric taxis replace bicycles entirely
+            D) App-based bike-sharing creates flexible mobility in low-density towns
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) App-based bike-sharing creates flexible mobility in low-density towns`,
+
+            explanation: `
+            A. 誤り。 自家用車利用減少は別段落の主題ではありません。
+            B. 誤り。 定時路線バスの技術不要説は本文と矛盾します。
+            C. 誤り。 電動タクシーの代替とは述べられていません。
+            D. 正解。 Paragraph 2 は「スマホアプリで自転車を利用・返却でき、データ分析で配置を最適化するバイクシェア」を強調しています。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Electric taxis offer on-demand service in depopulating regions, providing efficient local travel. These vehicles produce zero tailpipe emissions, improving air quality. Charging stations are installed at central locations and taxi depots. Government subsidies lower fares and encourage operator adoption. Real-time dispatch apps match drivers with riders rapidly. Fleet electrification reduces noise and maintenance costs, making taxis sustainable and more accessible.`,
+
+            question: `What does Paragraph 3 describe?`,
+
+            choices:`
+            A) Bicycle taxis outperform electric taxis in sustainability
+            B) Gas-powered taxis are more affordable in depopulating regions
+            C) Ride-sharing apps increase traffic congestion in cities
+            D) On-demand electric taxis reduce emissions and operating costs
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) On-demand electric taxis reduce emissions and operating costs`,
+
+            explanation: `
+            A. 誤り。 自転車タクシーとの比較はありません。
+            B. 誤り。 ガソリン車が安価とは述べられていません。
+            C. 誤り。 交通渋滞の増加は触れられていません。
+            D. 正解。 Paragraph 3 は「電動タクシーのオンデマンド運行、排出ゼロ、維持費低減」を示しています。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Integrating buses, bike-sharing, and electric taxis helps create a multimodal network in regional cities. Passengers can plan trips across services using single-payment apps. Coordinated schedules reduce wait times and improve connectivity. Community engagement and feedback drive service adjustments. Partnerships with local businesses support mobility hubs near shops and schools. Continuous evaluation ensures services meet changing population needs and sustainability goals.`,
+
+            question: `What is the focus of Paragraph 4?`,
+
+            choices:`
+            A) Building highways to improve car travel
+            B) Removing payment apps to simplify fare collection
+            C) Isolating each transport mode to avoid confusion
+            D) Creating an integrated network of buses, bikes, and taxis via single-app coordination
+            `,
+
+            answer_id: '4',
+
+            answer: `答え D) Creating an integrated network of buses, bikes, and taxis via single-app coordination`,
+
+            explanation: `
+            A. 誤り。 自動車道路建設は本文に含まれません。
+            B. 誤り。 決済アプリの廃止は逆の提案です。
+            C. 誤り。 各手段の分離は目的と反します。
+            D. 正解。 Paragraph 4 は「バス・バイクシェア・電動タクシーをアプリで連携させるマルチモーダルネットワーク構築」を論じています。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `In regional cities facing depopulation, governments implement flexible bus routes that adjust schedules based on demand (1)______; municipalities and private firms operate bike-sharing programs via smartphone apps (2)______; electric taxis provide zero-emission on-demand service (3)______; integrating these modes through single-payment apps and coordinated schedules (4)______; subsidies and ride-pooling maintain affordable fares (5)______; and community engagement and data-driven evaluations (6)______ to create sustainable multimodal transportation networks.`,
+
+          choices:`
+          A. driving improvements with feedback and data
+          B. reducing wait times and improving connectivity
+          C. offering high-speed rail services
+          D. using subsidies and ride-pooling partnerships
+          E. closing all rural bus routes
+          F. requiring cash-only ticket purchases
+          G. balancing subscription fees and system use
+          H. connecting residents to shops and schools
+          I. setting uniform high flat fares
+          J. providing zero-emission on-demand service
+          K. ignoring analytics and ridership feedback
+          L. separating transport modes without integration
+          `,
+
+          answer_ids: ['8', '7', '10', '2', '4', '1'],
+
+          answers: `
+          1. H
+          2. G
+          3. J
+          4. B
+          5. D
+          6. A
+          `,
+
+          explanation: `
+          A. 正解（空欄1）Paragraph 1 は「需要に応じた柔軟バス路線が住民を店舗や学校、医療機関などへ結ぶ」と説明しており、選択肢A の「connecting residents to shops and schools」が最適です。G・H・I・J・K・L（誤り）: 高速鉄道導入（G）、路線廃止（H）、現金専用化（I）、高額定額運賃（J）、分析無視（K）、各モード分離（L）は本文と逆行または無関係です。
+
+          B. 正解（空欄2）Paragraph 2 は「サブスク料を手頃にしつつ、利用頻度に合わせた自転車シェアをスマホアプリで運用する」と述べています。選択肢B の「balancing subscription fees and system use」が合致します。G・H・I・J・K・L（誤り）: 高速鉄道（G）、バス閉鎖（H）、現金決済（I）、高額運賃（J）、利用データ無視（K）、モード非統合（L）は、自転車シェアの柔軟性やアプリ運用を示しておらず不適切です。
+
+          C. 正解（空欄3）Paragraph 3 は「電動タクシーがゼロエミッションのオンデマンドサービスを提供する」と述べています。選択肢C の「providing zero-emission on-demand service」がそのままの要約です。G・H・I・J・K・L（誤り）: 高速鉄道（G）、路線閉鎖（H）、現金のみ（I）、定額高運賃（J）、分析無視（K）、個別分離（L）は電動タクシーの特徴を言い表していません。
+
+          D. 正解（空欄4）Paragraph 4 は「単一決済アプリと統一スケジュール調整で待ち時間を減らし、接続性を向上させる」と説明します。選択肢D の「reducing wait times and improving connectivity」が最適です。G・H・I・J・K・L（誤り）: 高速鉄道導入（G）、バス閉鎖（H）、現金専用（I）、高額定額（J）、分析無視（K）、各モード分離（L）はマルチモーダル統合の利点を示さず不適切です。
+
+          E. 正解（空欄5）Paragraph 1 で「補助金とライドプーリングにより運賃を維持する」とあり、選択肢E の「using subsidies and ride-pooling partnerships」がこれを要約しています。G–L（誤り）: 他選択肢は経済支援策や共同利用の維持を示さず、本文の持続性策と一致しません。
+
+          F. 正解（空欄6）Paragraph 4 は「地域住民の意見とデータをもとにサービスを改善する」と説明し、選択肢F の「driving improvements with feedback and data」が適切です。G–L（誤り）: 他はコミュニティ参加やデータ活用を否定または無視する内容で、継続的評価の意義を反映していません。
+          `,
+        },
+      },
+
+      {
+        id: 4,
+
+        y_position: [260.0, 435.0, 575.0, 750.0, 925.0],
+
+        paragraph: [
+          {
+            paragraph_id: 1,
+
+            text: `
+            Beginners should select climate-resilient crops that thrive locally. Choose drought- or frost-tolerant varieties and native species when possible. Start seeds indoors to extend growing seasons and develop strong seedlings. Study sun exposure and microclimates in your garden to match plants with suitable light. Plan crop rotation to maintain soil fertility and reduce pest pressure, ensuring healthy yields despite shifting weather patterns.`,
+
+            question: `What is the main recommendation of Paragraph 1?`,
+
+            choices:`
+            A) Select climate-resilient crops suited to your region.
+            B) Plant only exotic flowers to attract pollinators.
+            C) Water daily without regard to weather.
+            D) Use synthetic seeds for faster germination.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Select climate-resilient crops suited to your region.`,
+
+            explanation: `
+            A. 正解。 Paragraph 1 は「気候耐性のある作物を選ぶ」ことを中心に説明しています。
+            B. 誤り。 外来種のみを植える提案はありません。
+            C. 誤り。 毎日の水やりは水管理の観点から推奨されていません。
+            D. 誤り。 合成種子の使用は触れられていません。
+            `,
+          },
+
+          {
+            paragraph_id: 2,
+
+            text: `
+            Good soil is the foundation of a successful garden. Remove weeds and debris before working the earth. Add compost or aged manure to enrich nutrients. Test soil pH and adjust with lime or sulfur to reach optimal levels. Loosen compacted ground with a fork or tiller and ensure proper drainage by adding organic matter or creating raised beds. These steps set the stage for robust plant growth.`,
+
+            question: `What does Paragraph 2 emphasize?`,
+
+            choices:`
+            A) Prepare soil by adding compost and ensuring good drainage.
+            B) Install expensive irrigation systems before planting.
+            C) Plant directly into compacted clay without amendments.
+            D) Ignore soil pH testing to save time.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Prepare soil by adding compost and ensuring good drainage.`,
+
+            explanation: `
+            A. 正解。 Paragraph 2 は「有機物を加え、水はけを良くする土壌準備」を強調しています。
+            B. 誤り。 高価な灌漑設備の導入は本文の主題ではありません。
+            C. 誤り。 固い粘土にそのまま植えることは悪い土壌管理です。
+            D. 誤り。 土壌pHを無視することは植物生育を妨げます。
+            `,
+          },
+
+          {
+            paragraph_id: 3,
+
+            text: `
+            Implementing efficient water management is critical under erratic rainfall patterns. Utilize drip irrigation and moisture sensors to deliver precise hydration directly to root zones, minimizing waste. Harvest rainwater in barrels and deploy it during dry spells. Apply mulch layers to curb evaporation and stabilize soil moisture. Scheduled audits of irrigation systems and adaptive watering protocols bolster resilience against climate-induced drought stress.`,
+
+            question: `What key method does Paragraph 3 advise?`,
+
+            choices:`
+            A) Implement drip irrigation systems and harvest rainwater.
+            B) Water with overhead sprinklers twice daily.
+            C) Rely solely on municipal water supplies.
+            D) Avoid mulching to allow soil to dry out.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Implement drip irrigation systems and harvest rainwater.`,
+
+            explanation: `
+            A. 正解。 Paragraph 3 は「点滴灌漑と雨水利用」で効率的な水管理を行う方法を説明しています。
+            B. 誤り。 散水は蒸発ロスが大きく、推奨されていません。
+            C. 誤り。 単一の水道水のみ利用は気候変動対策として不十分です。
+            D. 誤り。 マルチングは蒸発抑制に重要であり、避けるべきではありません。
+            `,
+          },
+
+          {
+            paragraph_id: 4,
+
+            text: `
+            Monitoring weather forecasts and soil moisture helps gardeners anticipate environmental changes. Employ shade cloths or row covers to shield plants from extreme temperatures. Rotate crops and stagger planting dates to avoid disease and pest outbreaks. Use cold frames or low tunnels to extend seasons. Keep logs of rainfall and temperature trends to refine practices. Engaging with local gardening communities provides advice and support for adapting methods over time.`,
+
+            question: `What practice is recommended in Paragraph 4?`,
+
+            choices:`
+            A) Monitor weather and join local gardening groups.
+            B) Apply chemical pesticides weekly without rotation.
+            C) Abandon crop rotation for simplified planting.
+            D) Use heavy tilling to break up all soil layers.
+            `,
+
+            answer_id: '1',
+
+            answer: `答え A) Monitor weather and join local gardening groups.`,
+
+            explanation: `
+            A. 正解。 Paragraph 4 は「気象予報の確認と地域コミュニティ参加」を推奨しています。
+            B. 誤り。 化学農薬の週次使用は本文の持続可能性の趣旨と合いません。
+            C. 誤り。 作物ローテーションを放棄すると病害虫管理が困難になります。
+            D. 誤り。 強いすき込みは土層を破壊し、土壌構造を損ねます。
+            `,
+          },
+        ],
+
+        summary: {
+          question: `To start a home garden that adapts to climate change and unpredictable weather, beginners should first (1)______ in order to extend growing seasons; then (2)______ to establish strong seedlings; next (3)______ to prepare nutrient-rich beds; afterward (4)______ to manage water efficiently; additionally (5)______ to reduce pest and disease risks; and finally (6)______, fostering knowledge sharing, sustainable practices, and resilient food production at home, and ensuring future garden sustainability.`,
+
+          choices:`
+          A. choose drought-tolerant crop varieties
+          B. start seeds indoors early
+          C. remove weeds and debris
+          D. add compost and manure
+          E. adjust pH with lime
+          F. implement drip irrigation systems
+          G. collect rainwater and mulch
+          H. monitor weather and moisture
+          I. rotate crops and stagger plantings
+          J. engage with gardening communities
+          K. ignore plant spacing guidelines
+          L. water plants without strategy
+          `,
+
+          answer_ids: ['1', '2', '3', '6', '9', '10'],
+
+          answers: `
+          1. A
+          2. B
+          3. C
+          4. F
+          5. I
+          6. J
+          `,
+
+          explanation: `
+          1. A（正解）第1段落は「気候適応性のある品種を選び、室内で播種して生育期間を延長する」ことを示しています。選択肢Aは「耐乾性・耐霜性の品種を選ぶ」という要点を的確に表現しています。K, L：植え付け戦略を無視する行為は本文と逆で不適切です。
+
+          2. B（正解）同じく第1段落で「苗を強く育てるために早めに屋内で種をまく」ことが述べられています。選択肢Bは「種を早く室内で始める」を簡潔にまとめています。D, E：堆肥やpH調整は次段落の土壌準備で扱われるため不正解です。
+
+          3. C（正解）第2段落は「雑草や残渣を除去し、土壌を整える」手順を紹介しています。選択肢Cは「雑草・ごみを取り除く」という行動を示し、本文と合致します。D：堆肥追加は有効ですが、「雑草除去」に続くステップとしては選択肢Cが優先されます。
+
+          4. F（正解）第3段落（Advanced）で「点滴灌漑システムを導入し、水を効率的に管理する」ことが強調されています。選択肢Fはそのまま「点滴灌漑を実施する」を表現しています。G：雨水収集とマルチングも有効ですが、4番目に挙げられるのは「水管理技術の導入」です。
+
+          5. I（正解）第4段落で「作物の輪作と植え付け時期のずらしによって害虫・病気リスクを下げる」ことが推奨されています。選択肢Iは「作物輪作と時期ずらし」を示し、本文と一致します。H：気象・水分モニターは別ステップ（空欄6の前段階）ですが、5番目の手順はIです。
+
+          6. J（正解）最後に「地域コミュニティと連携して助言を得る」ことが提案されています。選択肢Jは「園芸コミュニティと連携する」を端的に表しています。K, L：戦略無視や無計画な水やりは本文の助言と逆で不適切です。
           `,
         },
       },

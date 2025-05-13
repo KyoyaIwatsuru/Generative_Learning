@@ -103,10 +103,10 @@ export default function ValueProvider({
       }
       case 'download': {
         const csvText =
-          'index,text_time,understand_time,question_time,explanation_time,summary_time,finish_time,paragraph,understand,choice,answer,selects_1,selects_2,selects_3,selects_4,answers_1,answers_2,answers_3,answers_4,answers_5,answers_6,sum\n' +
+          'index,text_time,understand_time,question_time,explanation_time,summary_time,finish_time,paragraph,understand,choice,answer,selects_1,selects_2,selects_3,selects_4,selects_5,selects_6,answers_1,answers_2,answers_3,answers_4,answers_5,answers_6,sum\n' +
           String(
             results.map(
-              ({ text_time, understand_time, question_time, explanation_time, summary_time, finish_time, paragraph, understand, choice, answer, selects_1, selects_2, selects_3, selects_4, answers_1, answers_2, answers_3, answers_4, answers_5, answers_6, sum }, index) => [
+              ({ text_time, understand_time, question_time, explanation_time, summary_time, finish_time, paragraph, understand, choice, answer, selects_1, selects_2, selects_3, selects_4, selects_5, selects_6, answers_1, answers_2, answers_3, answers_4, answers_5, answers_6, sum }, index) => [
                 index,
                 text_time,
                 understand_time,
@@ -122,6 +122,8 @@ export default function ValueProvider({
                 selects_2,
                 selects_3,
                 selects_4,
+                selects_5,
+                selects_6,
                 answers_1,
                 answers_2,
                 answers_3,
